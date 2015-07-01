@@ -1,0 +1,27 @@
+﻿@model QsTech.Authentication.Sso.Models.RegisterSuccessModel
+@{
+    LayoutInfo.Theme = "NoHeadLayout";
+    ViewBag.Title = T("RegisterSuccessPageTitle");
+}
+<div class="cont-right" style="width:460px;">
+    <div class="user-nav">
+        <div class="user-nav-form">
+            <div class="error_content">
+                <h2>@string.Format(T("RegisterSuccessPageCaption"), Model.LoginName)</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<script language="javascript">
+    $(function () {
+        @if(!string.IsNullOrEmpty(Model.ReturnUrl)&&false)
+        {<text>
+            window.setInterval(returnSite, 1500);
+              function returnSite(){
+                window.location.href="@Model.ReturnUrl";
+              }
+
+        </text>}
+    })
+
+</script>

@@ -1,0 +1,175 @@
+﻿@model QsTech.Core.Models.Roles.EditRoleModel
+@{
+    this.ChannelId = "Management";
+    ViewBag.Title = "编辑角色";
+    var success = ViewBag.Success ?? false;
+}
+<div class="rightCont">
+    <div class="mt10">
+        @using (Html.BeginForm())
+        {
+            if (success)
+            {
+                <div class="alert alert-success">
+                    <strong>已成功保存。</strong>
+                </div>
+            }
+            @Html.ValidationSummary(true)
+            <table class="data-detail">
+                <tr>
+                    <td style="text-align: right; width: 100px;">
+                        角色名：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Name)
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; width: 100px;">
+                        描述：
+                    </td>
+                    <td>
+                        @Html.TextAreaFor(model => model.Description, new { style = "width:300px;height:40px;" })
+                        @Html.ValidationMessageFor(model => model.Description)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;">
+                        分类：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Category)
+                        @Html.ValidationMessageFor(model => model.Category)
+                    </td>
+                </tr>
+              @*  <tr>
+                    <td style="text-align:right;">
+                        所属系统：
+                    </td>
+                    <td>
+                        @{ var belongsToIndex = 0; }
+                        @foreach (var belongsTo in Model.BelongsArray)
+                        {
+                            belongsToIndex++;
+                            var id = "BelongsTo_" + belongsToIndex;
+                            @Html.RadioButtonFor(model => model.BelongsTo, belongsTo.Value, new { id = id, @class = "radio" })
+                            <label for="@id">@belongsTo.Name</label>
+                        }
+                        @Html.ValidationMessageFor(model => model.BelongsTo)
+                    </td>
+                </tr>*@
+            </table>
+            <div class="mt_10 ml_20">
+                <input type="submit" value="保存更改" class="btn btn-primary" />
+                <input type="button" value="角色列表" class="btn" onclick="javascript:window.location='@Url.Action("List")';" />
+            </div>
+        }
+        <div class="panel mt_10">
+            <h4>角色拥有的权限</h4>
+            <table style="width:100%;" class="mt_5">
+                <thead class="thead">
+                    <tr>
+					    <th style="width:150px;">权限名</th>
+					    <th>权限描述</th>
+                        <th style="width:40px;">启用</th>
+                    </tr>
+                </thead>
+                @foreach (var moduleModel in Model.Permissions)
+                {
+                    <tbody>
+                            <tr>
+                                <td colspan="3" style="height:8px;line-height:0; font-size:0;">&nbsp;</td>
+                            </tr>
+                            <tr class="" style=" background:#f3f3f3;border:1px solid #e6e6e6;">
+                                <td colspan="3" class="blue" style="height:21px;line-height:21px;color:#3366cc;">@moduleModel.ModuleDescriptor.Name</td>
+                            </tr>
+                        @foreach (var permission in moduleModel.Permissions)
+                        {
+                            <tr style="border:1px solid #e6e6e6; border-top:none;">
+                                <td>@permission.PermissionName</td>
+                                <td>@permission.PermissionDescription</td>
+                                <td style=" text-align:center;">
+                                    <input type="checkbox" class="checkbox" data-exten-implied="@permission.ImpliedPermissionString" name="Permissions" value="@permission.PermissionName" @if (permission.Allow)
+                                                                                                                                                                          { <text>checked="checked"</text> } />
+                                </td>
+                            </tr>
+                        }
+			        </tbody>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+@section AfterBody
+{
+@ResourceManager.Include("jqueryForm").Render()
+@ResourceManager.Include("modalShow").Render()
+
+<script type="text/javascript">
+    $(function () {
+         var optins = {
+            success: function (result) {
+                  
+            },
+            tipType: 'save'
+        };
+//        $("form").qsAjaxForm(optins);
+
+        function impliedChecked(impliedRef) {
+            var finder = $("input[name=Permissions]").filter('[data-exten-implied*=' + impliedRef + ']:first');
+            if(finder.length > 0 && finder.attr('value') !== impliedRef) {
+                finder.attr({'checked': 'checked', 'disabled': 'disabled'});
+                // finder.change();
+                $.each(finder, function(i, f) {
+                    impliedChecked($(f).val());
+                });
+            }
+        }
+        function impliedUnchecked(impliedRef) {
+            var finder = $("input[name=Permissions]").filter('[data-exten-implied*=' + impliedRef + ']:first'),
+                impliedString = finder.attr('data-exten-implied'),
+                anyChecked;
+            $(finder.length > 0 && impliedString.split(',')).each(function() {
+                anyChecked = $("input[name=Permissions]").filter('[value=' + this + ']:checked').length > 0;
+                if(anyChecked) return false;
+            });
+            if(!anyChecked) {
+                finder.removeAttr('disabled');//.removeAttr('checked');
+            }
+        }
+        function initState(impliedRef) {
+            var finder = $("input[name=Permissions]").filter('[data-exten-implied*=' + impliedRef + ']:first');
+            if(finder.length > 0 && finder.attr('value') !== impliedRef) {
+                if(finder.attr('checked')) {
+                    finder.attr({'disabled': 'disabled'});
+                    
+                    $.each(finder, function(i, f) {
+                        initState($(f).val());
+                    });
+                }
+            }
+        }
+        $("input[name=Permissions]").each(function() {
+            if(this.checked) {
+                initState(this.value);
+            }
+        }).change(function () {
+            var src = this;
+            var url = this.checked ? '@Url.Action("AuthorizePermission")' : '@Url.Action("UnauthorizePermission")',
+                permission = $(this).val();
+            $.AjaxSubmit({
+                url: url,
+                data: {
+                    roleId: @Model.Id,
+                    permission: permission
+                },
+                tipType: 'save',
+                success: function() {
+                    src.checked && impliedChecked(permission) || impliedUnchecked(permission);
+                }
+            });
+        });
+    });
+</script>
+}

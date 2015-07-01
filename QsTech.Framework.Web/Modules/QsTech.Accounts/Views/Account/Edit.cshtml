@@ -1,0 +1,122 @@
+﻿@model QsTech.Accounts.Models.Accounts.EditAccountModel
+@{
+    this.ChannelId = "Management";
+    ViewBag.Title = "账户编辑";
+    var success = ViewBag.Success ?? false;
+}
+<div class="rightCont">
+    <div class="mt10">
+        @using (Html.BeginForm())
+        {
+            if (success)
+            {
+                <div class="alert alert-success">
+                    <strong>已成功保存。</strong>
+                </div>
+            }
+            @Html.ValidationSummary(true)
+            <table style="width:100%;" class="data-detail">
+                <tr>
+                    <td align="right" width="10%">登录账号：</td>
+                    <td width="20%">
+                        <h1 style="font-size: 20px;color:#d80f32;">@Model.AccountName</h1>
+                        @Html.HiddenFor(model => model.AccountName)
+                        @Html.HiddenFor(model => model.Id)
+                    </td>
+                    <td style="text-align: right;" width="10%">
+                        工 号：
+                    </td>
+                    <td style="text-align: ">
+                        @Html.TextBoxFor(model => model.JobNumber)
+                        @Html.ValidationMessageFor(model => model.JobNumber)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <i class="required"></i>姓名：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Name)
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </td>
+                    <td style="text-align: right;">
+                        性别：
+                    </td>
+                    <td>
+                        @Html.RadioButtonFor(model => model.Gender, "男", new { id = "Gender_0",@class="radio" })
+                        <label for="Gender_0">男</label>
+                        @Html.RadioButtonFor(model => model.Gender, "女", new { id = "Gender_1", @class = "radio" })
+                        <label for="Gender_1">女</label>
+                        @Html.ValidationMessageFor(model => model.Gender)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        年龄：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Age)
+                        @Html.ValidationMessageFor(model => model.Age)
+                    </td>
+                    <td style="text-align: right;">
+                        生日：
+                    </td>
+                    <td>
+                        @Html.EditorFor(model => model.Birthday, "DateTextBox")
+                        @Html.ValidationMessageFor(model => model.Birthday)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <i class="required"></i>移动电话：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Mobile)
+                        @Html.ValidationMessageFor(model => model.Mobile)
+                    </td>
+                    <td style="text-align: right;">
+                        固定电话：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Telephone)
+                        @Html.ValidationMessageFor(model => model.Telephone)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <i class="required"></i>电子邮件：
+                    </td>
+                    <td colspan="3">
+                        @Html.TextBoxFor(model => model.Email, new { style = "width: 412px;" })
+                        @Html.ValidationMessageFor(model => model.Email)
+                    </td>
+                </tr>
+            </table>
+            <div class="mt_10 ml_20">
+                <input type="submit" value="保存更改" class="btn btn-primary ml_20" />
+                <input type="button" value="账户列表" class="btn" onclick="javascript:window.location.href='@Url.Action("List")'" />
+              
+            </div>
+            <div class="panel mt_10">
+                <h4 class="mb_5">账户拥有的角色</h4>
+                @Html.Action("AccountRoles", new { accountId = Model.Id })
+            </div>
+            <div class="panel mt_10">
+            <h4 class="mb_5">账户能访问的应用</h4>
+            @Html.Action("AccountClients", new { accountId = Model.Id })
+        </div>
+        }
+    </div>
+</div>
+@section AfterBody
+{
+@ResourceManager.Include("modalShow").Render()
+<script type="text/javascript">
+    $(function () {
+        $("#Birthday").datepicker({ altFormat: 'yy-mm-dd', yearRange:'c-50' });
+        $(".btn_gray").attr("disabled","");
+
+      
+    });
+</script>
+}

@@ -1,0 +1,61 @@
+﻿@using QsTech.Authentication.Sso.Clients
+@using QsTech.Authentication.Sso.Models.Authorization
+@using QsTech.Core.Interface.Extensions
+@using QsTech.Authentication.Sso.Models
+@{
+    this.ChannelId = "Management";
+    ViewBag.Title = "您已登录";
+    var returnUrl = ViewBag.Url;
+    var requstModel = (AuthorizeRequestModel)ViewBag.RequestModel;
+    var openurl = ViewBag.Open;
+}
+
+<div class="rightCont">
+       <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <strong>温馨小贴士：</strong>
+        <ol>
+            <li>客户端程序长时间未自动打开，请尝试手动启动客户端.  </li>
+            <li>手动启动客户端无法解决问题，请联系系统管理员.  </li>
+        </ol>
+    </div>
+    <div class="mt10">
+        <div class="mt_10 ml_20">
+             <input type="button" id="logoff" value="注销" class="btn  btn-primary " />
+            <input type="button" id="openClient" value="启动客户端(10)" style="background-color: #e6e6e6;"   class="btn btn-disabled"  />
+            <iframe id="ciframe" src="" width="0" height="0"> 
+            </iframe>
+        </div>
+    </div>
+</div>
+@section AfterBody
+{
+    @ResourceManager.Include("modalShow").Render()
+    <script type="text/javascript">
+        $(function () {
+            var t = 10;
+            $("#ciframe").attr("src", "@returnUrl");
+            function hand() {
+                t = t - 1;
+                if (t == 0) {
+                    clearInterval(timer);
+                    $("#openClient").bind("click", function () {
+                       $("#ciframe").attr("src", "@openurl");
+                        t = 11;
+                        hand();
+                    });
+                } else if (t == 10) {
+                    $("#openClient").unbind("click");
+                    timer = setInterval(hand, 1000);
+                }
+                if (t == 0) $("#openClient").val("打开客户端");
+                else $("#openClient").val("打开客户端(" + t + ")");
+            };
+            var timer = setInterval(hand, 1000);
+            $("#logoff").click(function () {
+                window.location.href="@Url.Action("ClientLogOut")";
+           });
+            
+        });
+    </script>
+}

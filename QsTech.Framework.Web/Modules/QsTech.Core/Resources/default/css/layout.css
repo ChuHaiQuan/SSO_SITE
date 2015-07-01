@@ -1,0 +1,93 @@
+.layout-container {
+	background-color: #F0F0F0;
+}
+.layout-header {
+	background-color: #333;
+	height: 28px;
+}
+.layout-header-wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+.layout-header-left {
+	float: left; 
+	line-height: 28px;
+}
+.layout-header-right {
+	float: right; 
+	line-height: 28px;
+}
+.layout-top {
+	height:90px;
+	/*border-width: 0 0 3px; 
+	border-style: solid;
+	border-color: crimson;*/
+	background: #FFFFFF;
+    background:url(layoutTop.png) repeat-x #FFFFFF;
+}
+.layout-top-wrapper 
+{
+	width: 1000px;
+	margin: 0 auto;
+    zoom: 1;
+}
+.layout-top-logo 
+{
+     padding-top:25px;
+     float: left; }
+.layout-nav {
+	float: right;
+	margin-top: 28px;
+	line-height: 40px;
+}
+.layout-main {
+	width: 992px;
+	margin: 0 auto;
+	border: 1px solid #d9d9d9;
+	background: #FFF;
+    padding: 8px;
+    -webkit-min-height: 700px;
+    -min-height: 700px;
+    min-height: 700px;
+    overflow: hidden;
+    zoom: 1;
+}
+.layout-footer {
+	width: 1000px;
+	margin: 0 auto;
+	height: 30px;
+	text-align: center;
+	color: #999;
+}
+.layout-sidebar {
+	
+}
+
+/* 首页布局 */
+.layout-home-wrapper {
+    
+}
+
+.layout-home-main 
+{
+    
+}
+
+
+/* 频道首页布局 */
+.layout-channel-wrapper {
+    
+}
+.layout-channel-sidebar {
+    float: left;
+    width: 190px;
+    border: 1px solid #d9d9d9;
+   /* background: whiteSmoke;*/
+}
+.layout-channel-main {
+    float: left;
+    width: 776px;
+    /*height: 300px;*/
+    border: 1px solid #d9d9d9;
+    margin: 0 0 0 20px;
+}

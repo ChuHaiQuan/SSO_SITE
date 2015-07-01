@@ -1,0 +1,12 @@
+﻿@model Exception
+
+@{
+    ViewBag.Title = "出错了";
+    //LayoutInfo.Enable = false;
+}
+
+<h2>出错了</h2>
+<br/>
+<h4>@Model.Message</h4>
+<br/>
+@Model.StackTrace;

@@ -1,0 +1,552 @@
+记录时间：2014-10-30 09:04:01,127 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:04:01,171 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:04:01,171 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:04:01,269 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-10-30 09:04:01,550 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:04:01,550 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:04:01,550 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:04:02,824 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:04:02,824 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:04:02,824 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:04:45,879 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-10-30 09:04:45,889 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-10-30 09:04:45,890 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-10-30 09:04:46,509 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：NHibernate 3.3.1.4000 (3.3.1.4000)
+记录时间：2014-10-30 09:04:46,510 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：hibernate-configuration section not found in application configuration file
+记录时间：2014-10-30 09:04:46,511 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：Bytecode provider name : lcg
+记录时间：2014-10-30 09:04:46,512 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：Using reflection optimizer
+记录时间：2014-10-30 09:04:46,608 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-10-30 09:04:46,888 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Dialect.Dialect property:[(null)] - 错误描述：Using dialect: NHibernate.Dialect.MsSql2008Dialect
+记录时间：2014-10-30 09:04:46,924 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Accounts.Models.Accounts.Account -> ACCOUNT
+记录时间：2014-10-30 09:04:46,952 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Accounts.Models.Accounts.Account.Roles -> ACCOUNT_ROLE
+记录时间：2014-10-30 09:04:46,958 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Accounts.Models.Accounts.AccountClient -> ACCOUNT_CLIENT
+记录时间：2014-10-30 09:04:46,958 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Authentication.Sso.Clients.UserClient -> USER_CLIENT
+记录时间：2014-10-30 09:04:46,959 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Models.ActionStatus -> ACTION_STATUS
+记录时间：2014-10-30 09:04:46,959 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Models.Roles.Role -> ROLE
+记录时间：2014-10-30 09:04:46,959 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Core.Models.Roles.Role.Owners -> ACCOUNT_ROLE
+记录时间：2014-10-30 09:04:46,959 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Core.Models.Roles.Role.Permissions -> ROLE_PERMISSION
+记录时间：2014-10-30 09:04:46,960 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.GlobalSetting -> GLOBAL_SETTING
+记录时间：2014-10-30 09:04:46,960 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.Account.AccountUser -> ACCOUNT_USER
+记录时间：2014-10-30 09:04:46,960 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.Entities.DicPort -> DIC_PORT
+记录时间：2014-10-30 09:04:46,960 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.AccountRegister.AccountRegisterInfo -> ACCOUNT_REGISTER_INFO
+记录时间：2014-10-30 09:04:46,961 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Enterprises.Models.OrganizationRecord -> ORGANIZATION_RECORD
+记录时间：2014-10-30 09:04:46,961 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Enterprises.Interface.EnterpriseUser -> ENTERPRISE_USER
+记录时间：2014-10-30 09:04:46,967 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Enterprises.Interface.Enterprise -> ENTERPRISE
+记录时间：2014-10-30 09:04:46,972 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Files.Interface.FileRecord -> FILE_RECORD
+记录时间：2014-10-30 09:04:46,973 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Users.Models.User -> USER
+记录时间：2014-10-30 09:04:46,973 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Users.Models.User.Roles -> USER_ROLE
+记录时间：2014-10-30 09:04:46,974 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Users.Models.UserProperty -> USER_SETTING
+记录时间：2014-10-30 09:04:46,989 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：checking mappings queue
+记录时间：2014-10-30 09:04:46,989 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing one-to-many association mappings
+记录时间：2014-10-30 09:04:46,997 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：mapping collection: QsTech.Accounts.Models.Accounts.Account.Clients -> ACCOUNT_CLIENT
+记录时间：2014-10-30 09:04:46,997 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：mapping collection: QsTech.Users.Models.User.Accounts -> ACCOUNT_USER
+记录时间：2014-10-30 09:04:46,997 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing one-to-one association property references
+记录时间：2014-10-30 09:04:46,997 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing foreign key constraints
+记录时间：2014-10-30 09:04:47,000 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing filters (second pass)
+记录时间：2014-10-30 09:04:47,047 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Dialect.Dialect property:[(null)] - 错误描述：Using dialect: NHibernate.Dialect.MsSql2008Dialect
+记录时间：2014-10-30 09:04:47,069 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Dialect.Dialect property:[(null)] - 错误描述：Using dialect: NHibernate.Dialect.MsSql2008Dialect
+记录时间：2014-10-30 09:04:47,105 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Exceptions.SQLExceptionConverterFactory property:[(null)] - 错误描述：Using dialect defined converter
+记录时间：2014-10-30 09:04:47,106 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Generate SQL with comments: disabled
+记录时间：2014-10-30 09:04:47,107 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Connection.ConnectionProviderFactory property:[(null)] - 错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+记录时间：2014-10-30 09:04:47,107 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Connection.ConnectionProvider property:[(null)] - 错误描述：Configuring ConnectionProvider
+记录时间：2014-10-30 09:04:47,108 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+记录时间：2014-10-30 09:04:47,108 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Optimize cache for minimal puts: False
+记录时间：2014-10-30 09:04:47,108 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Connection release mode: auto
+记录时间：2014-10-30 09:04:47,108 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Default batch fetch size: 1
+记录时间：2014-10-30 09:04:47,108 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：echoing all SQL to stdout
+记录时间：2014-10-30 09:04:47,108 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Statistics: disabled
+记录时间：2014-10-30 09:04:47,108 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Deleted entity synthetic identifier rollback: disabled
+记录时间：2014-10-30 09:04:47,109 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+记录时间：2014-10-30 09:04:47,111 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+记录时间：2014-10-30 09:04:47,111 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+记录时间：2014-10-30 09:04:47,111 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Order SQL inserts for batching: enabled
+记录时间：2014-10-30 09:04:47,112 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+记录时间：2014-10-30 09:04:47,112 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Default entity-mode: Poco
+记录时间：2014-10-30 09:04:47,112 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Named query checking : enabled
+记录时间：2014-10-30 09:04:47,123 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Impl.SessionFactoryImpl property:[(null)] - 错误描述：building session factory
+记录时间：2014-10-30 09:04:47,667 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Impl.SessionFactoryObjectFactory property:[(null)] - 错误描述：no name configured
+记录时间：2014-10-30 09:04:47,670 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-10-30 09:04:47,670 线程ID:[5] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-10-30 09:04:47,695 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-10-30 09:04:48,117 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Hql.Ast.ANTLR.Tree.FromElement property:[(null)] - 错误描述：handling property dereference [QsTech.Accounts.Models.Accounts.Account (m) -> Deleted (Class)]
+记录时间：2014-10-30 09:04:48,131 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Hql.Ast.ANTLR.Tree.FromElement property:[(null)] - 错误描述：handling property dereference [QsTech.Accounts.Models.Accounts.Account (m) -> State (Class)]
+记录时间：2014-10-30 09:04:48,255 线程ID:[5] 日志级别：INFO  出错类：NHibernate.Loader.Loader property:[(null)] - 错误描述：select account0_.ID as ID0_, account0_.[NAME] as NAME2_0_, account0_.[AGE] as AGE3_0_, account0_.[GENDER] as GENDER4_0_, account0_.[TELEPHONE] as TELEPHONE5_0_, account0_.[MOBILE] as MOBILE6_0_, account0_.[EMAIL] as EMAIL7_0_, account0_.[BIRTHDAY] as BIRTHDAY8_0_, account0_.[ACCOUNT_NAME] as ACCOUNT9_0_, account0_.[PASSWORD] as PASSWORD10_0_, account0_.[LAST_LOGIN_TIME] as LAST11_0_, account0_.[LATEST_LOGIN_TIME] as LATEST12_0_, account0_.[DELETED] as DELETED13_0_, account0_.[ANTI_PHISHING] as ANTI14_0_, account0_.[JOB_NUMBER] as JOB15_0_, account0_.[POST] as POST16_0_, account0_.[PHOTO_ID] as PHOTO17_0_, account0_.[NICK_NAME] as NICK18_0_, account0_.[STATE] as STATE19_0_, account0_.[REMARK] as REMARK20_0_, account0_.[CREATE_TIME] as CREATE21_0_ from [ACCOUNT] account0_ where  not (account0_.[DELETED]='Y') and account0_.[STATE]=@p0
+记录时间：2014-10-30 09:04:48,392 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.InvalidOperationException: 此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+   在 System.Web.Mvc.JsonResult.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-10-30 09:04:48,408 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-10-30 09:04:48,413 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:04:48,413 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:04:48,577 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:04:48,577 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:04:48,577 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:22:47,674 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:22:47,680 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:22:47,680 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:22:47,742 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-10-30 09:22:48,349 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:22:48,349 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:22:48,349 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:22:49,242 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:22:49,242 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:22:49,242 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:23:49,132 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-10-30 09:23:49,133 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-10-30 09:23:49,134 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-10-30 09:23:49,723 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：NHibernate 3.3.1.4000 (3.3.1.4000)
+记录时间：2014-10-30 09:23:49,724 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：hibernate-configuration section not found in application configuration file
+记录时间：2014-10-30 09:23:49,724 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：Bytecode provider name : lcg
+记录时间：2014-10-30 09:23:49,725 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：Using reflection optimizer
+记录时间：2014-10-30 09:23:49,753 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-10-30 09:23:49,954 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Dialect.Dialect property:[(null)] - 错误描述：Using dialect: NHibernate.Dialect.MsSql2008Dialect
+记录时间：2014-10-30 09:23:50,009 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Accounts.Models.Accounts.Account -> ACCOUNT
+记录时间：2014-10-30 09:23:50,036 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Accounts.Models.Accounts.Account.Roles -> ACCOUNT_ROLE
+记录时间：2014-10-30 09:23:50,041 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Accounts.Models.Accounts.AccountClient -> ACCOUNT_CLIENT
+记录时间：2014-10-30 09:23:50,041 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Authentication.Sso.Clients.UserClient -> USER_CLIENT
+记录时间：2014-10-30 09:23:50,043 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Models.ActionStatus -> ACTION_STATUS
+记录时间：2014-10-30 09:23:50,043 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Models.Roles.Role -> ROLE
+记录时间：2014-10-30 09:23:50,043 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Core.Models.Roles.Role.Owners -> ACCOUNT_ROLE
+记录时间：2014-10-30 09:23:50,043 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Core.Models.Roles.Role.Permissions -> ROLE_PERMISSION
+记录时间：2014-10-30 09:23:50,044 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.GlobalSetting -> GLOBAL_SETTING
+记录时间：2014-10-30 09:23:50,044 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.Account.AccountUser -> ACCOUNT_USER
+记录时间：2014-10-30 09:23:50,044 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.Entities.DicPort -> DIC_PORT
+记录时间：2014-10-30 09:23:50,044 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.AccountRegister.AccountRegisterInfo -> ACCOUNT_REGISTER_INFO
+记录时间：2014-10-30 09:23:50,047 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Enterprises.Models.OrganizationRecord -> ORGANIZATION_RECORD
+记录时间：2014-10-30 09:23:50,047 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Enterprises.Interface.EnterpriseUser -> ENTERPRISE_USER
+记录时间：2014-10-30 09:23:50,047 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Enterprises.Interface.Enterprise -> ENTERPRISE
+记录时间：2014-10-30 09:23:50,052 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Files.Interface.FileRecord -> FILE_RECORD
+记录时间：2014-10-30 09:23:50,054 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Users.Models.User -> USER
+记录时间：2014-10-30 09:23:50,054 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Users.Models.User.Roles -> USER_ROLE
+记录时间：2014-10-30 09:23:50,054 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Users.Models.UserProperty -> USER_SETTING
+记录时间：2014-10-30 09:23:50,059 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：checking mappings queue
+记录时间：2014-10-30 09:23:50,059 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing one-to-many association mappings
+记录时间：2014-10-30 09:23:50,067 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：mapping collection: QsTech.Accounts.Models.Accounts.Account.Clients -> ACCOUNT_CLIENT
+记录时间：2014-10-30 09:23:50,067 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：mapping collection: QsTech.Users.Models.User.Accounts -> ACCOUNT_USER
+记录时间：2014-10-30 09:23:50,067 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing one-to-one association property references
+记录时间：2014-10-30 09:23:50,067 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing foreign key constraints
+记录时间：2014-10-30 09:23:50,069 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing filters (second pass)
+记录时间：2014-10-30 09:23:50,115 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Dialect.Dialect property:[(null)] - 错误描述：Using dialect: NHibernate.Dialect.MsSql2008Dialect
+记录时间：2014-10-30 09:23:50,118 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Dialect.Dialect property:[(null)] - 错误描述：Using dialect: NHibernate.Dialect.MsSql2008Dialect
+记录时间：2014-10-30 09:23:50,138 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Exceptions.SQLExceptionConverterFactory property:[(null)] - 错误描述：Using dialect defined converter
+记录时间：2014-10-30 09:23:50,138 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Generate SQL with comments: disabled
+记录时间：2014-10-30 09:23:50,139 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Connection.ConnectionProviderFactory property:[(null)] - 错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+记录时间：2014-10-30 09:23:50,140 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Connection.ConnectionProvider property:[(null)] - 错误描述：Configuring ConnectionProvider
+记录时间：2014-10-30 09:23:50,141 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+记录时间：2014-10-30 09:23:50,141 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Optimize cache for minimal puts: False
+记录时间：2014-10-30 09:23:50,141 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Connection release mode: auto
+记录时间：2014-10-30 09:23:50,141 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Default batch fetch size: 1
+记录时间：2014-10-30 09:23:50,141 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：echoing all SQL to stdout
+记录时间：2014-10-30 09:23:50,142 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Statistics: disabled
+记录时间：2014-10-30 09:23:50,142 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Deleted entity synthetic identifier rollback: disabled
+记录时间：2014-10-30 09:23:50,142 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+记录时间：2014-10-30 09:23:50,143 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+记录时间：2014-10-30 09:23:50,144 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+记录时间：2014-10-30 09:23:50,145 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Order SQL inserts for batching: enabled
+记录时间：2014-10-30 09:23:50,145 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+记录时间：2014-10-30 09:23:50,145 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Default entity-mode: Poco
+记录时间：2014-10-30 09:23:50,146 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Named query checking : enabled
+记录时间：2014-10-30 09:23:50,156 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Impl.SessionFactoryImpl property:[(null)] - 错误描述：building session factory
+记录时间：2014-10-30 09:23:50,553 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Impl.SessionFactoryObjectFactory property:[(null)] - 错误描述：no name configured
+记录时间：2014-10-30 09:23:50,555 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-10-30 09:23:50,556 线程ID:[7] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-10-30 09:23:50,571 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-10-30 09:23:50,893 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Hql.Ast.ANTLR.Tree.FromElement property:[(null)] - 错误描述：handling property dereference [QsTech.Accounts.Models.Accounts.Account (m) -> Deleted (Class)]
+记录时间：2014-10-30 09:23:50,904 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Hql.Ast.ANTLR.Tree.FromElement property:[(null)] - 错误描述：handling property dereference [QsTech.Accounts.Models.Accounts.Account (m) -> State (Class)]
+记录时间：2014-10-30 09:23:50,993 线程ID:[7] 日志级别：INFO  出错类：NHibernate.Loader.Loader property:[(null)] - 错误描述：select account0_.ID as ID0_, account0_.[NAME] as NAME2_0_, account0_.[AGE] as AGE3_0_, account0_.[GENDER] as GENDER4_0_, account0_.[TELEPHONE] as TELEPHONE5_0_, account0_.[MOBILE] as MOBILE6_0_, account0_.[EMAIL] as EMAIL7_0_, account0_.[BIRTHDAY] as BIRTHDAY8_0_, account0_.[ACCOUNT_NAME] as ACCOUNT9_0_, account0_.[PASSWORD] as PASSWORD10_0_, account0_.[LAST_LOGIN_TIME] as LAST11_0_, account0_.[LATEST_LOGIN_TIME] as LATEST12_0_, account0_.[DELETED] as DELETED13_0_, account0_.[ANTI_PHISHING] as ANTI14_0_, account0_.[JOB_NUMBER] as JOB15_0_, account0_.[POST] as POST16_0_, account0_.[PHOTO_ID] as PHOTO17_0_, account0_.[NICK_NAME] as NICK18_0_, account0_.[STATE] as STATE19_0_, account0_.[REMARK] as REMARK20_0_, account0_.[CREATE_TIME] as CREATE21_0_ from [ACCOUNT] account0_ where  not (account0_.[DELETED]='Y') and account0_.[STATE]=@p0
+记录时间：2014-10-30 09:23:51,143 线程ID:[7] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.InvalidOperationException: 此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+   在 System.Web.Mvc.JsonResult.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-10-30 09:23:51,145 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-10-30 09:23:51,155 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:23:51,155 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:23:51,343 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:23:51,343 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:23:51,343 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:24:54,490 线程ID:[7] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.InvalidOperationException: 此请求已被阻止，因为当用在 GET 请求中时，会将敏感信息透漏给第三方网站。若要允许 GET 请求，请将 JsonRequestBehavior 设置为 AllowGet。
+   在 System.Web.Mvc.JsonResult.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-10-30 09:24:54,491 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-10-30 09:24:54,494 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:24:54,494 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:24:54,811 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:24:54,811 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:24:54,811 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:26:00,854 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:26:00,868 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:26:00,869 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:26:00,887 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-10-30 09:26:01,931 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:26:01,931 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:26:01,931 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:26:02,889 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:26:02,889 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:26:02,890 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:26:21,175 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-10-30 09:26:21,175 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-10-30 09:26:21,176 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-10-30 09:26:21,617 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：NHibernate 3.3.1.4000 (3.3.1.4000)
+记录时间：2014-10-30 09:26:21,618 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：hibernate-configuration section not found in application configuration file
+记录时间：2014-10-30 09:26:21,618 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：Bytecode provider name : lcg
+记录时间：2014-10-30 09:26:21,619 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.Environment property:[(null)] - 错误描述：Using reflection optimizer
+记录时间：2014-10-30 09:26:21,683 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-10-30 09:26:21,872 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Dialect.Dialect property:[(null)] - 错误描述：Using dialect: NHibernate.Dialect.MsSql2008Dialect
+记录时间：2014-10-30 09:26:21,903 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Accounts.Models.Accounts.Account -> ACCOUNT
+记录时间：2014-10-30 09:26:21,930 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Accounts.Models.Accounts.Account.Roles -> ACCOUNT_ROLE
+记录时间：2014-10-30 09:26:21,936 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Accounts.Models.Accounts.AccountClient -> ACCOUNT_CLIENT
+记录时间：2014-10-30 09:26:21,936 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Authentication.Sso.Clients.UserClient -> USER_CLIENT
+记录时间：2014-10-30 09:26:21,937 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Models.ActionStatus -> ACTION_STATUS
+记录时间：2014-10-30 09:26:21,937 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Models.Roles.Role -> ROLE
+记录时间：2014-10-30 09:26:21,938 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Core.Models.Roles.Role.Owners -> ACCOUNT_ROLE
+记录时间：2014-10-30 09:26:21,938 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Core.Models.Roles.Role.Permissions -> ROLE_PERMISSION
+记录时间：2014-10-30 09:26:21,938 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.GlobalSetting -> GLOBAL_SETTING
+记录时间：2014-10-30 09:26:21,938 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.Account.AccountUser -> ACCOUNT_USER
+记录时间：2014-10-30 09:26:21,938 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.Entities.DicPort -> DIC_PORT
+记录时间：2014-10-30 09:26:21,939 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Core.Interface.AccountRegister.AccountRegisterInfo -> ACCOUNT_REGISTER_INFO
+记录时间：2014-10-30 09:26:21,940 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Enterprises.Models.OrganizationRecord -> ORGANIZATION_RECORD
+记录时间：2014-10-30 09:26:21,941 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Enterprises.Interface.EnterpriseUser -> ENTERPRISE_USER
+记录时间：2014-10-30 09:26:21,941 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Enterprises.Interface.Enterprise -> ENTERPRISE
+记录时间：2014-10-30 09:26:21,946 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Files.Interface.FileRecord -> FILE_RECORD
+记录时间：2014-10-30 09:26:21,947 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Users.Models.User -> USER
+记录时间：2014-10-30 09:26:21,947 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping collection: QsTech.Users.Models.User.Roles -> USER_ROLE
+记录时间：2014-10-30 09:26:21,948 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：Mapping class: QsTech.Users.Models.UserProperty -> USER_SETTING
+记录时间：2014-10-30 09:26:21,953 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：checking mappings queue
+记录时间：2014-10-30 09:26:21,953 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing one-to-many association mappings
+记录时间：2014-10-30 09:26:21,961 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：mapping collection: QsTech.Accounts.Models.Accounts.Account.Clients -> ACCOUNT_CLIENT
+记录时间：2014-10-30 09:26:21,961 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.XmlHbmBinding.Binder property:[(null)] - 错误描述：mapping collection: QsTech.Users.Models.User.Accounts -> ACCOUNT_USER
+记录时间：2014-10-30 09:26:21,961 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing one-to-one association property references
+记录时间：2014-10-30 09:26:21,961 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing foreign key constraints
+记录时间：2014-10-30 09:26:21,964 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.Configuration property:[(null)] - 错误描述：processing filters (second pass)
+记录时间：2014-10-30 09:26:22,015 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Dialect.Dialect property:[(null)] - 错误描述：Using dialect: NHibernate.Dialect.MsSql2008Dialect
+记录时间：2014-10-30 09:26:22,020 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Dialect.Dialect property:[(null)] - 错误描述：Using dialect: NHibernate.Dialect.MsSql2008Dialect
+记录时间：2014-10-30 09:26:22,041 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Exceptions.SQLExceptionConverterFactory property:[(null)] - 错误描述：Using dialect defined converter
+记录时间：2014-10-30 09:26:22,041 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Generate SQL with comments: disabled
+记录时间：2014-10-30 09:26:22,042 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Connection.ConnectionProviderFactory property:[(null)] - 错误描述：Initializing connection provider: NHibernate.Connection.DriverConnectionProvider
+记录时间：2014-10-30 09:26:22,042 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Connection.ConnectionProvider property:[(null)] - 错误描述：Configuring ConnectionProvider
+记录时间：2014-10-30 09:26:22,043 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Transaction factory: NHibernate.Transaction.AdoNetWithDistributedTransactionFactory
+记录时间：2014-10-30 09:26:22,044 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Optimize cache for minimal puts: False
+记录时间：2014-10-30 09:26:22,044 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Connection release mode: auto
+记录时间：2014-10-30 09:26:22,044 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Default batch fetch size: 1
+记录时间：2014-10-30 09:26:22,044 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：echoing all SQL to stdout
+记录时间：2014-10-30 09:26:22,044 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Statistics: disabled
+记录时间：2014-10-30 09:26:22,044 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Deleted entity synthetic identifier rollback: disabled
+记录时间：2014-10-30 09:26:22,044 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Query translator: NHibernate.Hql.Ast.ANTLR.ASTQueryTranslatorFactory
+记录时间：2014-10-30 09:26:22,046 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Query language substitutions: {'true'='1', 'false'='0', 'yes'=''Y'', 'no'=''N''}
+记录时间：2014-10-30 09:26:22,047 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：cache provider: NHibernate.Cache.NoCacheProvider, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+记录时间：2014-10-30 09:26:22,047 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Order SQL inserts for batching: enabled
+记录时间：2014-10-30 09:26:22,047 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Batcher factory: NHibernate.AdoNet.SqlClientBatchingBatcherFactory, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4
+记录时间：2014-10-30 09:26:22,048 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Default entity-mode: Poco
+记录时间：2014-10-30 09:26:22,048 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Cfg.SettingsFactory property:[(null)] - 错误描述：Named query checking : enabled
+记录时间：2014-10-30 09:26:22,057 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Impl.SessionFactoryImpl property:[(null)] - 错误描述：building session factory
+记录时间：2014-10-30 09:26:22,265 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Impl.SessionFactoryObjectFactory property:[(null)] - 错误描述：no name configured
+记录时间：2014-10-30 09:26:22,268 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-10-30 09:26:22,268 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-10-30 09:26:22,278 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-10-30 09:26:22,586 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Hql.Ast.ANTLR.Tree.FromElement property:[(null)] - 错误描述：handling property dereference [QsTech.Accounts.Models.Accounts.Account (m) -> Deleted (Class)]
+记录时间：2014-10-30 09:26:22,600 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Hql.Ast.ANTLR.Tree.FromElement property:[(null)] - 错误描述：handling property dereference [QsTech.Accounts.Models.Accounts.Account (m) -> State (Class)]
+记录时间：2014-10-30 09:26:22,695 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Loader.Loader property:[(null)] - 错误描述：select account0_.ID as ID0_, account0_.[NAME] as NAME2_0_, account0_.[AGE] as AGE3_0_, account0_.[GENDER] as GENDER4_0_, account0_.[TELEPHONE] as TELEPHONE5_0_, account0_.[MOBILE] as MOBILE6_0_, account0_.[EMAIL] as EMAIL7_0_, account0_.[BIRTHDAY] as BIRTHDAY8_0_, account0_.[ACCOUNT_NAME] as ACCOUNT9_0_, account0_.[PASSWORD] as PASSWORD10_0_, account0_.[LAST_LOGIN_TIME] as LAST11_0_, account0_.[LATEST_LOGIN_TIME] as LATEST12_0_, account0_.[DELETED] as DELETED13_0_, account0_.[ANTI_PHISHING] as ANTI14_0_, account0_.[JOB_NUMBER] as JOB15_0_, account0_.[POST] as POST16_0_, account0_.[PHOTO_ID] as PHOTO17_0_, account0_.[NICK_NAME] as NICK18_0_, account0_.[STATE] as STATE19_0_, account0_.[REMARK] as REMARK20_0_, account0_.[CREATE_TIME] as CREATE21_0_ from [ACCOUNT] account0_ where  not (account0_.[DELETED]='Y') and account0_.[STATE]=@p0
+记录时间：2014-10-30 09:26:22,818 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:26:22,823 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,825 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,826 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,826 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,827 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,828 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,829 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,830 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done deleting orphans for collection: QsTech.Accounts.Models.Accounts.Account.Clients
+记录时间：2014-10-30 09:26:22,831 线程ID:[11] 日志级别：INFO  出错类：NHibernate.Engine.Cascade property:[(null)] - 错误描述：done processing cascade NHibernate.Engine.CascadingAction+SaveUpdateCascadingAction for: QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-10-30 09:26:22,853 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:26:22,853 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:26:29,451 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:26:29,452 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:26:29,452 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:26:36,356 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:26:36,357 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:26:36,357 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-10-30 09:26:39,821 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-10-30 09:26:39,821 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-10-30 09:26:39,821 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed

@@ -1,0 +1,147 @@
+﻿@using QsTech.Framework.Mvc.Html;
+@model QsTech.Authentication.Sso.Clients.Client
+@{
+    ViewBag.Title = "应用-管理人员";
+}
+@ResourceManager.Include("jqGridCss").Render()
+@ResourceManager.Include("gridLocale").Render()
+@ResourceManager.Include("jqGrid").Render()
+@ResourceManager.Include("qsGrid").Render()
+@ResourceManager.Include("modalShow").Render()
+<div class="rightCont">
+    <div class="search">
+        应用名称:@Model.Name
+    </div>
+    <div class="tr">
+    </div>
+    <div class="mt10">
+    <input type="button" value="添 加" id="btnAddUser" class="funcbtn mb5"/>
+      <table id="tblUser">
+        </table>
+        <div id="pageTblUser">
+        </div>
+    </div>
+    <div class="mt10">
+        <input type="button" value="应用列表" class="btn_gray" onclick="javascript:window.location='@Url.Action("List")';"  />
+    </div>
+</div>
+<div id="SelectUserDiv" title="选择用户界面" style="display: none">
+</div>
+@section AfterBody
+{
+    <script type="text/javascript">
+        function selectuser_confirm(ids, names) {
+            if (ids.length > 0) {
+                var namestr = names.join(',');
+                if (confirm("确定将此应用开放给 " + namestr + " 吗?")) {
+                    $("#SelectUserDiv").modalHide();
+                    var obj = { ClientId: "@Model.Id", userIds: ids, userNames: names };
+                    $.AjaxSubmit({
+                        url: '@Url.Action("AddUserClient")',
+                        data: { data: $.JsonToString(obj) },
+                        success: function (data) {
+                            $("#tblUser").trigger('reloadGrid');
+                            $.each(ids, function (i,n) {
+                                filterUsers.append(n + '');
+                            });
+                        },
+                        tipType: 'save'
+                    });
+                }
+
+            }
+            else {
+                $("#SelectUserDiv").modalHide();
+            }
+
+        }
+
+        function FilterUsers() {
+            this.excludeUsers = (function (p) { return p !== "" && p.split(',') || []; })("@ViewBag.Selected");
+
+            this.append = function (val) {
+                if (-1 === $.inArray(val, this.excludeUsers)) {
+                    this.excludeUsers.push(val);
+                }
+                return this;
+            }
+            this.remove = function (val) {
+                var idx = $.inArray(val, this.excludeUsers);
+                if (idx !== -1) {
+                    this.excludeUsers.splice(idx, 1);
+                }
+                return this;
+            }
+            this.serialize = function (key) {
+                var data = {};
+                data[key] = this.excludeUsers;
+                return $.param(data, true);
+            }
+        }
+        var filterUsers = new FilterUsers();
+
+        $(function () {
+            function delUser(event) {
+                var id = event.data.id;
+                var rowData = $("#tblUser").getRowData(id);
+                if (rowData.Id != "") {
+                    if (confirm("确定要移除用户 " + rowData.UserName + " 吗?")) {
+                        $.AjaxSubmit({
+                            url: '@Url.Action("RemoveUserClient")',
+                            data: { "Id": rowData.Id },
+                            success: function (data) {
+                                alert("用户移除成功!");
+                                $("#tblUser").delRowData(id);
+                                filterUsers.remove(rowData.UserId);
+                            },
+                            tipType: 'save'
+                        });
+                    }
+                }
+                else {
+                    alert("请选择要移除的用户!");
+                }
+            }
+            var $grid = $("#tblUser");
+            $grid.qsGrid({
+                url: '@Url.Action("ClientUsersData")?ClientId=@Model.Id',
+                gridType: 'list',
+                colModel: [
+             { head: '操作', name: 'act', align: 'center', width: 70, qsButton: { text: '移除', click: delUser} },
+            {
+                head: '用户名称', name: 'UserName', width: 100
+            }, {
+                head: 'ID', name: 'Id', hidden: true, editable: true
+            }, {
+                head: 'ID', name: 'UserId', hidden: true, editable: true
+            }],
+                height: 240,
+                pager: '#pageTblUser'
+            });
+
+
+
+            $("#btnAddUser").click(function () {
+                $("#SelectUserDiv").modalShow({
+                    url: '@Url.Action("Selector", "Api", "QsTech.Users", new RouteValueDictionary { { "multiable", true } })',
+                    width: 640,
+                    data: filterUsers.serialize("excludeArray"),
+                    confirmHandler: function (users) {
+                        var ids = new Array(), names = new Array();
+                        $.each(users, function (i, n) {
+                            ids.push(n.id);
+                            names.push(n.name);
+                        });
+                        selectuser_confirm(ids, names);
+                    },
+                    cancelHandler: function () {
+                        $("#SelectUserDiv").modalHide();
+                    }
+                });
+
+
+            });
+
+        });
+    </script>
+}

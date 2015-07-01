@@ -1,0 +1,227 @@
+﻿@using QsTech.Accounts.Models.ClientAccounts
+@model QsTech.Framework.Pagination.IPagedList<QsTech.Accounts.Models.Accounts.Account>
+@{
+    this.ChannelId = "Management";
+    var searchParameter = (ClientAccountSearchParameter)ViewBag.SearchParameter;
+    var client = (QsTech.Core.Interface.Clients.IClient)ViewBag.Client;
+    var accountIds = (IList<int>)ViewBag.Accounts;
+}
+<div>
+    <div class="panel mt_10">
+        <h4>客户端信息</h4>
+        <table style="width: 100%;" class="data-detail">
+            <tr>
+                <td width="10%" style="text-align: right;">
+                    应用名称：
+                </td>
+                <td style="text-align: left;">
+                    @client.Name
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: right;">
+                    描述：
+                </td>
+                <td style="text-align: left;">
+                    @client.Description
+                </td>
+            </tr>
+        </table>
+        <a class="btn" href="@Url.Action("List", "Client", "QsTech.Authentication.Sso", new RouteValueDictionary { { "id", searchParameter.ClientId } })">查看应用列表</a> 
+    </div>
+    <div class="panel mt_10">
+        <h4>应用拥有的账户</h4>
+        <div class="mt_5">
+		    <input type="button" id="lnkOpenUserDialog" value="添加账户" class="btn" />
+            <input type="button" id="lnkRemoveUserDialog" value="移除账户" class="btn" />
+        </div>
+        <div class="mt_5 border attr-data">
+            <div class="selected-attr" style="height:1px;"></div>
+            <table class="AttrBox">
+                <tbody>
+                    <tr>
+                        <td style="text-align: right;">
+                            关键字：
+                        </td>
+                        <td style="text-align: left;">
+                            <input id="txtKeyword" type="text"  value="@searchParameter.keyword" placeholder="账号" class="inputtext" style="height:25px;line-height:25px;width:300px" />
+                            <input type="button" value="查 询" id="btnQuery" class="btn" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <table style="width:100%;" class="tbl-list">
+			<thead>
+				<tr class="thead-tbl">
+					<th style="width:25px;"><input type="checkbox" name="allselect" class="checkbox" /></th>
+					<th style="width:150px;text-align:center;">账 号</th>
+                    <th style="width:150px;text-align:center;">姓名</th>
+                    <th style="width:100px;text-align:center;">操 作</th>
+                     <th ></th>
+				</tr>
+			</thead>
+			<tbody class="tbody-tbl">
+                @if (Model.Any())
+                { 
+                    foreach (var account in Model)
+                    {
+				<tr>
+					<td style="text-align:center;"> <input type="checkbox" name="itemcheck" value="@account.Id" class="checkbox" /></td>
+					<td style="text-align:center;"><a href="@Url.Action("Edit", new { id = account.Id })" class="blue">@account.AccountName</a></td>
+                    <td style="text-align:left;">@account.Name</td>
+                    <td style="text-align:center;">
+						<a href="javascript:void(0);" key="@account.Id" name="Delete" class="a_blue">移除</a>
+					</td>
+                    <td style="text-align:center;">
+					</td>
+				</tr>
+                    }
+                }
+                else
+                {
+                <tr>
+                    <td align="center" colspan="5">没有符合条件的数据</td>
+                </tr>
+                }
+			</tbody>
+		</table>
+    </div>
+    <div class="pagination f_r">
+        @Html.Pagination(Model)
+    </div>
+</div>
+<div id="dialog" title="选择账户" style="display:none;"></div>
+@section AfterBody
+{
+@ResourceManager.Include("modalShow").Render()
+<script type="text/javascript">
+    var selectedState="";
+    function search(){
+       var name = $.trim($("#txtKeyword").val().replace('', ''));
+       window.location = "@Url.Action("ClientAccountManage")?ClientId=@searchParameter.ClientId&keyword=" + encodeURIComponent(name);
+    }
+
+     function selectuser_confirm(ids, names) {
+            if (ids.length > 0) {
+                var namestr = names.join(',');
+                if (confirm("确定将应用 @client.Name 的访问权限分配给 " + namestr + " 吗?")) {
+                    $("#dialog").modalHide();
+                    $.AjaxSubmit({
+                        url: '@Url.Action("AddClientAccount")',
+                        data: { clientId: "@client.Id",data: $.JsonToString(ids) },
+                        success: function (data) {
+                           alert("分配成功!");
+                           window.location.reload();
+                        },
+                        tipType: 'save'
+                    });
+                }
+            }
+            else {
+                $("#dialog").modalHide();
+            }
+        }
+    $(function () {
+    $("#btnQuery").one('click', function () {
+          search();
+      });
+        $("#txtKeyword").enterTo("#btnQuery");
+         function removeuser(ids,names) {
+            if (ids.length > 0) {
+                var namestr = names.join(',');
+                if (confirm("确定要移除账户 " + namestr + " 访问‘ @client.Name ’的权限吗?")) {
+                    $("#dialog").modalHide();
+                    $.AjaxSubmit({
+                        url: '@Url.Action("RemoveClientAccount")',
+                        data: { clientId: "@client.Id",data: $.JsonToString(ids) },
+                        success: function (data) {
+                           alert("移除成功!");
+                           window.location.reload(); 
+                        },
+                        tipType: 'save'
+                    });
+                }
+            }
+            else{
+               alert("请选择账户!");
+            }
+        }
+
+        $("a[name=Delete]").click(function(event) {
+            event = event || window.event;
+            var name=$(this).parent().prev().text();
+            var Ids=new Array(),names=new Array();
+            var userId=$(this).attr("key");
+            Ids.push(userId);
+            names.push(name);
+            removeuser(Ids,names);
+        });
+
+         $("tr", ".tbody-tbl").click(function (e) {
+                var td = $("td input:first-child", this);
+                if ($(td).attr("checked"))
+                    $(td).attr("checked", "");
+                else $(td).attr("checked", "checked");
+            });
+            $("input", ".tbody-tbl").click(function (e) {
+                e && e.stopPropagation ? e.stopPropagation() : window.event.cancelBubble = true;
+            });
+
+          $("input[name=allselect]").click(function(){
+            var itemval="";
+            if($(this).attr("checked")) itemval="checked";
+              $("input[name=itemcheck]").each(function(i,n){
+                 $(this).attr("checked",itemval);
+              });  
+        });
+
+         var excludeUsers = (function(p) { return p !== "" && p.split(',') || []; })("@string.Join(",",accountIds)");
+          function formatParams(users) {
+            var v = $.param({ excludeArray: users }, true);
+            return v;
+          }
+         $("#lnkOpenUserDialog").click(function() {
+            $("#dialog").modalShow({
+                url: '@Url.Action("Selector", "Api", "QsTech.Accounts", new RouteValueDictionary { { "multiable",true }})',
+                data: formatParams(excludeUsers),
+                width: 640,
+                confirmHandler: function(users) {
+                      var ids = new Array(), names = new Array();
+                        $.each(users, function (i, n) {
+                            ids.push(n.id);
+                            names.push(n.name);
+                        });
+                        selectuser_confirm(ids, names);
+                },
+                cancelHandler: function() {
+                    $("#dialog").modalHide();
+                }
+            });
+        });
+
+         function getSelectedItems(type){
+           var selected =$("input[type=checkbox]:checked").map(function(){
+            if($(this).attr("name")=="itemcheck")
+              if(type=="name")
+              {
+                 return $(this).parent().next().next().text();
+              }
+              else
+                return this.value;
+              }).get();
+            return selected;
+        }
+        $("#lnkRemoveUserDialog").click(function(){
+             var ids=getSelectedItems();
+           var names=getSelectedItems("name");
+           if(ids.length==0){
+            alert("请选择账户!");return false;
+           }
+            removeuser(ids,names);
+        });
+
+
+    });
+</script>
+}

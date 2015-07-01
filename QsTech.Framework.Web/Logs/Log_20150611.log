@@ -1,0 +1,70 @@
+记录时间：2015-06-11 13:45:15,681 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2015-06-11 13:45:15,714 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:15,714 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:17,967 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2015-06-11 13:45:17,967 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:17,967 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:18,608 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2015-06-11 13:45:18,608 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:18,608 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:25,106 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2015-06-11 13:45:25,107 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ASP._Page_Modules_QsTech_Authentication_Sso_Views_Account_mLogOn_cshtml.Execute() 位置 d:\开发\SSO\NSource\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Views\Account\MLogOn.cshtml:行号 5
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2015-06-11 13:45:25,171 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:25,171 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:26,208 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2015-06-11 13:45:26,208 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:26,208 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:29,175 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2015-06-11 13:45:29,175 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:29,175 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:29,455 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2015-06-11 13:45:29,455 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:29,455 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:36,273 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2015-06-11 13:45:36,273 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ASP._Page_Modules_QsTech_Authentication_Sso_Views_Account_mLogOn_cshtml.Execute() 位置 d:\开发\SSO\NSource\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Views\Account\MLogOn.cshtml:行号 5
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2015-06-11 13:45:36,274 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:36,274 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:36,288 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2015-06-11 13:45:36,288 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:36,288 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:38,300 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2015-06-11 13:45:38,300 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:38,301 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:38,314 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2015-06-11 13:45:38,314 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:38,314 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2015-06-11 13:45:38,608 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2015-06-11 13:45:38,608 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2015-06-11 13:45:38,608 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed

@@ -1,0 +1,86 @@
+﻿@model QsTech.Accounts.Models.BindUsers.BindUserModel
+@{
+    this.ChannelId = "Management";
+    ViewBag.Title = "绑定用户";
+}
+
+<div class="rightCont">
+    <div class="mt10">
+        @using (Html.BeginForm())
+        {
+            <table style="width:100%;" class="data-detail">
+                <tr>
+                    <td style="text-align: right;width:88px;">
+                        账 户：
+                    </td>
+                    <td>
+                        @Model.AccountName
+                        @Html.HiddenFor(m=>m.Id)
+                        @Html.HiddenFor(m=>m.AccountId)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        用 户：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.UserName,new{@readonly="readonly"})
+                        @Html.HiddenFor(model => model.UserId)
+                        &nbsp;  <a id="btnSelectUser" href="javascript:void(0);">选择</a>
+                    </td>
+                </tr>
+            </table>
+            <div class="mt_10 ml_20">
+                <input type="submit" value="保存更改" class="btn btn-primary" />
+                <input type="button" value="账户列表" class="btn" onclick="javascript:history.go(-1);" />
+            </div>
+        }
+    </div>
+  <div id="SelectUser" title="选择用户列表" style=" display:none;"></div>
+</div>
+@section AfterBody
+{
+@ResourceManager.Include("jqueryForm").Render()
+@ResourceManager.Include("qsForm").Render()
+@ResourceManager.Include("modalShow").Render()
+<script type="text/javascript">
+    $(function () {
+        var optins = {
+            success: function (result) {
+                alert("用户绑定成功!");
+                                setTimeout(function(){
+                                   window.location.href="@Url.Action("List")";
+                                }, 1500); 
+
+            },
+            tipType: 'save'
+        };
+        $("form").qsAjaxForm(optins);
+
+        var excludeUsers = new Array();
+        @if(Model.UserId!=null)
+        {<text>
+            excludeUsers.push(@Model.UserId);
+        </text>}
+        function formatParams(users) {
+            var v = $.param({ excludeArray: users }, true);
+            return v;
+        }
+        $("#btnSelectUser").click(function () {
+            $("#SelectUser").modalShow({
+                url: '@Url.Action("Selector", "Api", "QsTech.Users", new RouteValueDictionary { { "multiable",false }})',
+                data: formatParams(excludeUsers),
+                width: 640,
+                confirmHandler: function (users) {
+                    $("#UserName").val(users[0].name);
+                    $("#UserId").val(users[0].id);
+                    $("#SelectUser").modalHide();
+                },
+                cancelHandler: function () {
+                    $("#SelectUser").modalHide();
+                }
+            });
+        });
+    });
+</script>
+}

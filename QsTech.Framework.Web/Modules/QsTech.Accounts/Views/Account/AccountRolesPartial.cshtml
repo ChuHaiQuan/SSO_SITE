@@ -1,0 +1,45 @@
+﻿@model QsTech.Accounts.Models.RoleAccount.AuthorizeRoleModel
+@{
+    LayoutInfo.Enable = false;
+    
+}
+<table style="width:100%;">
+	<thead class="thead">
+		<tr>
+            <th style="width:40px;">启用</th>
+			<th style="width:150px;">角色名</th>
+            <th style="width:80px;">分类</th>
+            <th>角色描述</th>
+		</tr>
+	</thead>
+	<tbody class="tbody">
+        @foreach (var role in Model.RoleDescriptors.OrderBy(m=>m.Category))
+        {
+        <tr>
+            <td align="center">
+                <input type="checkbox" name="UserRole" value="@role.Id" @if(role.Allow){ <text>checked="checked"</text> } class="checkbox" />
+            </td>
+            <td>@role.Name</td>
+           <td>@role.Category</td>
+            <td>@role.Description</td>
+        </tr>
+        }
+	</tbody>
+</table>
+<script type="text/javascript">
+    $(function () {
+        $("input[name=UserRole]").change(function () {
+            var url = this.checked ? '@Url.Action("AuthorizeRole", "Account")' : '@Url.Action("UnauthorizeRole", "Account")',
+                roleId = $(this).val();
+            $.AjaxSubmit({
+                url: url,
+                tipType: 'submit',
+                data: {
+                    accountId: @Model.UserId,
+                    roleId: roleId
+                }, 
+                success: function() {} 
+            });
+        });
+    });
+</script>

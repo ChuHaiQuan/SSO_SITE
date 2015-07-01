@@ -1,0 +1,26 @@
+﻿@model System.DateTime?
+@{
+    string formatter = "yyyy-MM-dd";
+    if (ViewData["FormatString"] != null)
+    {
+        formatter = ViewData["FormatString"].ToString();
+    }
+    object val = null;
+    bool __default = true;
+    if (Model != null && Model.HasValue)
+    {
+        val = Model.Value.ToString(formatter);
+    }
+    else
+    {
+        if(ViewData["Default"] != null)
+        {
+            bool.TryParse(ViewData["Default"].ToString(), out __default);
+        }
+        if (__default)
+        {
+            val = DateTime.Now.ToString(formatter);
+        }    
+    }
+    @Html.TextBox("", val, ViewData["htmlAttributes"])
+}

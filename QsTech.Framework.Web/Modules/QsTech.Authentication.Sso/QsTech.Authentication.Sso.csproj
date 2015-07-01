@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8F1FE869-6C9E-4A0F-9A6C-BAC869747297}</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QsTech.Authentication.Sso</RootNamespace>
+    <AssemblyName>QsTech.Authentication.Sso</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <MvcProjectUpgradeChecked>true</MvcProjectUpgradeChecked>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Autofac, Version=2.6.3.862, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Autofac.2.6.3.862\lib\NET40\Autofac.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autofac.Configuration, Version=2.6.3.862, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\Autofac.2.6.3.862\lib\NET40\Autofac.Configuration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Iesi.Collections.3.3.1.4000\lib\Net35\Iesi.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.4.5.8\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.2.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\packages\NHibernate.3.3.1.4000\NHibernate.3.3.1.4000\lib\Net35\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\ClientController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\Oauth2Controller.cs" />
+    <Compile Include="Controllers\SsoController.cs" />
+    <Compile Include="Menus.cs" />
+    <Compile Include="Models\AccessToken\IAccessTokenManager.cs" />
+    <Compile Include="Models\AccessToken\IOauthMsg.cs" />
+    <Compile Include="Models\AccessToken\TokenModel.cs" />
+    <Compile Include="Models\AccessToken\UserInfoModel.cs" />
+    <Compile Include="Models\Authentication\DefaultAuthentication.cs" />
+    <Compile Include="Models\Authentication\IVerifiedFilter.cs" />
+    <Compile Include="Models\Authentication\SsoReceiveData.cs" />
+    <Compile Include="Controllers\TicketVerifyController.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Models\Authorization\AuthorizationCodeCacheModel.cs" />
+    <Compile Include="Models\Authorization\IAuthorizationCodeHolder.cs" />
+    <Compile Include="Models\Authorization\AuthorizationCodeManager.cs" />
+    <Compile Include="Models\Authorization\AuthorizationCodeProvider.cs" />
+    <Compile Include="Models\Authorization\AuthorizationTokenProvider.cs" />
+    <Compile Include="Models\Authorization\AuthorizeModel.cs" />
+    <Compile Include="Models\Authorization\IAuthorizationCodeManager.cs" />
+    <Compile Include="Models\Authorization\IAuthorizationProvider.cs" />
+    <Compile Include="Models\Authorization\IRandomStringManager.cs" />
+    <Compile Include="Models\Clients\AccessMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\Client.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\ClientAccessPolicy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\ClientManger.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\ClientUserAddParameter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\ClientZoneProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\IClientLoader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\IClientManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\IClientVerifier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\IPatternMatcher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\IUserClientService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\MatchPaternAny.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\MatchPatternHead.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\MatchRegex.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\PatternMatcherFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\PatternMatchType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\UserClient.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\UserClientQueryModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\Clients\XmlClientParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\CookieHelper.cs" />
+    <Compile Include="Models\ISsoUrlSetting.cs" />
+    <Compile Include="Models\Oauth2\AccountInfoOauthModel.cs" />
+    <Compile Include="Models\Oauth2\OpenIdOauthModel.cs" />
+    <Compile Include="Models\RegisterModel.cs" />
+    <Compile Include="Models\SsoJson.cs" />
+    <Compile Include="Models\UrlHelperExtensions.cs" />
+    <Compile Include="Models\Ticket\ITicketManager.cs" />
+    <Compile Include="Models\Ticket\ITicketVerifier.cs" />
+    <Compile Include="Models\LogOnModel.cs" />
+    <Compile Include="Models\Member.cs" />
+    <Compile Include="Models\MemberType.cs" />
+    <Compile Include="Models\Ticket\SsoTicketData.cs" />
+    <Compile Include="Models\Ticket\TicketManager.cs" />
+    <Compile Include="Models\Ticket\TicketVerifyResultModel.cs" />
+    <Compile Include="Models\Utils.cs" />
+    <Compile Include="Models\Validator\CommValidateCode.cs" />
+    <Compile Include="Models\Validator\ValidateCode.cs" />
+    <Compile Include="Permissions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Routes.cs" />
+    <Compile Include="Models\Service\AuthService.cs" />
+    <Compile Include="Models\Service\IAuthService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Client.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lang\en-US\QsTech.Authentication.Sso-en-US.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lang\zh-CN\QsTech.Authentication.Sso-en-US.xml" />
+    <Content Include="Resources\PortalLogin\commonmobile.css" />
+    <Content Include="Resources\PortalLogin\images\body-bg.png" />
+    <Content Include="Resources\PortalLogin\images\body-bg1.png" />
+    <Content Include="Resources\PortalLogin\images\box.png" />
+    <Content Include="Resources\PortalLogin\images\login-btn.png" />
+    <Content Include="Resources\PortalLogin\images\logo.gif" />
+    <Content Include="Resources\PortalLogin\images\logo.png" />
+    <Content Include="Resources\PortalLogin\images\small-logo.png" />
+    <Content Include="Resources\img\dllogo.png" />
+    <Content Include="Resources\img\input.png" />
+    <Content Include="Resources\img\loginfoot.png" />
+    <Content Include="Resources\img\logobg - 副本.jpg" />
+    <Content Include="Resources\img\logobg.jpg" />
+    <Content Include="Resources\img\logobtn.png" />
+    <Content Include="Resources\img\logobtnhover.png" />
+    <Content Include="Resources\img\qssmlogo.png" />
+    <Content Include="Resources\img\returnbtn.png" />
+    <Content Include="Resources\img\returnbtn_hover.png" />
+    <Content Include="Resources\img\smtbtn.png" />
+    <Content Include="Resources\img\smtbtn_hover.png" />
+    <Content Include="Resources\img\wkico.png" />
+    <Content Include="Resources\PortalLogin\login.css" />
+    <Content Include="Resources\script\date.js" />
+    <Content Include="Resources\script\jquery-1.9.1.min.js" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\images\ajax-loader.gif" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\images\icons-18-black.png" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\images\icons-18-white.png" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\images\icons-36-black.png" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\images\icons-36-white.png" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\images\smtbtn.png" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\images\smtbtn_hover.png" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\images\smtbtn_s.png" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\images\smtbtn_shover.png" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\jquery.mobile-1.3.2.css" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\jquery.mobile-1.3.2.js" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\jquery.mobile-1.3.2.min.css" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\jquery.mobile-1.3.2.min.js" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\jquery.mobile.structure-1.3.2.css" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\jquery.mobile.structure-1.3.2.min.css" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\jquery.mobile.theme-1.3.2.css" />
+    <Content Include="Resources\script\jquery.mobile-1.3.2\jquery.mobile.theme-1.3.2.min.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Account\ChangePassword.cshtml" />
+    <Content Include="Views\Account\ChangePasswordSuccess.cshtml" />
+    <Content Include="Views\Account\LogOn.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\_LogOnPartial.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\QsTech.Framework\QsTech.Framework.csproj">
+      <Project>{be5b9a73-6d51-46b8-98b9-cc4501672977}</Project>
+      <Name>QsTech.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QsTech.Core\Interface\QsTech.Core.Interface.csproj">
+      <Project>{805860ED-5C61-431C-BAA7-A534582F3569}</Project>
+      <Name>QsTech.Core.Interface</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="Interface\QsTech.Authentication.Sso.Interface.csproj">
+      <Project>{0B02C547-5446-4291-9142-51BE0043DE8B}</Project>
+      <Name>QsTech.Authentication.Sso.Interface</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Client\ClientZone.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Client\Edit.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Client\List.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Account\RegisterSuccess.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Account\ClientInfo.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Account\AdaptiveLogOn.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Account\副本 LogOn.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Account\MLogOn.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\script\jquery.mobile-1.3.2\jquery.mobile-1.3.2.min.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>24278</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/QsTech.As.Authentication</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

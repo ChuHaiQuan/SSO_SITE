@@ -1,0 +1,122 @@
+﻿<?xml version="1.0"encoding="UTF-8"?>
+<Root>
+  <Header>
+    <MessageReferenceNumber>883C9697-30C0-4654-BAB6-A7F8B7F1546F</MessageReferenceNumber>
+    <DocumentName>货代托运单</DocumentName>
+    <DocumentVersionNumber>V3.1.1</DocumentVersionNumber>
+    <SenderCode>NBHQKG</SenderCode>
+    <MessageSendingDateTime>2014-12-23 14:45:01</MessageSendingDateTime>
+    <MessageFunctionCode ></MessageFunctionCode > <!--报文功能代码-->
+  </Header>
+  <Body>
+    <ShippingNoteNumber></ShippingNoteNumber><!-- 托运单号  -->
+    <VesselInfo>
+      <VesselNameCode></VesselNameCode>   <!--船名代码 -->
+      <VesselEnglishName></VesselEnglishName><!-- 船舶英文名称-->
+      <VoyageNumber></VoyageNumber><!--航次号-->
+      <EstimatedDepartureDateTime>2014-12-29 </EstimatedDepartureDateTime><!--预计离港日期时间-->
+      <CarrierIdentifier>可能为空</CarrierIdentifier><!--承运人标识符-->
+      <CarrierName>可能为空</CarrierName> <!--承运人-->
+    </VesselInfo>
+    <PlacePortsInfo>
+      <GoodsCollectedLocation></GoodsCollectedLocation><!-- 集货地-->
+      <GoodsReceiptPlace>宁波</GoodsReceiptPlace> <!-- 收货地点 -->
+      <LoadingPortCode>NINGBO编码</LoadingPortCode><!-- 装货港代码-->
+      <LoadingPortName>NINGBO</LoadingPortName><!-- 装货港-->
+      <TranshippingPortCode></TranshippingPortCode> <!-- 中转港代码-->
+      <TranshippingPortName></TranshippingPortName><!-- 中转港-->
+      <DischargePortCode></DischargePortCode><!-- 卸货港代码-->
+      <DischargePortName></DischargePortName><!-- 卸货港-->
+      <PlaceOfDeliveryCode>DUBAI编码</PlaceOfDeliveryCode><!-- 交货地代码-->
+      <PlaceOfDelivery>DUBAI</PlaceOfDelivery><!-- 交货地-->
+      <DestinationCode>目的地编码</DestinationCode><!-- 目的地代码-->
+      <Remark>ON BOARD	FREIGHT PREPAIDSHIPPER LOAD, COUNT & SEAL.CY-CY CONTAINER</Remark> <!-- 备注 -->
+    </PlacePortsInfo>
+    <ConsignorInfo>
+      <ConsignorCode>发货人编码</ConsignorCode><!-- 发货人代码-->
+      <Consignor>SHAOXING DAMAN TEXTILE CO.,LTD
+      NO.3070,A SECTION,3RD FLOOR,
+      KEBEIPEIBU MARKET,CHINA TEXTILECITY,SHAOXING COUNTY
+      TEL:0575-84089202 FAX:0575-84388769
+    </Consignor><!-- 发货人-->
+    </ConsignorInfo>
+    <ConsigneeInfo>
+      <ConsigneeCode>收货人编码</ConsigneeCode><!-- 发货人代码-->
+      <Consignee>
+        UO XIN TRADING L.L.C
+        AL MURAR SHOPS NO(04&05&06),
+        NAIF ROAD,NEAR WEST HOTEL,
+        DEIRA-DUBAI-U.A.E
+        TEL: +971 4 2396818
+        FAX: +971 4 2396817
+        MOB: +971 50 5679606
+      </Consignee><!-- 发货人代码-->
+    </ConsigneeInfo>
+    <NotifyPartyInfo>
+      <SequenceCode></SequenceCode><!-- 流水号/序列号-->
+      <NotifyPartyCode>通知人代码</NotifyPartyCode><!-- 通知人代码 可空-->
+      <NotifyParty>SAME AS CONSIGNEE</NotifyParty><!-- 通知人-->
+    </NotifyPartyInfo>
+    <CarriersAgentInfo>
+      <FreightForwarder></FreightForwarder><!-- 货运代理人-->
+      <FreightForwarderCode></FreightForwarderCode><!-- 货运代理人代码-->
+      <ContactName></ContactName> <!-- 联系人姓名-->
+      <TelephoneNumber></TelephoneNumber> <!-- 电话号码-->
+    </CarriersAgentInfo>
+    <TotalGrossWeight >
+      <ConsignmentGrossWeight >24270 </ConsignmentGrossWeight ><!-- 托运物毛重-->
+      <MeasurementUnitCode >KGS的编码</MeasurementUnitCode > <!-- 计量单位代码-->
+    </TotalGrossWeight >
+    <TotalVolume >
+      <ConsignmentCube >68</ConsignmentCube ><!-- 托运体积-->
+      <MeasurementUnitCode >CBM 的编码</MeasurementUnitCode ><!-- 计量单位代码-->
+    </TotalVolume >
+    <GoodsInfo>
+      <GoodsItemNumber>1</GoodsItemNumber><!-- 货物分项号-->
+      <PackageQuantity>968</PackageQuantity><!-- 包装数量-->
+      <PackageType>BALES</PackageType> <!-- 包装类型-->
+      <PackageTypeCode>BALES的编码</PackageTypeCode><!-- 包装类型代码-->
+      <HazardSubstanceItemNumber></HazardSubstanceItemNumber><!-- 危险品类别代码-->
+      <AdditionalHazardClassificationIdentifier></AdditionalHazardClassificationIdentifier><!-- 危险品附加分类代码-->
+      <UNDGNumber></UNDGNumber><!-- 联合国危险品编号-->
+      <DangerousGoodsFlashpoint></DangerousGoodsFlashpoint><!-- 危险品闪点-->
+      <TemperatureUnitCode></TemperatureUnitCode> <!-- 温度单位代码-->
+      <TransportTemperature></TransportTemperature><!-- 运输温度-->
+      <LowestTemperature ></LowestTemperature ><!-- 最低温度-->
+      <HighestTemperature. ></HighestTemperature. ><!-- 最高温度-->
+      <ShippingMarks></ShippingMarks> <!-- 运输标志-->
+      <DescriptionOfGoods>
+        100%POLYESTER DYED FABRIC
+        100%POLYESTER TERYLENE DYED
+        FLANNELETTE
+      </DescriptionOfGoods><!-- 货物名称-->
+    </GoodsInfo>
+    <ItemGrossWeight>
+      <GoodsItemGrossWeight></GoodsItemGrossWeight><!-- 货物项毛重-->
+      <MeasurementUnitCode></MeasurementUnitCode> <!-- 计量单位代码-->
+    </ItemGrossWeight>
+    <ItemVolume>
+      <Cube></Cube> <!-- 体积-->
+      <MeasurementUnitCode></MeasurementUnitCode><!-- 计量单位代码-->
+      <Remark> </Remark> <!-- 备注-->
+    </ItemVolume>
+    <ContainerInfo>
+      <SequenceCode></SequenceCode><!-- 流水号/序列号-->
+      <CodeOfSizeAndType></CodeOfSizeAndType><!-- 尺寸和箱型代码-->
+      <PackageQuantity></PackageQuantity><!-- 包装数量-->
+      <ContainerNumber></ContainerNumber><!-- 集装箱号-->
+      <ContainerList>
+        <SealNumber></SealNumber><!-- 铅封号-->
+        <ContainerOperator></ContainerOperator> <!-- 集装箱经营人-->
+      </ContainerList>
+      <Remark> </Remark><!-- 备注-->
+    </ContainerInfo>
+    <FreightClauseInfo>
+      <PaymentArrangementCode> </PaymentArrangementCode><!-- 付款安排代码-->
+      <MovementTypeCode></MovementTypeCode><!-- 搬运类型代码-->
+      <Remark>remark </Remark>
+      <!-- 备注-->
+    </FreightClauseInfo>
+  </Body>
+</Root>
+

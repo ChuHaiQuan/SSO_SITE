@@ -1,0 +1,29 @@
+﻿@model QsTech.Core.Interface.UserProperty.PropertyMetadata
+@{
+    LayoutInfo.Enable = false;
+    var list = new SelectListItem[] { new SelectListItem
+    {
+        Text = "简体中文",
+        Value = "zh-cn"
+    }, new SelectListItem {
+        Text = "繁体中文",
+        Value= "zh-tw"
+    }, new SelectListItem {
+        Text = "英文",
+        Value = "en"
+    }};
+    if(list.Any(i => i.Value == Model.Value))
+    {
+        list.FirstOrDefault(i => i.Value == Model.Value).Selected = true;
+    }
+}
+@Html.DropDownListFor(model => model.Value, list, new { id ="Property_Localization" })
+<script type="text/javascript">
+    $("#Property_Localization").change(function () {
+        $.post('@Url.Action("Save", "Settings", new { Name = "Localization" })', {
+            value: this.value
+        }, function () {
+            
+        });
+    });
+</script>

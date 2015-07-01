@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<texts>
+  <!-- base -->
+  <text key="all" hint="全部" scope="" />
+  <text key="close" hint="关闭" scope="" />
+  <text key="ok" hint="确定" scope="" />
+  <text key="cancel" hint="取消" scope="" />
+  <text key="save" hint="保存" scope="" />
+  <text key="undo" hint="撤销" scope="" />
+  <text key="delete" hint="删除" scope="" />
+  <text key="edit" hint="编辑" scope="" />
+  <text key="search" hint="搜索" scope="" />
+  <text key="clear" hint="清空" scope="" />
+  <!-- AjaxSubmit.js -->
+  <text key="ajaxLoading" hint="数据正在加载，请稍等..." scope="" />
+  <text key="ajaxSaving" hint="数据正在保存，请稍等..." scope="" />
+  <text key="ajaxSubmitting" hint="数据正在提交，请稍等..." scope="" />
+  <text key="ajaxRemoving" hint="数据正在删除，请稍等..." scope="" />
+  <!-- jquery.utilities.js -->
+  <text key="sunday" hint="周日" scope="" />
+  <text key="monday" hint="周一" scope="" />
+  <text key="tuesday" hint="周二" scope="" />
+  <text key="wednesday" hint="周三" scope="" />
+  <text key="thursday" hint="周四" scope="" />
+  <text key="friday" hint="周五" scope="" />
+  <text key="saturday" hint="周六" scope="" />
+  <!-- qs.messagebox.js -->
+  <text key="def_confirmTitle" hint="操作确认" scope="" />
+  <text key="def_alertTitle" hint="提示" scope="" />
+  <text key="ex_title_details" hint="错误详细信息" scope="" />
+  <text key="ex_btn_view" hint="查看错误详细" scope="" />
+  <text key="ex_btn_upload" hint="上传错误报告" scope="" />
+  <!-- qs.notify.js -->
+  <text key="notify_title" hint="操作过程中发生错误" scope="" />
+  <text key="notify_content_cap_1" hint="错误消息" scope="" />
+  <text key="notify_content_cap_2" hint="错误详细信息" scope="" />
+</texts>

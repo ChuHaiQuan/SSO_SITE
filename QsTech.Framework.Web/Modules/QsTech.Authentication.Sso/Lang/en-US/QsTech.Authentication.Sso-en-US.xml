@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<texts>
+  <text key="loginFormTitle" hint="Sign In" scope="" />
+  <text key="loginFormAccount" hint="Account" scope="" />
+  <text key="loginFormPassword" hint="Password" scope="" />
+  <text key="loginFormValidCode" hint="Security Code" scope="" />
+  <text key="loginFormRemember" hint="Remeber Me" scope="" />
+  <text key="loginFormNeedAccount" hint="Please input account name." scope="" />
+  <text key="loginFormNeedPassword" hint="Please input password." scope="" />
+  <text key="loginFormNeedValidCode" hint="Please input security code." scope="" />
+  <text key="loginFormAccountError" hint="Account and password do not match." scope="" />
+  <text key="loginFormValidCodeError" hint="Security code is error." scope="" />
+  <text key="loginFormLogin" hint="LogIn" scope="" />
+  <text key="loginAbout" hint="About Us" scope="" />
+  <text key="loginAboutInfo" hint="HangZhou light industrial products, arts crafts, textiles I/E CO., LTD" scope="" />
+  
+  <text key="ConfirmLoginPasswordIsRequired" hint="Password is required." scope="" />
+  <text key="MobilePhoneIsRequired" hint="Mobile is required." scope="" />
+  <text key="EmailIsRequired" hint="Email is required." scope="" />
+  <text key="NameIsRequired" hint="Name is required." scope="" />
+  <text key="UserRegisterError" hint="An error occurs when the user registration, please try again." scope="" />
+  <text key="RegisterSuccessPageTitle" hint="Your user registration application is successful." scope="" />
+  <text key="RegisterSuccessPageCaption" hint="We will process your application as soon as possible. Please remember your name: {0}." scope="" />
+  <text key="BindUserTitle" hint="Bind User" scope="" />
+  <text key="BindUserSsoAccount" hint="sso Account" scope="" />
+  <text key="BindUserLocalAccount" hint="Local Account" scope="" />
+  <text key="BindUserPassword" hint="Password" scope="" />
+  <text key="BindUserBind" hint="Bind" scope="" />
+  <text key="BindUserSuccess" hint="User Bind Success!" scope="" />
+
+
+
+  <text key="RegisterAccountTitle" hint="Apply a new account" scope="" />
+  <text key="RegisterName" hint="Name" scope="" />
+  <text key="RegisterGender" hint="Gender" scope="" />
+  <text key="RegisterGenderMan" hint="Man" scope="" />
+  <text key="RegisterGenderFemale" hint="Female" scope="" />
+  <text key="RegisterPhone" hint="Phone" scope="" />
+  <text key="RegisterEmail" hint="Email" scope="" />
+  <text key="RegisterCompanyName" hint="Company Name" scope="" />
+  <text key="RegisterCompanyAddress" hint="Company Address" scope="" />
+  <text key="RegisterLinkman" hint="Linkman" scope="" />
+  <text key="RegisterCompanyTel" hint="Tel" scope="" />
+  <text key="RegisterApply" hint="Apply" scope="" />
+</texts>

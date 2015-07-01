@@ -1,0 +1,10 @@
+﻿.cards{font-size:12px;width:304px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;border:1px solid #c6c6c6;color:#666;
+			background-color:#fff;-moz-box-shadow:3px 3px 5px #888;-webkit-box-shadow:3px 3px 5px #888;box-shadow:3px 3px 5px #888}
+.cards_lite{width:224px}
+.cards .cards_abstract{zoom:1;padding:10px 10px 10px 12px}cards .cards_abstract:after{display:block;clear:both;content:""}
+.cards a:link,cards a:visited{text-decoration:none;color:#0981C6;}cards a:hovercards a:active{text-decoration:underline}
+.cards .card_main{overflow:hidden;*zoom:1;padding-top:1px}
+.cards_lite .card_main{width:203px;float:none}
+.cards .card_user_basicinfo{line-height:20px;margin-top:3px;word-break:normal;word-break:break-all;word-wrap:break-word;overflow:hidden}
+.cards .card_user_info{height:19px;line-height:18px;_margin-top:2px;_font-family:Verdana,Geneva;overflow:hidden;position:relative}
+.cards .card_user_info .nickname{font-size:16px; font-weight:bold; float:left;white-space:nowrap;max-width:68px;_width:68px;overflow:hidden;-o-text-overflow:ellipsis;text-overflow:ellipsis;word-wrap:normal}

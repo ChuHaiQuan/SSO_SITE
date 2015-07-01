@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<module id="QsTech.Core" name="Core" version="1.0.0.0" runtime="1.0.0.0" category="core" 
+        xmlns="http://www.tradeserving.com/manifest.xsd">
+  
+  <description>呈现页面的总体布局, 下一版将加入多布局切换和布局管理功能.</description>
+  <tags></tags>
+ <features>
+      <feature id="Red" name="红色" enable="true">
+            <description>the description of the f1 feature.</description>
+    </feature>
+     <feature id="Blue" name="蓝色" enable="false">
+            <description>the description of the f2 feature.</description>
+    </feature>
+  </features>
+</module>

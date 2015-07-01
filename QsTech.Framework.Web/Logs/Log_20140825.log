@@ -1,0 +1,1297 @@
+记录时间：2014-08-25 10:24:07,882 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:24:07,897 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:24:07,898 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:24:07,965 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 10:24:08,292 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:24:08,293 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:24:08,293 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:24:09,462 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:24:09,462 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:24:09,462 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:24:24,538 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 10:24:24,539 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 10:24:24,539 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 10:24:25,134 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 10:24:25,835 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 10:24:25,836 线程ID:[6] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 10:24:25,851 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 10:24:26,450 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 10:24:26,492 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.ArgumentException: 值不能为 null 或为空。
+参数名: url
+   在 System.Web.Mvc.Controller.Redirect(String url)
+   在 QsTech.Authentication.Sso.Controllers.AccountController.GetReturlUrl(AuthorizeRequestModel model, String returnUrl) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 102
+   在 QsTech.Authentication.Sso.Controllers.AccountController.LogOn(LogOnModel model, AuthorizeRequestModel requestModel) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 88
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 10:24:26,505 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 10:24:26,512 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:24:26,512 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:24:26,626 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:24:26,626 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:24:26,626 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:24:35,416 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:24:35,416 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:24:35,416 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:24:50,509 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:24:50,510 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:24:50,510 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:25:01,520 线程ID:[6] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 10:25:01,534 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 10:25:01,535 线程ID:[6] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 10:25:01,535 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 10:25:01,589 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:25:01,592 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:25:01,592 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:25:15,423 线程ID:[7] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 10:25:15,438 线程ID:[7] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 10:25:15,441 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:25:15,441 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:25:15,441 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:27:35,974 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:27:35,974 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:27:35,974 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:29:16,611 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:29:16,611 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:29:16,611 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:31:55,572 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 10:31:55,581 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 10:31:55,581 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 10:31:56,151 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 10:31:56,908 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 10:31:56,909 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 10:31:56,924 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 10:31:57,473 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 10:31:57,490 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 10:31:58,276 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 10:31:58,350 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:31:58,364 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:31:58,364 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:32:11,868 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:32:11,868 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:32:11,868 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:32:12,091 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 10:32:12,483 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:32:12,483 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:32:12,483 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:32:13,378 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:32:13,378 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:32:13,378 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:32:35,031 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 10:32:35,033 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:32:35,033 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:32:35,033 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:32:35,887 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:32:35,887 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:32:35,887 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:32:43,955 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 10:33:17,245 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.ArgumentException: 值不能为 null 或为空。
+参数名: url
+   在 System.Web.Mvc.Controller.Redirect(String url)
+   在 QsTech.Authentication.Sso.Controllers.AccountController.GetReturlUrl(AuthorizeRequestModel model, String returnUrl) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 102
+   在 QsTech.Authentication.Sso.Controllers.AccountController.LogOn(LogOnModel model, AuthorizeRequestModel requestModel) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 88
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 10:33:17,251 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 10:33:17,251 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:33:17,251 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:33:17,582 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:33:17,582 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:33:17,582 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:35:24,929 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 10:35:24,936 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 10:35:24,936 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 10:35:25,482 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 10:35:26,257 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 10:35:26,258 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 10:35:26,277 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 10:35:26,656 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 10:35:26,673 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 10:35:27,006 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 10:35:27,063 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:35:27,072 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:35:27,072 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:35:56,108 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:35:56,108 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:35:56,108 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:35:56,330 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 10:35:56,572 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:35:56,572 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:35:56,572 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:35:58,173 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:35:58,173 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:35:58,173 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:36:04,677 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 10:36:04,683 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:36:04,683 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:36:04,683 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:36:05,528 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:36:05,528 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:36:05,528 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:36:10,350 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 10:36:27,313 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:36:27,313 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:36:27,313 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:36:27,751 线程ID:[15] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 10:36:27,753 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:36:27,753 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:36:27,753 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:47:24,436 线程ID:[29] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:47:24,436 线程ID:[29] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:47:24,436 线程ID:[29] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:47:24,672 线程ID:[30] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 10:47:24,783 线程ID:[30] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:47:24,783 线程ID:[30] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:47:24,783 线程ID:[30] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:47:25,724 线程ID:[35] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:47:25,724 线程ID:[35] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:47:25,724 线程ID:[35] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:47:58,636 线程ID:[30] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:47:58,636 线程ID:[30] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:47:58,636 线程ID:[30] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:47:58,662 线程ID:[29] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 10:47:58,744 线程ID:[29] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:47:58,744 线程ID:[29] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:47:58,744 线程ID:[29] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:47:59,549 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:47:59,549 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:47:59,549 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:48:53,828 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:48:53,837 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:48:53,837 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:48:53,876 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 10:48:54,140 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:48:54,140 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:48:54,140 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:48:55,055 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:48:55,056 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:48:55,056 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:48:57,352 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 10:48:57,458 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:48:57,458 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:48:57,458 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:48:58,371 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:48:58,371 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:48:58,371 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:49:12,316 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 10:49:12,318 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 10:49:12,318 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 10:49:12,932 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 10:49:13,846 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 10:49:13,847 线程ID:[12] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 10:49:13,863 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 10:49:14,385 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 10:49:20,803 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:49:20,975 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:49:20,975 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:49:47,131 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:49:47,131 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:49:47,131 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 10:58:52,092 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 10:58:52,097 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 10:58:52,097 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 10:58:52,771 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 10:58:53,835 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 10:58:53,835 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 10:58:53,850 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 10:58:55,170 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 10:58:55,192 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 10:58:55,663 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 10:58:55,710 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 10:58:55,724 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 10:58:55,725 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:01:08,162 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:01:08,162 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:01:08,162 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:01:08,394 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 11:01:08,610 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:01:08,610 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:01:08,610 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:01:09,723 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:01:09,723 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:01:09,723 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:01:16,670 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 11:01:32,864 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:01:32,865 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:01:32,865 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:01:46,108 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.Web.HttpParseException (0x80004005): “model”关键字必须在同一行上后跟一个类型名称。
+
+   在 System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   在 System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   在 System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   在 System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   在 System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   在 System.Web.Mvc.VirtualPathProviderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   在 System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   在 System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   在 System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 11:01:46,112 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 11:01:46,115 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:01:46,115 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:01:46,618 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:01:46,618 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:01:46,619 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:02:31,284 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 11:02:31,292 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 11:02:31,293 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 11:02:31,846 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 11:02:33,028 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 11:02:33,028 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 11:02:33,036 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 11:02:33,407 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:02:33,425 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 11:02:33,921 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:02:33,974 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:02:33,984 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:02:33,984 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:03:13,913 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:03:13,913 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:03:13,913 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:03:14,135 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 11:03:14,340 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:03:14,341 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:03:14,341 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:03:15,215 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:03:15,215 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:03:15,216 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:03:27,146 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 11:03:35,328 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:03:35,328 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:03:35,328 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:03:36,934 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.Web.HttpParseException (0x80004005): “model”关键字必须在同一行上后跟一个类型名称。
+
+   在 System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   在 System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   在 System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   在 System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   在 System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   在 System.Web.Mvc.VirtualPathProviderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   在 System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   在 System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   在 System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 11:03:36,937 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 11:03:36,941 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:03:36,941 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:03:37,338 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:03:37,338 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:03:37,338 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:04:14,032 线程ID:[5] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:04:14,039 线程ID:[5] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:04:14,040 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:04:14,040 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:04:14,040 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:04:22,201 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:04:22,201 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:04:22,201 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:04:22,520 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 11:04:22,743 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:04:22,744 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:04:22,744 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:04:23,579 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:04:23,580 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:04:23,580 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:04:46,770 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 11:04:49,401 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:04:49,402 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:04:49,402 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:04:50,638 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.Web.HttpParseException (0x80004005): “model”关键字必须在同一行上后跟一个类型名称。
+
+   在 System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   在 System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   在 System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   在 System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetObjectFactory(String virtualPath, Boolean throwIfNotFound)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.FileExists(String virtualPath)
+   在 System.Web.Mvc.BuildManagerViewEngine.FileExists(ControllerContext controllerContext, String virtualPath)
+   在 System.Web.Mvc.VirtualPathProviderViewEngine.GetPathFromGeneralName(ControllerContext controllerContext, List`1 locations, String name, String controllerName, String areaName, String cacheKey, String[]& searchedLocations)
+   在 System.Web.Mvc.VirtualPathProviderViewEngine.GetPath(ControllerContext controllerContext, String[] locations, String[] areaLocations, String locationsPropertyName, String name, String controllerName, String cacheKeyPrefix, Boolean useCache, String[]& searchedLocations)
+   在 System.Web.Mvc.VirtualPathProviderViewEngine.FindView(ControllerContext controllerContext, String viewName, String masterName, Boolean useCache)
+   在 System.Web.Mvc.ViewEngineCollection.<>c__DisplayClassc.<FindView>b__b(IViewEngine e)
+   在 System.Web.Mvc.ViewEngineCollection.Find(Func`2 lookup, Boolean trackSearchedPaths)
+   在 System.Web.Mvc.ViewEngineCollection.FindView(ControllerContext controllerContext, String viewName, String masterName)
+   在 System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1c.<>c__DisplayClass1e.<InvokeActionResultWithFilters>b__1b()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 11:04:50,639 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 11:04:50,643 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:04:50,643 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:04:50,961 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:04:50,961 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:04:50,961 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:05:05,987 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 11:05:05,988 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：10自动登录!
+记录时间：2014-08-25 11:05:05,994 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：自动登录返回:/Core/Home/ManagerIndex
+记录时间：2014-08-25 11:05:06,071 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:05:06,071 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:05:06,071 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:05:08,461 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:05:08,461 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:05:08,461 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:05:08,709 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 11:05:08,803 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:05:08,803 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:05:08,803 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:05:09,638 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:05:09,638 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:05:09,638 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:05:14,846 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:05:14,846 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:05:14,846 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:05:15,135 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 11:05:15,244 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:05:15,244 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:05:15,244 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:05:15,434 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:05:15,434 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:05:15,434 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:05:21,966 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 11:05:24,094 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:05:24,094 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:05:24,094 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:05:34,213 线程ID:[6] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:05:34,215 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:05:34,215 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:05:34,215 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:07:12,479 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:07:12,496 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:07:12,496 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:07:12,543 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 11:07:13,666 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:07:13,667 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:07:13,667 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:07:14,769 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:07:14,769 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:07:14,769 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:10:01,135 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 11:10:01,136 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 11:10:01,136 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 11:10:01,705 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 11:10:02,459 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 11:10:02,460 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 11:10:02,472 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 11:10:02,965 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 11:10:15,874 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:10:15,923 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:10:15,923 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:10:35,427 线程ID:[13] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:10:35,448 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 11:10:35,449 线程ID:[13] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 11:10:35,449 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 11:10:36,034 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:10:36,048 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:10:36,048 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:10:51,231 线程ID:[17] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:10:51,232 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:10:51,232 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:10:51,232 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:11:11,853 线程ID:[13] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:11:11,855 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:11:11,855 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:11:11,855 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:12:26,930 线程ID:[19] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:12:26,932 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:12:26,932 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:12:26,932 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:12:30,418 线程ID:[18] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:12:30,419 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:12:30,419 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:12:30,419 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:13:43,906 线程ID:[15] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:13:43,908 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:13:43,908 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:13:43,908 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:13:47,391 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:13:47,392 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:13:47,392 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:13:47,392 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:14:10,277 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:14:10,285 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:14:10,285 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:14:10,285 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:14:51,552 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:14:51,559 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:14:51,559 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:14:51,559 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:15:40,021 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:15:40,030 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:15:40,030 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:15:40,030 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 11:27:53,616 线程ID:[41] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 11:27:53,627 线程ID:[41] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 11:27:53,627 线程ID:[41] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 11:27:53,627 线程ID:[41] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:11:27,594 线程ID:[108] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:11:27,602 线程ID:[108] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:11:27,602 线程ID:[108] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:11:27,602 线程ID:[108] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:12:25,144 线程ID:[15] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:12:25,161 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:12:25,161 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:12:25,161 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:12:55,510 线程ID:[105] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:12:55,525 线程ID:[105] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:12:55,526 线程ID:[105] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:12:55,526 线程ID:[105] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:14:09,498 线程ID:[101] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:14:09,514 线程ID:[101] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:14:09,515 线程ID:[101] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:14:09,515 线程ID:[101] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:14:48,599 线程ID:[110] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:14:48,611 线程ID:[110] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:14:48,611 线程ID:[110] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:14:48,611 线程ID:[110] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:15:14,375 线程ID:[92] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:15:14,384 线程ID:[92] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:15:14,384 线程ID:[92] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:15:14,384 线程ID:[92] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:15:35,297 线程ID:[96] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:15:35,306 线程ID:[96] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:15:35,307 线程ID:[96] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:15:35,307 线程ID:[96] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:16:16,359 线程ID:[97] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 13:16:16,376 线程ID:[97] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 13:16:16,376 线程ID:[97] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 13:16:17,014 线程ID:[97] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 13:16:17,812 线程ID:[97] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 13:16:17,812 线程ID:[97] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 13:16:17,826 线程ID:[97] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 13:16:18,352 线程ID:[97] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:16:18,371 线程ID:[97] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 13:16:18,493 线程ID:[97] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:16:18,516 线程ID:[97] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:16:18,517 线程ID:[97] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:17:11,199 线程ID:[81] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:17:11,213 线程ID:[81] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:17:11,213 线程ID:[81] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:17:11,214 线程ID:[81] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:17:35,530 线程ID:[103] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:17:35,538 线程ID:[103] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:17:35,539 线程ID:[103] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:17:35,539 线程ID:[103] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:18:04,221 线程ID:[15] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:18:04,228 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:18:04,228 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:18:04,228 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:18:50,559 线程ID:[98] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:18:50,566 线程ID:[98] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:18:50,566 线程ID:[98] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:18:50,566 线程ID:[98] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:19:02,693 线程ID:[109] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:19:02,702 线程ID:[109] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:19:02,702 线程ID:[109] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:19:02,702 线程ID:[109] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:19:45,024 线程ID:[15] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:19:45,033 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:19:45,033 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:19:45,033 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:20:43,939 线程ID:[105] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:20:43,956 线程ID:[105] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:20:43,956 线程ID:[105] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:20:43,956 线程ID:[105] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:21:40,164 线程ID:[108] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:21:40,175 线程ID:[108] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:21:40,175 线程ID:[108] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:21:40,175 线程ID:[108] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:22:36,897 线程ID:[106] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:22:36,907 线程ID:[106] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:22:36,907 线程ID:[106] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:22:36,907 线程ID:[106] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:26:19,239 线程ID:[87] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:26:19,246 线程ID:[87] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:26:19,246 线程ID:[87] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:26:19,246 线程ID:[87] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:26:54,371 线程ID:[19] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:26:54,379 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:26:54,379 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:26:54,379 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:27:06,607 线程ID:[88] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:27:06,614 线程ID:[88] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:27:06,614 线程ID:[88] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:27:06,614 线程ID:[88] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:28:32,799 线程ID:[20] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:28:32,807 线程ID:[20] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:28:32,807 线程ID:[20] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:28:32,807 线程ID:[20] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:28:45,992 线程ID:[20] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:28:45,992 线程ID:[20] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:28:45,992 线程ID:[20] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:28:45,992 线程ID:[20] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:29:56,851 线程ID:[19] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:29:56,852 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:29:56,852 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:29:56,852 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:30:09,814 线程ID:[19] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:30:09,817 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:30:09,818 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:30:09,818 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:31:08,296 线程ID:[13] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:31:08,304 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:31:08,304 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:31:08,304 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:31:20,823 线程ID:[13] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:31:20,824 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:31:20,824 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:31:20,824 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:33:16,237 线程ID:[90] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 13:33:16,252 线程ID:[90] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 13:33:16,252 线程ID:[90] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 13:33:16,855 线程ID:[90] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 13:33:17,846 线程ID:[90] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 13:33:17,847 线程ID:[90] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 13:33:17,861 线程ID:[90] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 13:33:18,411 线程ID:[90] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:33:18,430 线程ID:[90] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 13:33:18,538 线程ID:[90] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:33:18,552 线程ID:[90] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:33:18,553 线程ID:[90] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:33:38,138 线程ID:[13] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:33:38,139 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:33:38,139 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:33:38,139 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 13:34:32,514 线程ID:[87] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 13:34:32,521 线程ID:[87] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 13:34:32,521 线程ID:[87] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 13:34:32,521 线程ID:[87] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:26:32,469 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 14:26:32,487 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 14:26:32,488 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 14:26:33,077 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 14:26:33,838 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 14:26:33,838 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 14:26:33,855 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 14:26:34,374 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 14:26:34,394 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 14:26:34,758 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 14:26:34,805 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:26:34,827 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:26:34,827 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:29:53,954 线程ID:[12] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 14:29:53,956 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:29:53,956 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:29:53,956 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:06,675 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 QsTech.Authentication.Sso.Controllers.AccountController.ClientInfo() 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 123
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 14:30:06,679 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 14:30:06,684 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:06,684 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:06,771 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:06,771 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:06,771 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:13,466 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:13,466 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:13,466 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:13,481 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 14:30:13,674 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:13,674 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:13,674 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:14,524 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:14,524 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:14,524 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:24,909 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:24,909 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:24,909 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:25,148 线程ID:[13] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 14:30:25,223 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:25,223 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:25,224 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:26,112 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:26,112 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:26,112 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:27,767 线程ID:[13] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 14:30:27,853 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:27,853 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:27,853 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:28,669 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:28,669 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:28,669 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:32,492 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:32,492 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:32,492 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:32,504 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 14:30:32,580 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:32,580 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:32,580 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:33,436 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:33,436 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:33,437 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:42,230 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 14:30:51,699 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:51,699 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:51,699 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:30:52,902 线程ID:[10] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 14:30:52,907 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:30:52,907 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:30:52,907 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:31:47,669 线程ID:[16] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 14:31:47,671 线程ID:[16] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:31:47,672 线程ID:[16] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:31:47,672 线程ID:[16] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:33:01,102 线程ID:[16] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 14:33:01,107 线程ID:[16] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:33:01,107 线程ID:[16] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:33:01,107 线程ID:[16] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:52:43,751 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 14:52:43,758 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 14:52:43,758 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 14:52:44,330 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 14:52:44,897 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 14:52:44,897 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 14:52:44,903 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 14:52:45,289 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 14:52:45,310 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 14:52:45,769 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 14:52:45,823 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:52:45,843 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:52:45,843 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:52:52,058 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:52:52,058 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:52:52,058 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:52:52,374 线程ID:[13] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 14:52:52,576 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:52:52,576 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:52:52,576 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:52:53,635 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:52:53,635 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:52:53,635 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:53:04,695 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 14:53:08,440 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:53:08,440 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:53:08,441 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:53:09,700 线程ID:[12] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 14:53:09,703 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:53:09,703 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:53:09,703 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:53:13,800 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:53:13,800 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:53:13,800 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:53:14,118 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 14:53:14,221 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:53:14,221 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:53:14,221 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:53:15,057 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:53:15,057 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:53:15,057 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:53:23,671 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:53:23,671 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:53:23,671 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:53:23,879 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 14:53:23,951 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:53:23,951 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:53:23,951 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:53:24,499 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:53:24,499 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:53:24,499 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:53:35,510 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 14:53:37,198 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:53:37,198 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:53:37,198 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 14:53:37,229 线程ID:[10] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 14:53:37,231 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 14:53:37,231 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 14:53:37,231 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:00:17,600 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:00:17,611 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:00:17,611 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:00:18,364 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:00:18,636 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:00:18,636 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:00:18,636 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:00:19,774 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:00:19,774 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:00:19,774 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:02:40,424 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:02:41,639 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:02:41,639 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:02:41,639 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:02:42,626 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:02:42,626 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:02:42,626 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:03:07,225 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:03:07,227 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 15:03:07,227 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 15:03:07,773 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 15:03:08,665 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 15:03:08,666 线程ID:[15] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 15:03:08,681 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 15:03:09,257 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:03:17,782 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:03:17,837 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:03:17,837 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:03:18,240 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 15:03:18,256 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:03:18,257 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 15:03:18,257 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 15:03:18,340 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:03:18,345 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:03:18,345 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:04:44,166 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 15:04:44,173 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:04:44,173 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:04:44,173 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:05:00,955 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:05:00,955 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:05:00,955 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:05:09,493 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:05:09,493 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:05:09,493 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:05:09,507 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:05:09,603 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:05:09,603 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:05:09,603 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:05:10,553 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:05:10,553 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:05:10,553 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:05:21,441 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:05:26,474 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:05:26,474 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:05:26,474 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:05:26,506 线程ID:[19] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 15:05:26,507 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:05:26,507 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:05:26,507 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:05:49,015 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:05:49,015 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:05:49,015 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:06:00,419 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:06:00,420 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:06:00,420 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:06:00,431 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:06:00,506 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:06:00,506 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:06:00,506 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:06:01,483 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:06:01,483 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:06:01,483 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:12:54,869 线程ID:[28] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:12:54,869 线程ID:[28] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:12:54,869 线程ID:[28] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:12:56,032 线程ID:[25] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:12:56,032 线程ID:[25] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:12:56,032 线程ID:[25] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:13:34,990 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:13:35,973 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:13:35,973 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:13:35,973 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:13:36,299 线程ID:[7] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 15:13:36,300 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:13:36,300 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:13:36,300 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:13:39,708 线程ID:[27] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:13:39,709 线程ID:[27] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:13:39,709 线程ID:[27] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:13:40,030 线程ID:[21] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:13:45,075 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:13:45,075 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:13:45,075 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:13:46,208 线程ID:[27] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:13:46,208 线程ID:[27] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:13:46,208 线程ID:[27] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:13:58,516 线程ID:[21] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:14:28,013 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:14:28,013 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:14:28,013 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:14:29,238 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:14:29,238 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:14:29,238 线程ID:[21] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:18:22,006 线程ID:[22] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:18:23,120 线程ID:[22] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:18:23,121 线程ID:[22] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-25 15:18:23,164 线程ID:[22] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：加载客户端应用信息时出错:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 QsTech.Authentication.Sso.Clients.XmlClientParser.Parse(XDocument xml) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\XmlClientParser.cs:行号 56
+   在 QsTech.Authentication.Sso.Clients.ClientLoader.GetDescriptorForClients(XDocument clientXml) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientLoader.cs:行号 58
+   在 QsTech.Authentication.Sso.Clients.ClientLoader.LoadXml() 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientLoader.cs:行号 45
+记录时间：2014-08-25 15:18:34,780 线程ID:[22] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 QsTech.Authentication.Sso.Clients.ClientManager.GetClientByApplicationId(String applicationId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\ClientManger.cs:行号 49
+   在 QsTech.Authentication.Sso.Clients.ClientVerifier.Match(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientVerifier.cs:行号 50
+   在 QsTech.Authentication.Sso.Controllers.AccountController.CheckClient(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 277
+   在 QsTech.Authentication.Sso.Controllers.AccountController.LogOn(LogOnModel model, AuthorizeRequestModel requestModel) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 85
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 15:18:34,783 线程ID:[22] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 15:18:34,788 线程ID:[22] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:18:34,788 线程ID:[22] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:18:35,220 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:18:35,220 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:18:35,220 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:18:58,843 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:19:01,720 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:19:01,721 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:19:01,721 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:19:01,990 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:19:01,990 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:19:01,990 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:23:25,663 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:23:25,669 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:23:25,669 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:23:25,709 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:23:36,088 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:23:36,088 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:23:36,088 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:23:37,187 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:23:37,188 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:23:37,188 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:24:03,731 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:24:03,732 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 15:24:03,732 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 15:24:04,291 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 15:24:05,201 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 15:24:05,201 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 15:24:05,221 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 15:24:05,750 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:24:08,704 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:24:08,740 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:24:08,740 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:24:09,465 线程ID:[5] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 15:24:09,481 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:24:09,481 线程ID:[5] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 15:24:09,481 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 15:24:09,558 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:24:09,559 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:24:09,559 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:24:12,511 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:24:12,511 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:24:12,511 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:24:12,747 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:24:12,850 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:24:12,850 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:24:12,850 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:24:13,721 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:24:13,721 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:24:13,721 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:24:20,740 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:24:20,817 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:24:20,817 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:24:20,817 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:24:21,418 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:24:21,418 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:24:21,419 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:24:42,654 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:24:43,508 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:24:43,509 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-25 15:24:43,554 线程ID:[10] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：加载客户端应用信息时出错:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 QsTech.Authentication.Sso.Clients.XmlClientParser.Parse(XDocument xml) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\XmlClientParser.cs:行号 56
+   在 QsTech.Authentication.Sso.Clients.ClientLoader.GetDescriptorForClients(XDocument clientXml) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientLoader.cs:行号 58
+   在 QsTech.Authentication.Sso.Clients.ClientLoader.LoadXml() 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientLoader.cs:行号 45
+记录时间：2014-08-25 15:25:34,784 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 QsTech.Authentication.Sso.Clients.ClientManager.GetClientByApplicationId(String applicationId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\ClientManger.cs:行号 49
+   在 QsTech.Authentication.Sso.Clients.ClientVerifier.Match(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientVerifier.cs:行号 50
+   在 QsTech.Authentication.Sso.Controllers.AccountController.CheckClient(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 277
+   在 QsTech.Authentication.Sso.Controllers.AccountController.LogOn(LogOnModel model, AuthorizeRequestModel requestModel) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 85
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 15:25:34,787 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 15:25:34,791 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:25:34,791 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:25:35,219 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:25:35,219 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:25:35,219 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:27:50,952 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:27:50,970 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:27:50,970 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:27:51,014 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:27:52,169 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:27:52,169 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:27:52,169 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:27:53,122 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:27:53,122 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:27:53,122 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:28:01,758 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:28:01,836 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:28:01,836 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:28:01,836 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:28:02,153 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:28:02,153 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:28:02,153 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:28:12,724 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:28:12,726 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 15:28:12,727 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 15:28:13,259 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 15:28:14,022 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 15:28:14,022 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 15:28:14,034 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 15:28:14,550 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:28:16,282 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:28:16,282 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-25 15:28:16,310 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：加载客户端应用信息时出错:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 QsTech.Authentication.Sso.Clients.XmlClientParser.Parse(XDocument xml) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\XmlClientParser.cs:行号 56
+   在 QsTech.Authentication.Sso.Clients.ClientLoader.GetDescriptorForClients(XDocument clientXml) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientLoader.cs:行号 58
+   在 QsTech.Authentication.Sso.Clients.ClientLoader.LoadXml() 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientLoader.cs:行号 45
+记录时间：2014-08-25 15:28:38,756 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 QsTech.Authentication.Sso.Clients.ClientManager.GetClientByApplicationId(String applicationId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\ClientManger.cs:行号 49
+   在 QsTech.Authentication.Sso.Clients.ClientVerifier.Match(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientVerifier.cs:行号 50
+   在 QsTech.Authentication.Sso.Controllers.AccountController.CheckClient(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 277
+   在 QsTech.Authentication.Sso.Controllers.AccountController.LogOn(LogOnModel model, AuthorizeRequestModel requestModel) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 85
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 15:28:38,759 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 15:28:38,768 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:28:38,768 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:28:40,015 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:28:40,015 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:28:40,015 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:28:45,296 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:28:45,372 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:28:45,372 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:28:45,372 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:28:45,609 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:28:45,609 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:28:45,609 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:28:50,353 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:28:50,353 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:28:50,353 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:28:54,433 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:28:54,434 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:28:54,435 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-25 15:28:57,495 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 QsTech.Authentication.Sso.Clients.ClientManager.GetClientByApplicationId(String applicationId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\ClientManger.cs:行号 49
+   在 QsTech.Authentication.Sso.Clients.ClientVerifier.Match(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientVerifier.cs:行号 50
+   在 QsTech.Authentication.Sso.Controllers.AccountController.CheckClient(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 277
+   在 QsTech.Authentication.Sso.Controllers.AccountController.LogOn(LogOnModel model, AuthorizeRequestModel requestModel) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 85
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 15:28:57,496 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 15:28:57,496 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:28:57,496 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:28:57,510 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:28:57,510 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:28:57,510 线程ID:[19] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:29:14,551 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:29:14,570 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:29:14,570 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:29:14,608 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:29:14,888 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:29:14,888 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:29:14,888 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:29:15,548 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:29:15,548 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:29:15,548 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:29:42,379 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:29:42,459 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:29:42,459 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:29:42,459 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:29:42,731 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:29:42,732 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:29:42,732 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:29:53,320 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:29:53,321 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 15:29:53,322 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 15:29:53,888 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 15:29:54,690 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 15:29:54,690 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 15:29:54,707 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 15:29:55,309 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:29:56,301 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:29:56,301 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-25 15:30:49,858 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：加载客户端应用信息时出错:System.Xml.XmlException: 缺少根元素。
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(Stream stream, LoadOptions options)
+   在 System.Xml.Linq.XDocument.Load(Stream stream)
+   在 QsTech.Authentication.Sso.Clients.ClientLoader.LoadXml() 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientLoader.cs:行号 44
+记录时间：2014-08-25 15:30:51,094 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 QsTech.Authentication.Sso.Clients.ClientManager.GetClientByApplicationId(String applicationId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\ClientManger.cs:行号 49
+   在 QsTech.Authentication.Sso.Clients.ClientVerifier.Match(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientVerifier.cs:行号 50
+   在 QsTech.Authentication.Sso.Controllers.AccountController.CheckClient(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 277
+   在 QsTech.Authentication.Sso.Controllers.AccountController.LogOn(LogOnModel model, AuthorizeRequestModel requestModel) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 85
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 15:30:51,099 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 15:30:51,108 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:30:51,108 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:30:51,545 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:30:51,545 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:30:51,545 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:43:32,250 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:43:32,255 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:43:32,255 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:43:32,293 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:43:32,565 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:43:32,565 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:43:32,565 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:43:33,172 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:43:33,172 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:43:33,172 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:44:28,430 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:44:28,430 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:44:28,430 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:44:28,658 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:44:28,763 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:44:28,763 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:44:28,763 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:44:29,643 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:44:29,643 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:44:29,643 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:44:35,824 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:44:35,898 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:44:35,898 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:44:35,898 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:44:36,230 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:44:36,230 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:44:36,230 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:44:46,085 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:44:46,087 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 15:44:46,089 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 15:44:46,656 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 15:44:47,522 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 15:44:47,523 线程ID:[12] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 15:44:47,538 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 15:44:48,054 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:44:50,948 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:44:50,949 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-25 15:46:14,488 线程ID:[12] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：加载客户端应用信息时出错:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 QsTech.Authentication.Sso.Clients.XmlClientParser.Parse(XDocument xml) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\XmlClientParser.cs:行号 56
+   在 QsTech.Authentication.Sso.Clients.ClientLoader.GetDescriptorForClients(XDocument clientXml) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientLoader.cs:行号 58
+   在 QsTech.Authentication.Sso.Clients.ClientLoader.LoadXml() 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientLoader.cs:行号 45
+记录时间：2014-08-25 15:46:14,495 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+System.ArgumentNullException: 值不能为 null。
+参数名: source
+   在 System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   在 QsTech.Authentication.Sso.Clients.ClientManager.GetClientByApplicationId(String applicationId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\ClientManger.cs:行号 49
+   在 QsTech.Authentication.Sso.Clients.ClientVerifier.Match(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Models\Clients\IClientVerifier.cs:行号 50
+   在 QsTech.Authentication.Sso.Controllers.AccountController.CheckClient(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 277
+   在 QsTech.Authentication.Sso.Controllers.AccountController.LogOn(LogOnModel model, AuthorizeRequestModel requestModel) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 85
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-25 15:46:14,500 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-25 15:46:14,507 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:46:14,507 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:46:14,857 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:46:14,857 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:46:14,857 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:47:44,949 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:47:44,954 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:47:44,954 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:47:44,994 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:47:45,293 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:47:45,294 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:47:45,294 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:47:45,941 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:47:45,941 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:47:45,941 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:47:55,363 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:47:55,434 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:47:55,434 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:47:55,434 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:47:55,750 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:47:55,750 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:47:55,750 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:48:04,537 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:48:04,539 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 15:48:04,539 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 15:48:05,135 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 15:48:05,904 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 15:48:05,905 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 15:48:05,920 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 15:48:06,419 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:48:07,763 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:48:07,764 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-25 15:48:18,241 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：检查client_id,client_id=eTrade,redirect-uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback
+记录时间：2014-08-25 15:48:30,434 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:48:30,477 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:48:30,550 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:48:32,650 线程ID:[5] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 15:48:32,665 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:48:32,665 线程ID:[5] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 15:48:32,665 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 15:48:33,065 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:48:33,069 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:48:33,069 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:49:15,768 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:49:15,786 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-25 15:49:15,786 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-25 15:49:16,327 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-25 15:49:17,177 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-25 15:49:17,178 线程ID:[5] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-25 15:49:17,189 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-25 15:49:17,621 线程ID:[5] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 15:49:17,640 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-25 15:49:19,827 线程ID:[5] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 15:49:20,184 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:49:20,197 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:49:20,198 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:49:37,074 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:49:37,074 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:49:37,074 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:49:37,298 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-25 15:49:38,241 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:49:38,241 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:49:38,241 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:49:39,057 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:49:39,057 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:49:39,057 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:49:42,812 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:49:42,890 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:49:42,890 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:49:42,890 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:49:43,191 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:49:43,191 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:49:43,191 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:49:50,112 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-25 15:49:50,114 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-25 15:49:50,114 线程ID:[4] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-25 15:49:55,507 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：检查client_id,client_id=eTrade,redirect-uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback
+记录时间：2014-08-25 15:50:22,938 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:50:22,938 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:50:22,938 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:50:24,221 线程ID:[13] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-25 15:50:24,225 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:50:24,225 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:50:24,225 线程ID:[13] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-25 15:51:20,972 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-25 15:51:20,972 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-25 15:51:20,972 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed

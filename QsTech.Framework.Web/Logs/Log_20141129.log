@@ -1,0 +1,77 @@
+记录时间：2014-11-29 11:13:06,752 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-11-29 11:13:06,777 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-11-29 11:13:06,777 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-11-29 11:13:06,934 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-11-29 11:13:08,050 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-11-29 11:13:08,051 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-11-29 11:13:08,051 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-11-29 11:13:09,113 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-11-29 11:13:09,113 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-11-29 11:13:09,114 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-11-29 11:21:10,821 线程ID:[16] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Int32'. Path 'id', line 1, position 88. ---> System.InvalidCastException: 空对象不能转换为值类型。
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 546
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 553
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, Object existingValue) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 275
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueProperty(JsonReader reader, JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, Object target, Boolean gottenCurrentValue, Object currentValue) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 222
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonReader reader, Object target) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 622
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, String id) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 1217
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateAndPopulateObject(JsonReader reader, JsonObjectContract contract, String id) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 979
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, Object existingValue) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 434
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, Object existingValue) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 245
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueNonProperty(JsonReader reader, Type objectType, JsonContract contract, JsonConverter converter, JsonContainerContract containerContract) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 230
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 126
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\JsonSerializer.cs:行号 526
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\JsonSerializer.cs:行号 492
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\JsonConvert.cs:行号 925
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonConverter[] converters) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\JsonConvert.cs:行号 901
+   在 QsTech.Framework.Json.JsonHelper.ConvertToObject(String json, Type desType) 位置 D:\开发\SSO\Source\QsTech.Framework\Json\JsonHelper.cs:行号 30
+   在 QsTech.Framework.Json.JsonModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext) 位置 D:\开发\SSO\Source\QsTech.Framework\Json\JsonModelBinderAttribute.cs:行号 20
+   在 System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   在 System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-11-29 11:21:10,823 线程ID:[16] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-11-29 11:21:10,844 线程ID:[16] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-11-29 11:21:10,844 线程ID:[16] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-11-29 11:21:21,812 线程ID:[17] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+Newtonsoft.Json.JsonSerializationException: Error converting value {null} to type 'System.Int32'. Path 'id', line 1, position 88. ---> System.InvalidCastException: 空对象不能转换为值类型。
+   在 System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 546
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 553
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, Object existingValue) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 275
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueProperty(JsonReader reader, JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, Object target, Boolean gottenCurrentValue, Object currentValue) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 222
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonReader reader, Object target) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 622
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, String id) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 1217
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateAndPopulateObject(JsonReader reader, JsonObjectContract contract, String id) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 979
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, Object existingValue) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 434
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, Object existingValue) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 245
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueNonProperty(JsonReader reader, Type objectType, JsonContract contract, JsonConverter converter, JsonContainerContract containerContract) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 230
+   在 Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:行号 126
+   在 Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\JsonSerializer.cs:行号 526
+   在 Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\JsonSerializer.cs:行号 492
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\JsonConvert.cs:行号 925
+   在 Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonConverter[] converters) 位置 c:\Dev\Releases\Working\Newtonsoft.Json\Src\Newtonsoft.Json\JsonConvert.cs:行号 901
+   在 QsTech.Framework.Json.JsonHelper.ConvertToObject(String json, Type desType) 位置 D:\开发\SSO\Source\QsTech.Framework\Json\JsonHelper.cs:行号 30
+   在 QsTech.Framework.Json.JsonModelBinder.BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext) 位置 D:\开发\SSO\Source\QsTech.Framework\Json\JsonModelBinderAttribute.cs:行号 20
+   在 System.Web.Mvc.ControllerActionInvoker.GetParameterValue(ControllerContext controllerContext, ParameterDescriptor parameterDescriptor)
+   在 System.Web.Mvc.ControllerActionInvoker.GetParameterValues(ControllerContext controllerContext, ActionDescriptor actionDescriptor)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-11-29 11:21:21,813 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-11-29 11:21:21,814 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-11-29 11:21:21,814 线程ID:[17] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-11-29 11:22:05,406 线程ID:[18] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：accountId:156014修改密码
+记录时间：2014-11-29 11:22:05,410 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-11-29 11:22:05,411 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-11-29 11:22:05,411 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-11-29 11:22:06,161 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-11-29 11:22:07,250 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-11-29 11:22:07,250 线程ID:[18] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-11-29 11:22:07,278 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-11-29 11:22:07,949 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Update QsTech.Accounts.Models.Accounts.Account
+记录时间：2014-11-29 11:22:07,949 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-11-29 11:22:11,446 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-11-29 11:22:11,513 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-11-29 11:22:11,513 线程ID:[18] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed

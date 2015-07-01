@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{8FBAE9F9-7801-4087-ABAA-EA2DF9870B0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QsTech.Authentication.Sso", "QsTech.Authentication.Sso", "{7727E394-0BB8-4071-A7F5-C731581AAD03}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QsTech.Core", "QsTech.Core", "{61F071FC-A1FA-4EAD-9A7E-960907B78456}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QsTech.Account", "QsTech.Account", "{D9C2A160-6C0B-46D8-B46F-B2E713AD07B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QsTech.Framework", "QsTech.Framework\QsTech.Framework.csproj", "{BE5B9A73-6D51-46B8-98B9-CC4501672977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QsTech.Framework.Web", "QsTech.Framework.Web\QsTech.Framework.Web.csproj", "{A898AE57-1E60-4B08-B00D-52D3BC65D149}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QsTech.Authentication.Sso", "QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\QsTech.Authentication.Sso.csproj", "{8F1FE869-6C9E-4A0F-9A6C-BAC869747297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QsTech.Authentication.Sso.Interface", "QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Interface\QsTech.Authentication.Sso.Interface.csproj", "{0B02C547-5446-4291-9142-51BE0043DE8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QsTech.Core", "QsTech.Framework.Web\Modules\QsTech.Core\QsTech.Core.csproj", "{092F4AFA-5986-4CD8-BE6D-5B355955D176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QsTech.Core.Interface", "QsTech.Framework.Web\Modules\QsTech.Core\Interface\QsTech.Core.Interface.csproj", "{805860ED-5C61-431C-BAA7-A534582F3569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QsTech.Accounts", "QsTech.Framework.Web\Modules\QsTech.Accounts\QsTech.Accounts.csproj", "{7A664DF0-EAB6-44BF-B6BD-633C3F3FC785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QsTech.Accounts.Interface", "QsTech.Framework.Web\Modules\QsTech.Accounts\Interface\QsTech.Accounts.Interface\QsTech.Accounts.Interface.csproj", "{B5A4EE9F-95BE-4C92-AF97-AFF7DCE78910}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE5B9A73-6D51-46B8-98B9-CC4501672977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5B9A73-6D51-46B8-98B9-CC4501672977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5B9A73-6D51-46B8-98B9-CC4501672977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5B9A73-6D51-46B8-98B9-CC4501672977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A898AE57-1E60-4B08-B00D-52D3BC65D149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A898AE57-1E60-4B08-B00D-52D3BC65D149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A898AE57-1E60-4B08-B00D-52D3BC65D149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A898AE57-1E60-4B08-B00D-52D3BC65D149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1FE869-6C9E-4A0F-9A6C-BAC869747297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1FE869-6C9E-4A0F-9A6C-BAC869747297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1FE869-6C9E-4A0F-9A6C-BAC869747297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1FE869-6C9E-4A0F-9A6C-BAC869747297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B02C547-5446-4291-9142-51BE0043DE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B02C547-5446-4291-9142-51BE0043DE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B02C547-5446-4291-9142-51BE0043DE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B02C547-5446-4291-9142-51BE0043DE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{092F4AFA-5986-4CD8-BE6D-5B355955D176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092F4AFA-5986-4CD8-BE6D-5B355955D176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092F4AFA-5986-4CD8-BE6D-5B355955D176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092F4AFA-5986-4CD8-BE6D-5B355955D176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{805860ED-5C61-431C-BAA7-A534582F3569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805860ED-5C61-431C-BAA7-A534582F3569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805860ED-5C61-431C-BAA7-A534582F3569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805860ED-5C61-431C-BAA7-A534582F3569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A664DF0-EAB6-44BF-B6BD-633C3F3FC785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A664DF0-EAB6-44BF-B6BD-633C3F3FC785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A664DF0-EAB6-44BF-B6BD-633C3F3FC785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A664DF0-EAB6-44BF-B6BD-633C3F3FC785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5A4EE9F-95BE-4C92-AF97-AFF7DCE78910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5A4EE9F-95BE-4C92-AF97-AFF7DCE78910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5A4EE9F-95BE-4C92-AF97-AFF7DCE78910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5A4EE9F-95BE-4C92-AF97-AFF7DCE78910}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7727E394-0BB8-4071-A7F5-C731581AAD03} = {8FBAE9F9-7801-4087-ABAA-EA2DF9870B0A}
+		{61F071FC-A1FA-4EAD-9A7E-960907B78456} = {8FBAE9F9-7801-4087-ABAA-EA2DF9870B0A}
+		{D9C2A160-6C0B-46D8-B46F-B2E713AD07B9} = {8FBAE9F9-7801-4087-ABAA-EA2DF9870B0A}
+		{8F1FE869-6C9E-4A0F-9A6C-BAC869747297} = {7727E394-0BB8-4071-A7F5-C731581AAD03}
+		{0B02C547-5446-4291-9142-51BE0043DE8B} = {7727E394-0BB8-4071-A7F5-C731581AAD03}
+		{092F4AFA-5986-4CD8-BE6D-5B355955D176} = {61F071FC-A1FA-4EAD-9A7E-960907B78456}
+		{805860ED-5C61-431C-BAA7-A534582F3569} = {61F071FC-A1FA-4EAD-9A7E-960907B78456}
+		{7A664DF0-EAB6-44BF-B6BD-633C3F3FC785} = {D9C2A160-6C0B-46D8-B46F-B2E713AD07B9}
+		{B5A4EE9F-95BE-4C92-AF97-AFF7DCE78910} = {D9C2A160-6C0B-46D8-B46F-B2E713AD07B9}
+	EndGlobalSection
+EndGlobal

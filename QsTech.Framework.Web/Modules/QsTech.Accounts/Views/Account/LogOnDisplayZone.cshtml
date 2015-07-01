@@ -1,0 +1,9 @@
+﻿@model QsTech.Accounts.Models.Publicties.LogOnDisplayModel
+@using QsTech.Core.Interface.Extensions
+@{
+    LayoutInfo.Enable = false;
+}
+<ul class="fn-right right-top">
+    <li>欢迎您，@Model.UserName &nbsp;|&nbsp;</li>
+    <li><a href="@Url.GetLogOut()">注销</a></li>
+</ul>

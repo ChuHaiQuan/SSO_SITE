@@ -1,0 +1,119 @@
+﻿.miniColors-trigger {
+	height: 20px;
+	width: 20px;
+	border: 1px solid #333;
+	background-color:#999;
+	/*background: url(images/trigger.png) center no-repeat;*/
+	vertical-align: middle;
+	margin: 0 0 0 .25em;
+	display: inline-block;
+	outline: none;
+	/*_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/Modules/QsTech.Core/Resources/miniColors/images/trigger.png'); /* IE6 */
+    /*_background-image: none; /* IE6 */
+}
+
+.miniColors-item { position: relative; overflow: hidden; float: left; }
+.miniColors-item dt, .miniColors-item dd { float: left; vertical-align: middle; }
+
+.miniColors-input {
+    display: inline;
+    position: relative;
+    overflow: hidden;
+}
+
+.miniColors-input label {
+    position: absolute;
+    height: 16px;
+    line-height: 16px;
+    left: 4px;
+    top: 4px;
+    z-index: 1;
+    color: #BBB;
+}
+
+.miniColors-input input {
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+    vertical-align: middle;
+    padding: 0 2px;
+}
+
+.miniColors-selector {
+	position: absolute;
+	width: 175px;
+	height: 150px;
+	background: #FFF;
+	border: solid 1px #BBB;
+	-moz-box-shadow: 0 0 6px rgba(0, 0, 0, .25);
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .25);
+	box-shadow: 0 0 6px rgba(0, 0, 0, .25);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px;
+	z-index: 999999;
+}
+
+.miniColors-selector.black {
+	background: #000;
+	border-color: #000;
+}
+
+.miniColors-colors {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 150px;
+	height: 150px;
+	background: url(images/colors.png) right no-repeat;
+	cursor: crosshair;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/Modules/QsTech.Core/Resources/miniColors/images/colors_fix.png'); /* IE6 */
+    _background-image: none; /* IE6 */
+}
+
+.miniColors-hues {
+	position: absolute;
+	top: 5px;
+	left: 160px;
+	width: 20px;
+	height: 150px;
+	background: url(images/colors.png) left no-repeat;
+	cursor: n-resize;
+}
+
+.miniColors-colorPicker {
+	position: absolute;
+	width: 9px;
+	height: 9px;
+	border: 1px solid #fff;
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+}
+.miniColors-colorPicker-inner 
+{
+    position: relative;
+	/*position: absolute;
+	top: 0;
+	left: 0; */
+	width: 7px;
+	line-height: 7px;
+	height: 7px;
+	border: 1px solid #000;
+	-moz-border-radius: 9px;
+	-webkit-border-radius: 9px;
+	border-radius: 9px;
+}
+
+.miniColors-huePicker {
+	position: absolute;
+	left: -3px;
+	width: 24px;
+	height: 1px;
+	border: 1px solid #fff;
+	line-height: 1px;
+	background: #000;
+	border-radius: 2px;
+}

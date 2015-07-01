@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="css/base.css"/>
+        <link rel="stylesheet" href="css/tpl.css"/>
+        <link rel="stylesheet" href="css/layout.css"/>
+        <link rel="stylesheet" href="css/sl.css"/>
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+        <title>供应商服务平台</title>
+            <style type="text/css">
+            .top-1 {
+                background-image: url("image/head_bk.gif");
+                background-repeat: repeat-x;
+                height: 24px;
+            }
+            #logo {
+                height: 60px;
+                position: relative;
+                top: -20px;
+            }
+</style>
+    </head>
+    <body>
+        <div class="layout-container">
+            <div class="layout-header">
+                <div class="layout-header-wrapper">
+                    <div class="layout-header-left">
+                        <ul class="ui-sysnav">
+                            <li class="ui-sysnav-item"><a class="ui-sys-link" href="#">供应链系统</a></li>
+                            <li class="ui-sysnav-item"><a class="ui-sys-link" href="#">邮件系统</a></li>
+                            <li class="ui-sysnav-item"><a class="ui-sys-link" href="#">供应商服务平台</a></li>
+                            <li class="ui-sysnav-item"><a class="ui-sys-link" href="#">客户服务平台</a></li>
+                        </ul>
+                    </div>
+                    <div class="layout-header-right">
+                        <ul class="ui-logon">
+                            <li class="ui-logon-item"><a class="ui-logon-link" href="#">注销</a></li>
+                            <li class="ui-logon-item"><a class="ui-logon-link" href="#">帮助中心</a></li>
+                            <li class="ui-logon-item">
+                                <a href="#" class="ui-msgnofity">12</a>
+                            </li>
+                            <li class="ui-logon-item">
+                                <div class="ui-logon-user">
+                                    <a class="ui-logon-user-link" id="login_a">周健<span></span>
+                                    </a>
+                                    <ul id="login_dropdown" class="ui-logon-user-dropdown">
+                                        <li class="ui-logon-user-dropdown-item"><a class="ui-logon-user-dropdown-link">个人资料</a></li>
+                                        <li class="ui-logon-user-dropdown-item"><a class="ui-logon-user-dropdown-link">密码安全</a></li>
+                                        <li class="ui-logon-user-dropdown-item"><a class="ui-logon-user-dropdown-link">其他选项</a></li>
+                                    </ul>
+		    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="layout-top sl-shadow-12">
+                <div class="top-1"></div>
+                <div class="layout-top-wrapper">
+                    <img id="logo" src="image/logo.gif" height="60px"/>
+                    <div class="layout-nav">
+                        <ul class="ui-nav">
+                            <li class="ui-nav-item"><a class="ui-nav-item-link">首页</a>
+                            </li>
+                            <li class="ui-nav-item"><a class="ui-nav-item-link">订单</a>
+                                <ul class="ui-nav-item-child sl-shadow-4">
+                                    <li class="ui-nav-item-child-item"><a class="ui-nav-item-child-link">订单确认</a></li>
+                                    <li class="ui-nav-item-child-item"><a class="ui-nav-item-child-link">订单跟踪</a></li>
+                                </ul>
+                            </li>
+                            <li class="ui-nav-item"><a class="ui-nav-item-link">商品</a>
+                                <ul class="ui-nav-item-child sl-shadow-4">
+                                    <li class="ui-nav-item-child-item"><a class="ui-nav-item-child-link">我的商品</a></li>
+                                </ul>
+                            </li>
+                            <li class="ui-nav-item"><a class="ui-nav-item-link">询报价</a>
+
+                            </li>
+                            <li class="ui-nav-item"><a class="ui-nav-item-link">样品管理</a></li>
+                            <li class="ui-nav-item"><a class="ui-nav-item-link">管理</a>
+                                <ul class="ui-nav-item-child sl-shadow-4">
+                                    <li class="ui-nav-item-child-item"><a class="ui-nav-item-child-link">用戶管理</a></li>
+                                    <li class="ui-nav-item-child-item"><a class="ui-nav-item-child-link">角色管理</a></li>
+                                    <li class="ui-nav-item-child-item"><a class="ui-nav-item-child-link">供應商管理</a></li>
+                                    <li class="ui-nav-item-child-item"><a class="ui-nav-item-child-link">用戶管理</a>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="layout-main">
+                <pre><div style="height:600px; width:auto; border:1px solid black; margin:5px">asdfasfdasdf</div>
+    <div style="height:600px; width:auto; border:1px solid black;">main last line</div>
+</pre>
+            </div>
+            <div class="layout-footer sl-floatcenter"><p class="sl-floatcenter-item">技术支持 <a href="http://www.tradeserving.com">杭州全顺科技有限公司</a></p></div>
+        </div>
+        <script>
+            $().ready(function () {
+                var $login_a = $("#login_a");
+                var $login_dropdown = $("#login_dropdown");
+                $login_a.mouseenter(function () {
+                    $login_a.addClass("hover");
+                    $login_dropdown.addClass("show");
+                });
+                $login_a.mouseleave(function () {
+                    $login_a.removeClass("hover");
+                    $login_dropdown.removeClass("show");
+                });
+                var $navs = $(".ui-nav-item-link");
+                $navs.each(function(){
+                    $(this).mouseenter(function (){
+                        $(this).addClass("ui-nav-item-hover");
+			
+                    });
+                    $(this).mouseleave(function () {
+                        $(this).removeClass("ui-nav-item-hover");
+                    });
+                });
+	
+            })
+        </script>
+    </body>
+</html>

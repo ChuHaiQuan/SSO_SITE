@@ -1,0 +1,12 @@
+﻿@model QsTech.Core.Interface.IListSort
+@{
+    LayoutInfo.Enable = false;
+}
+<select id="search_listSort" class="h20" style="width:150px">
+@foreach (var item in Model.SortNames)
+{
+    <text>
+     <option value="@item.Key" @if(Model.Sorted==item.Key){<text>selected="selected"</text>}>@item.Value</option>
+    </text>
+}
+</select>

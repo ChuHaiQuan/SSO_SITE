@@ -1,0 +1,64 @@
+﻿@model QsTech.Accounts.Models.Accounts.EditAccountModel
+@{
+    this.ChannelId = "Management";
+    ViewBag.Title = "账户申请审核";
+    var success = ViewBag.Success ?? false;
+}
+<div class="rightCont">
+    <div class="mt10">
+       
+            <table style="width:100%;" class="data-detail">
+                <tr>
+                    <td align="right" width="10%">姓名：</td>
+                    <td width="20%">
+                        <h1 style="font-size: 20px;color:#d80f32;">@Model.Name</h1>
+                        @Html.HiddenFor(model => model.Id)
+                    </td>
+                    <td style="text-align: right;" width="10%">
+                         性别：
+                    </td>
+                    <td>
+                        @Model.Gender
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <i class="required"></i>移动电话：
+                    </td>
+                    <td>
+                       @Model.Mobile
+                    </td>
+                    <td style="text-align: right;">
+                      电子邮件：
+                    </td>
+                    <td>
+                      @Model.Email
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; vertical-align: top;">
+                        公司信息:
+                    </td>
+                    <td colspan="3">
+                       @Html.Raw(Model.Remark)
+                    </td>
+                </tr>
+            </table>
+            <div class="mt_10 ml_20">
+                <input type="button" value="创建账户" onclick="javascript:window.location.href='@Url.Action("AuthorizeRegisterAccount")?id=@Model.Id'" class="btn btn-primary ml_20" />
+                <input type="button" value="账户申请列表" class="btn" onclick="javascript:window.location.href='@Url.Action("List")'" />
+            </div>
+    </div>
+</div>
+@section AfterBody
+{
+@ResourceManager.Include("modalShow").Render()
+<script type="text/javascript">
+    $(function () {
+        $("#Birthday").datepicker({ altFormat: 'yy-mm-dd', yearRange:'c-50' });
+        $(".btn_gray").attr("disabled","");
+
+      
+    });
+</script>
+}

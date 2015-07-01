@@ -1,0 +1,52 @@
+﻿@{
+    LayoutInfo.Enable = false;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>贝发供应商服务平台－会员登陆</title>
+@ResourceManager.Include("jQuery").Render()
+@ResourceManager.Include("login_layout").Render()
+@ResourceManager.Include("login_base").Render()
+</head>
+<body>
+<div class="login_herader">
+	<div class="login_header_nav">
+    	<div class="logo"><a href="#" title="贝发供应商服务平台"><strong>贝发供应商服务平台</strong></a></div>
+    </div>
+</div>
+<div class="login_cont">
+	<div class="login_menu">
+    	<h3>关于平台</h3>
+        <ul>
+        	<li><a href="@Url.Action("About")">贝发供应商服务平台是什么?</a></li>
+            <li><a href="@Url.Action("Howdo")">如何成为贝发合格供应商?</a></li>
+            <li><a href="@Url.Action("Cando")">成为供应商能做什么?</a></li>
+            <li><a href="@Url.Action("Problem")">还有什么需要注意的?</a></li>
+        </ul>
+    </div>
+    <div class="loginabout">
+    	 <div class="tx_title">
+        	<span><img src="@Url.Content("Styles/Default/images/login_ico2.png?v=2012101913", "QsTech.Core")" width="47" height="44" /></span>
+            <h3>如何成为贝发合格供应商?</h3>
+            <p>贝发认证服务商可以在线确认订单,查看货款支付进程。</p>
+      </div>
+    </div>
+</div>
+<div class="login_footer">
+	<div class="login_footer_nav">杭州全顺科技有限公司技术支持</div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function () {
+        (function AdaptHeight() {
+            height = $(window).height() - 242;
+            if ($.browser.msie && ($.browser.version == "6.0") && !$.support.style) {
+                height = height - 30;
+            }
+            $('.login_cont').css('height', height);
+        })();
+    })
+</script>

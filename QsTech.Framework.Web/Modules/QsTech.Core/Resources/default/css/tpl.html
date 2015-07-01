@@ -1,0 +1,482 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Alice Components Template</title>
+    <style type="text/css">
+        *{margin:0;padding:0;line-height:1.5;}
+        html{background:#f7f7f7;}
+        body{width:850px;padding:10px;}
+
+        .preview{width:800px;padding:20px 25px;margin-bottom:10px;font:12px/1.5 Courier, "Courier New", Arial, sans-serif;border:1px dotted #aaa;background:#fff;white-space:pre-wrap;ord-wrap:break-word;word-break:break-all;*zoom:1;}
+        .preview h3{font:500 16px 'Microsoft Yahei';margin:0;color:#c30;}
+        
+        #g{width:250px;padding:15px 25px;background:#eee;border:1px solid #bbb;position:fixed;right:10px;top:18px;}
+        #shortcut li{color:#888;margin-left:2em;font:italic 14px/1.6 Courier, 'Courier New';}
+        #shortcut a{color:#464646;font-style:normal;text-decoration:none;text-shadow:1px 1px 2px #fff;}
+        #shortcut a:hover{text-decoration:underline;}
+
+        pre{font-size:13px;border:1px solid #eee;border-left-width:5px;font-family:Courier,'Courier New';margin:15px 0;padding:10px;background:#fbfbfb;}
+    </style>
+    <link href="../base.css" rel="stylesheet" />
+    <link href="../tpl/tpl.css" rel="stylesheet" />
+</head>
+<body id="list-0">
+<div id="g">
+    <ol id="shortcut">
+
+    </ol>   
+    <div id="copied"></div>
+</div>
+
+<pre class="brush: xml">
+<h3 id="link-0">一般列表(.ui-list)</h3>
+&lt;ul class="ui-list"&gt;
+    &lt;li class="ui-list-item"&gt;&lt;a href="#"&gt;新闻第一条&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="ui-list-item"&gt;&lt;a href="#"&gt;新闻第一条b&lt;/a&gt;&lt;/li&gt;
+    &lt;li class="ui-list-item"&gt;&lt;a href="#"&gt;新闻第一条c&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+<ul class="ui-list">
+    <li class="ui-list-item"><a href="#">新闻第一条</a></li>
+    <li class="ui-list-item"><a href="#">新闻第一条b</a></li>
+    <li class="ui-list-item"><a href="#">新闻第一条c</a></li>
+</ul>
+
+
+<pre class="brush: xml">
+<h3>导航(.ui-nav)</h3>
+&lt;ul class="ui-nav"&gt;
+    &lt;li class="ui-nav-item"&gt;
+        &lt;a href="#"&gt;导航&lt;/a&gt;
+        &lt;ul class="ui-nav-item-child"&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="ui-nav-item ui-nav-item-current"&gt;
+        &lt;a href="#"&gt;导航&lt;/a&gt;
+        &lt;ul class="ui-nav-item-child"&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="ui-nav-item"&gt;
+        &lt;a href="#"&gt;导航&lt;/a&gt;
+        &lt;ul class="ui-nav-item-child"&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li class="ui-nav-item"&gt;
+        &lt;a href="#"&gt;导航&lt;/a&gt;
+        &lt;ul class="ui-nav-item-child"&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        	&lt;li&gt;item&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+<ul class="ui-nav">
+    <li class="ui-nav-item">
+        <a href="#">导航</a>
+        <ul class="ui-nav-item-child">
+        	<li>item</li>
+        	<li>item</li>
+        	<li>item</li>
+        </ul>
+    </li>
+    <li class="ui-nav-item ui-nav-item-current">
+        <a href="#">导航</a>
+        <ul class="ui-nav-item-child">
+        	<li>item</li>
+        	<li>item</li>
+        	<li>item</li>
+        </ul>
+    </li>
+    <li class="ui-nav-item">
+        <a href="#">导航</a>
+        <ul class="ui-nav-item-child">
+        	<li>item</li>
+        	<li>item</li>
+        	<li>item</li>
+        </ul>
+    </li>
+    <li class="ui-nav-item">
+        <a href="#">导航</a>
+        <ul class="ui-nav-item-child">
+        	<li>item</li>
+        	<li>item</li>
+        	<li>item</li>
+        </ul>
+    </li>
+</ul>
+
+
+<pre class="brush: xml">
+<h3>标题(.ui-title)</h3>
+&lt;div class="ui-title fn-clear"&gt;
+    &lt;h2 class="ui-title-cnt fn-left"&gt;标题&lt;/h2&gt;
+    &lt;div class="ui-title-subcnt fn-left"&gt;
+        &lt;!-- 标题中的其他内容 --&gt;
+    &lt;/div&gt;
+&lt;/div&gt; &lt;!-- .ui-title --&gt;
+
+&lt;!-- 如果标题没有其他内容，直接这样写 --&gt;
+&lt;h2 class="ui-title"&gt;标题&lt;/h2&gt;
+</pre>
+<div class="ui-title fn-clear">
+    <h2 class="ui-title-cnt fn-left">标题</h2>
+    <div class="ui-title-subcnt fn-left">
+        <!-- 标题中的其他内容 -->
+    </div>
+</div> <!-- .ui-title -->
+
+<!-- 如果标题没有其他内容，直接这样写 -->
+<h2 class="ui-title">标题</h2>
+
+
+<pre class="brush: xml">
+<h3>步骤(.ui-step)</h3>
+&lt;ol class="ui-step"&gt;
+    &lt;li class="ui-step-item ui-step-item-first"&gt;
+        第一步
+    &lt;/li&gt;
+    &lt;li class="ui-step-item ui-step-item-current"&gt;
+        第二步
+    &lt;/li&gt;
+    &lt;li class="ui-step-item"&gt;
+       当前
+    &lt;/li&gt;
+    &lt;li class="ui-step-item-last"&gt;
+        最后一步
+    &lt;/li&gt;
+&lt;/ol&gt; &lt;!-- .ui-step --&gt;
+</pre>
+<ol class="ui-step">
+    <li class="ui-step-item ui-step-item-first">
+        第一步
+    </li>
+    <li class="ui-step-item ui-step-item-current">
+        第二步
+    </li>
+    <li class="ui-step-item">
+       当前
+    </li>
+    <li class="ui-step-item-last">
+        最后一步
+    </li>
+</ol> <!-- .ui-step -->
+
+
+<pre class="brush: xml">
+<h3>重复元素(.ui-repeater)</h3>
+&lt;ul class="ui-repeater"&gt;
+    &lt;li class="ui-repeater-item ui-repeater-item-current"&gt;内容&lt;/li&gt;
+    &lt;li class="ui-repeater-item"&gt;内容&lt;/li&gt;
+    &lt;li class="ui-repeater-item"&gt;内容&lt;/li&gt;
+    &lt;li class="ui-repeater-item"&gt;内容&lt;/li&gt;
+    &lt;li class="ui-repeater-item"&gt;内容&lt;/li&gt;
+    &lt;li class="ui-repeater-item"&gt;内容&lt;/li&gt;
+    &lt;li class="ui-repeater-item"&gt;内容&lt;/li&gt;
+&lt;/ul&gt; &lt;!-- .ui-repeater --&gt;
+</pre>
+<ul class="ui-repeater">
+    <li class="ui-repeater-item ui-repeater-item-current">内容</li>
+    <li class="ui-repeater-item">内容</li>
+    <li class="ui-repeater-item">内容</li>
+    <li class="ui-repeater-item">内容</li>
+    <li class="ui-repeater-item">内容</li>
+    <li class="ui-repeater-item">内容</li>
+    <li class="ui-repeater-item">内容</li>
+</ul> <!-- .ui-repeater -->
+
+
+<pre class="brush: xml">
+<h3>分页(.ui-page)</h3>
+&lt;div class="ui-page"&gt;
+    &lt;span class="ui-page-item ui-page-item-info"&gt;共41条记录，共5页&lt;/span&gt;
+    &lt;a href="#" class="ui-page-item ui-page-item-first"&gt;首页&lt;/a&gt;
+    &lt;a href="#" class="ui-page-item ui-page-item-prev"&gt;上一页&lt;/a&gt;
+    &lt;a href="#" class="ui-page-item ui-page-item-current"&gt;1&lt;/a&gt;
+    &lt;a href="#" class="ui-page-item"&gt;2&lt;/a&gt;
+    &lt;a href="#" class="ui-page-item"&gt;3&lt;/a&gt;
+    &lt;span class="ui-page-item"&gt;...&lt;/span&gt;
+    &lt;a href="#" class="ui-page-item"&gt;40&lt;/a&gt;
+    &lt;a href="#" class="ui-page-item"&gt;41&lt;/a&gt;
+    &lt;a href="#" class="ui-page-item ui-page-next"&gt;下一页&lt;/a&gt;
+    &lt;a href="#" class="ui-page-item ui-page-last"&gt;尾页&lt;/a&gt;
+&lt;/div&gt; &lt;!-- .ui-page --&gt;
+</pre>
+<div class="ui-page">
+    <span class="ui-page-item ui-page-item-info">共41条记录，共5页</span>
+    <a href="#" class="ui-page-item ui-page-item-first">首页</a>
+    <a href="#" class="ui-page-item ui-page-item-prev">上一页</a>
+    <a href="#" class="ui-page-item ui-page-item-current">1</a>
+    <a href="#" class="ui-page-item">2</a>
+    <a href="#" class="ui-page-item">3</a>
+    <span class="ui-page-item">...</span>
+    <a href="#" class="ui-page-item">40</a>
+    <a href="#" class="ui-page-item">41</a>
+    <a href="#" class="ui-page-item ui-page-next">下一页</a>
+    <a href="#" class="ui-page-item ui-page-last">尾页</a>
+</div> <!-- .ui-page -->
+
+
+<pre class="brush: xml">
+<h3>表格(.ui-table)</h3>
+&lt;table class="ui-table"&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th&gt;表头表头表头表头表头表头&lt;/th&gt;
+            &lt;th&gt;表头表头表头&lt;/th&gt;
+            &lt;th&gt;表头&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr&gt;
+            &lt;td&gt;内容&lt;/td&gt;
+            &lt;td&gt;内容&lt;/td&gt;
+            &lt;td&gt;内容内容内容&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;内容&lt;/td&gt;
+            &lt;td&gt;内容&lt;/td&gt;
+            &lt;td&gt;内容内容内容&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt; &lt;!-- .ui-table --&gt;
+</pre>
+<table class="ui-table">
+    <thead>
+        <tr>
+            <th>表头表头表头表头表头表头</th>
+            <th>表头表头表头</th>
+            <th>表头</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>内容</td>
+            <td>内容</td>
+            <td>内容内容内容</td>
+        </tr>
+        <tr>
+            <td>内容</td>
+            <td>内容</td>
+            <td>内容内容内容</td>
+        </tr>
+    </tbody>
+</table> <!-- .ui-table -->
+
+
+<pre class="brush: xml">
+<h3>按钮(.ui-button)</h3>
+&lt;a class=&quot;ui-button ui-button-disabled&quot;&gt;&lt;span class=&quot;ui-button-text&quot;&gt;文字&lt;/span&gt;&lt;/a&gt;
+&lt;a class=&quot;ui-button ui-button-round&quot;&gt;&lt;span class=&quot;ui-button-text&quot;&gt;文字&lt;/span&gt;&lt;/a&gt;
+&lt;a class=&quot;ui-button ui-button-icon-left&quot;&gt;&lt;span class=&quot;ui-icon ui-icon-rarr&quot;&gt;&rarr;&lt;/span&gt;&lt;span class=&quot;ui-button-text&quot;&gt;文字&lt;/span&gt;&lt;/a&gt;
+</pre>
+<a class="ui-button ui-button-disabled"><span class="ui-button-text">文字</span></a>
+<a class="ui-button ui-button-round"><span class="ui-button-text">文字</span></a>
+<a class="ui-button ui-button-icon-left"><span class="ui-icon ui-icon-rarr">→</span><span class="ui-button-text">文字</span></a>
+
+<pre class="brush: xml">
+<h3>表单项(.ui-input[label])</h3>
+&lt;label class=&quot;ui-label&quot; for=""&gt;&lt;input id=&quot;&quot; class=&quot;ui-input ui-input-hover&quot; type=&quot;text&quot; /&gt;&lt;label&gt;
+
+&lt;textarea class=&quot;ui-textarea&quot;&gt;&lt;/textarea&gt;
+</pre>
+<label class="ui-label" for=""><input id="" class="ui-input ui-input-hover" type="text" /><label>
+
+<textarea class="ui-textarea"></textarea>
+
+
+<pre class="brush: xml">
+<h3>表单(.ui-form)</h3>
+&lt;form name="" class="ui-form" method="post" action="#" id=""&gt;
+    &lt;fieldset&gt;
+        &lt;legend&gt;表单标题&lt;/legend&gt;
+        &lt;div class="ui-form-item"&gt;
+            &lt;label for="" class="ui-label"&gt;&lt;em class="ui-form-required"&gt;*&lt;/em&gt;表单项文本：&lt;/label&gt;
+            &lt;input class="ui-input" type="text" /&gt;
+            &lt;p class="ui-form-explain"&gt;表单项填写说明&lt;/p&gt;
+        &lt;/div&gt;
+        
+        &lt;div class="ui-form-item ui-form-error"&gt;
+            &lt;label for="" class="ui-label"&gt;&lt;em class="ui-form-required"&gt;*&lt;/em&gt;表单项文本：&lt;/label&gt;
+            &lt;input class="ui-input" type="text" /&gt;
+            &lt;p class="ui-form-explain"&gt;出错文案&lt;/p&gt;
+        &lt;/div&gt;
+    
+        &lt;div class="ui-form-item"&gt;
+            &lt;span class="ui-button ui-button-ok"&gt;
+                &lt;input class="ui-button-text" type="submit" value="确 定" /&gt;
+            &lt;/span&gt;
+        &lt;/div&gt;
+        
+    &lt;/fieldset&gt;
+&lt;/form&gt; &lt;!-- .ui-form --&gt;
+</pre>
+<form name="" class="ui-form" method="post" action="#" id="">
+    <fieldset>
+        <legend>表单标题</legend>
+        <div class="ui-form-item">
+            <label for="" class="ui-label"><em class="ui-form-required">*</em>表单项文本：</label>
+            <input class="ui-input" type="text" />
+            <p class="ui-form-explain">表单项填写说明</p>
+        </div>
+        
+        <div class="ui-form-item ui-form-error">
+            <label for="" class="ui-label"><em class="ui-form-required">*</em>表单项文本：</label>
+            <input class="ui-input" type="text" />
+            <p class="ui-form-explain">出错文案</p>
+        </div>
+    
+        <div class="ui-form-item">
+            <span class="ui-button ui-button-ok">
+                <input class="ui-button-text" type="submit" value="确 定" />
+            </span>
+        </div>
+        
+    </fieldset>
+</form> <!-- .ui-form -->
+
+
+<pre class="brush: xml">
+<h3>提示信息(.ui-message)</h3>
+&lt;div class="ui-message"&gt;
+	&lt;span class="ui-icon ui-icon-uarr"&gt;&uarr;&lt;/span&gt;
+	
+	&lt;div class="ui-message-cnt ui-message-cnt-success"&gt;
+		&lt;span class="ui-icon ui-icon-rarr"&gt;&rarr;&lt;/span&gt;
+		&lt;div class="ui-message-text"&gt;內容內網&lt;/div&gt;
+	&lt;/div&gt;
+	
+	&lt;span class="ui-icon ui-icon-darr"&gt;&darr;&lt;/span&gt;
+&lt;/div&gt; &lt;!-- .ui-message --&gt;
+</pre>
+<div class="ui-message">
+	<span class="ui-icon ui-icon-uarr">↑</span>
+	
+	<div class="ui-message-cnt ui-message-cnt-success">
+		<span class="ui-icon ui-icon-rarr">→</span>
+		<div class="ui-message-text">內容內網</div>
+	</div>
+	
+	<span class="ui-icon ui-icon-darr">↓</span>
+</div> <!-- .ui-message -->
+
+
+<pre class="brush: xml">
+<h3>TAB(.ui-tab)</h3>
+&lt;div class="ui-tab"&gt;
+
+	&lt;div class="ui-tab-trigger"&gt; 
+		&lt;ul&gt; 
+			&lt;li class="ui-tab-trigger-item"&gt;&lt;a href="#"&gt;标题一&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="ui-tab-trigger-item ui-tab-trigger-item-current"&gt;&lt;a href="#"&gt;当前选中项&lt;/a&gt;&lt;/li&gt;
+			&lt;li class="ui-tab-trigger-item"&gt;&lt;a href="#"&gt;其他项&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+
+	&lt;div class="ui-tab-cnt"&gt;
+		&lt;div class="ui-tab-cnt-item ui-tab-cnt-item-current"&gt;
+			基础 ui-tab
+		&lt;/div&gt;
+		&lt;div class="ui-tab-cnt-item"&gt;
+			基础 ui-tab
+		&lt;/div&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt; &lt;!-- .ui-tab --&gt;
+
+</pre>
+<div class="ui-tab">
+
+	<div class="ui-tab-trigger"> 
+		<ul> 
+			<li class="ui-tab-trigger-item"><a href="#">标题一</a></li>
+			<li class="ui-tab-trigger-item ui-tab-trigger-item-current"><a href="#">当前选中项</a></li>
+			<li class="ui-tab-trigger-item"><a href="#">其他项</a></li>
+		</ul>
+	</div>
+
+	<div class="ui-tab-cnt">
+		<div class="ui-tab-cnt-item ui-tab-cnt-item-current">
+			基础 ui-tab
+		</div>
+		<div class="ui-tab-cnt-item">
+			基础 ui-tab
+		</div>
+	</div>
+	
+</div> <!-- .ui-tab -->
+
+<pre class="brush: xml">
+<h3>下拉菜单(.ui-dropdown）</h3>
+&lt;div class=&quot;ui-dropdown ui-dropdown-active&quot;&gt;
+	&lt;div class=&quot;ui-dropdown-header&quot;&gt;
+		&lt;a href=&quot;#&quot;&gt;请选择xxx&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;ui-dropdown-cnt&quot;&gt;
+	&lt;/div&gt;
+&lt;/div&gt; &lt;!-- .ui-dropdown --&gt;
+</pre>
+<div class="ui-dropdown ui-dropdown-active">
+	<div class="ui-dropdown-header">
+		<a href="#">请选择xxx</a>
+	</div>
+	<div class="ui-dropdown-cnt">
+	</div>
+</div> <!-- .ui-dropdown -->
+
+
+<pre class="brush: xml">
+<h3>浮层信息(.ui-tip)</h3>
+&lt;div class=&quot;ui-tip&quot;&gt;
+	&lt;div class=&quot;ui-tip-cnt&quot;&gt;
+		我是提示内容
+	&lt;/div&gt;
+	&lt;span class=&quot;ui-icon ui-icon-uarr&quot;&gt;&uarr;&lt;/span&gt;
+&lt;/div&gt; &lt;!-- .ui-tip --&gt;
+</pre>
+<div class="ui-tip">
+	<div class="ui-tip-cnt">
+		我是提示内容
+	</div>
+	<span class="ui-icon ui-icon-uarr">↑</span>
+</div> <!-- .ui-tip -->
+
+
+<script>
+    
+(function(){
+    var pre = document.getElementsByTagName('pre'),
+        h3 = document.getElementsByTagName('h3'),
+        ol = document.getElementById('shortcut'),
+        li = '',
+        ilen = h3.length,
+        jlen = pre.length,
+        i, j;
+
+    for(j=0; j < jlen; j++) {
+        pre[j].style.display = 'block'
+    }
+
+    for(i=0; i < ilen; i++) {
+        h3[i].id = 'list-' + (i + 1);
+        link = 'list-' + i;
+        li += '<li><a href="#' + link + '">' + h3[i].innerHTML + '</a></li>';
+    }
+
+    ol.innerHTML = li;
+  
+})();
+</script>
+
+</body>
+</html>

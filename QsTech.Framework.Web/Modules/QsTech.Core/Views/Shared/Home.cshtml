@@ -1,0 +1,13 @@
+﻿@using QsTech.Core.Interface.Extensions;
+@{
+    LayoutInfo.Theme = "Layout";
+}
+@section Header{
+    @RenderSection("Header", false)
+}
+
+@RenderBody()
+
+@section AfterBody{
+    @RenderSection("AfterBody", false)
+}

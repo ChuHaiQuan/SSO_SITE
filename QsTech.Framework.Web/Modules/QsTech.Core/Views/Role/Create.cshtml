@@ -1,0 +1,61 @@
+﻿@model QsTech.Core.Models.Roles.CreateRoleModel
+@{
+    this.ChannelId = "Management";
+    ViewBag.Title = "新建角色";
+}
+<div class="rightCont">
+    <div class="mt10">
+        @using (Html.BeginForm())
+        {
+            <table style="width:100%;" class="data-detail">
+                <tr>
+                    <td style="text-align: right; width: 100px;">
+                        角色名：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Name)
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right; width: 100px;">
+                        描述：
+                    </td>
+                    <td>
+                        @Html.TextAreaFor(model => model.Description, new { style = "width:300px;height:40px;" })
+                        @Html.ValidationMessageFor(model => model.Description)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right;">
+                        分类：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Category)
+                        @Html.ValidationMessageFor(model => model.Category)
+                    </td>
+                </tr>
+               @* <tr>
+                    <td style="text-align:right;">
+                        所属系统：
+                    </td>
+                    <td>
+                        @{ var belongsToIndex = 0; }
+                        @foreach (var belongsTo in Model.BelongsArray)
+                        {
+                            belongsToIndex++;
+                            var id = "BelongsTo_" + belongsToIndex;
+                            @Html.RadioButtonFor(model => model.BelongsTo, belongsTo.Value, new { id = id })
+                            <label for="@id">@belongsTo.Name</label>
+                        }
+                        @Html.ValidationMessageFor(model => model.BelongsTo)
+                    </td>
+                </tr>*@
+            </table>
+            <div class="mt_10 ml_20">
+                <input type="submit" value="保 存" class="btn btn-primary" />
+                <input type="button" value="角色列表" class="btn" onclick="javascript:window.location='@Url.Action("List")';" />
+            </div>
+        }
+    </div>
+</div>

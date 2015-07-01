@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<clients>
+  <client id="2" name="供应商管理平台" host="http://10.123.1.32:8001" callback="http://10.123.1.32:8001/Authentication/Sso/ReceivedTicket" logOut="" description="sample">
+    <accessPolicies>
+     <clientAccessPolicy accessMode="1" pattern="0" ></clientAccessPolicy>
+    <clientAccessPolicy accessMode="2"  pattern="/^http://" ></clientAccessPolicy>
+    </accessPolicies>
+  </client>
+  <client id="1" name="供应商管理平台(本地开发使用)" host="http://localhost:2003" callback="http://localhost:2003/authentication/Sso/ReceivedTicket" logOut=""  description="sample">
+    <accessPolicies>
+      <clientAccessPolicy accessMode="1" pattern="0" ></clientAccessPolicy>
+      <clientAccessPolicy accessMode="2"  pattern="/^http://" ></clientAccessPolicy>
+    </accessPolicies>
+  </client>
+</clients>

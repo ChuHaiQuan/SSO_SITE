@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<texts>
+  <text key="loginFormTitle" hint="登 录" scope="" />
+  <text key="loginAboutInfo" hint="宁波贝发集团SSO" scope="" />
+  
+  <text key="loginFormAccount" hint="账户名" scope="" />
+  <text key="loginFormPassword" hint="密 码" scope="" />
+  <text key="loginFormValidCode" hint="验证码" scope="" />
+  <text key="loginFormRemember" hint="2周内自动登录" scope="" />
+  <text key="loginFormNeedAccount" hint="请输入账户名" scope="" />
+  <text key="loginFormNeedPassword" hint="请输入密码" scope="" />
+  <text key="loginFormNeedValidCode" hint="请输入验证码" scope="" />
+  <text key="loginFormAccountError" hint="账户名和密码不匹配" scope="" />
+  <text key="loginFormValidCodeError" hint="验证码错误" scope="" />
+  <text key="LoginPasswordIsRequired" hint="Password is required." scope="" />
+  <text key="LoginNameIsRequired" hint="Account name is required." scope="" />
+  <text key="LoginPasswordIsRequired" hint="Password is required." scope="" />
+  <text key="loginAbout" hint="关于我们" scope="" />
+  <text key="loginFormLogin" hint="登  录" scope="" />
+  <text key="ConfirmLoginPasswordIsRequired" hint="Password is required." scope="" />
+  <text key="MobilePhoneIsRequired" hint="请填写手机号" scope="" />
+  <text key="EmailIsRequired" hint="请填写Email地址" scope="" />
+  <text key="NameIsRequired" hint="请填写姓名" scope="" />
+  <text key="EmailInputFormatTips" hint="Email格式不正确" scope="" />
+
+  <text key="CompanyNameIsRequired" hint="请填写公司名称" scope="" />
+  <text key="CompanyAddressIsRequired" hint="请填写公司地址" scope="" />
+  
+  <text key="UserRegisterError" hint="注册时发生系统错误，请联系系统管理员." scope="" />
+  <text key="RegisterSuccessPageTitle" hint="账户申请成功" scope="" />
+  <text key="RegisterSuccessPageCaption" hint="账户申请成功,我们将尽快处理您的申请,审核通过后将马上联系您{0} ." scope="" />
+
+  
+  <text key="RegisterAccountTitle" hint="申请一个新帐号" scope="" />
+  <text key="RegisterName" hint="姓名" scope="" />
+  <text key="RegisterGender" hint="性别" scope="" />
+  <text key="RegisterGenderMan" hint="男" scope="" />
+  <text key="RegisterGenderFemale" hint="女" scope="" />
+  <text key="RegisterPhone" hint="联系电话" scope="" />
+  <text key="RegisterEmail" hint="Email" scope="" />
+  <text key="RegisterCompanyName" hint="公司名称" scope="" />
+  <text key="RegisterCompanyAddress" hint="地址" scope="" />
+  <text key="RegisterLinkman" hint="联系人" scope="" />
+  <text key="RegisterCompanyTel" hint="联系电话" scope="" />
+  <text key="RegisterApply" hint="申请" scope="" />
+</texts>

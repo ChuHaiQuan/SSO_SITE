@@ -1,0 +1,74 @@
+﻿@using QsTech.Framework.Mvc.Html;
+@model QsTech.Framework.Pagination.IPagedList<QsTech.Core.Interface.Clients.IClient>
+@{
+    this.ChannelId = "Management";
+    ViewBag.Title = "应用列表";
+}
+<div class="rightCont">
+
+	<div class="tr">
+	</div>
+    <div class="mt10">
+		<table style="width:100%" class="tbl-list">
+			<thead class="thead-tbl">
+				    <tr  class="func_box" >
+                      <th style="width:200px;text-align:center;">应用名称</th>
+                      <th style="width:240px;text-align:center;">应用域名</th>
+					  <th style="width:120px;text-align:center;">描述</th>
+                    <th style="width:120px;text-align:center;">操作</th>
+				</tr>
+			</thead>
+			<tbody class="tbody-tbl">
+                @if (Model.TotalItemCount > 0)
+                {
+                    foreach (var client in Model)
+                    {
+                     
+				<tr>
+                    <td style="text-align:left;">@client.Name</td>
+                     <td  style="text-align:left;overflow: hidden;">@client.Host</td>
+                    <td style="text-align:left;">@client.Description</td>
+					<td style="text-align:center;">
+						<a  href="@Url.Action("ClientAccountManage", "Account", "QsTech.Accounts", new RouteValueDictionary { { "clientId", client.Id } })" class="a_blue">管理账户</a>
+					</td>
+				</tr>
+                    }
+                }
+                else
+                {
+                <tr>
+                    <td align="center" colspan="4">没有符合条件的数据</td>
+                </tr>
+                }
+			</tbody>
+		</table>
+        <div class="pagination f_r">
+                @Html.Pagination(Model)
+        
+        </div>
+	</div>
+</div>
+@section AfterBody
+{
+<script type="text/javascript">
+    function delEmployee(event) {
+        if(!confirm('确定要删除该用户吗？')) {
+            event.preventDefault();
+            return false;
+        }
+    }
+    $(function () {
+        $("#btnQuery").one('click', function () {
+            window.location = "@Url.Action("List")?keyword=" + encodeURIComponent($.trim($("#txtKeyword").val()));
+            return false;
+        });
+        $("a[name=Delete]").click(function(event) {
+            event = event || window.event;
+            if(!confirm('确定要删除该用户吗？')) {
+                event.preventDefault();
+                return false;
+            }
+        });
+    });
+</script>
+}

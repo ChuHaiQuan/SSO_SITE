@@ -1,0 +1,101 @@
+﻿@model QsTech.Authentication.Sso.Models.RegisterModel
+
+@{
+    ViewBag.Title =T("RegisterAccountTitle");
+    LayoutInfo.Theme = "NoHeadLayout";
+    var hiddenBtn = ViewBag.Error!=null && (bool)ViewBag.Error;
+}
+<div class="cont-right" style="width:460px;">
+    <div class="user-nav">
+        <div class="user-nav-form">
+            @using (Html.BeginForm())
+            {
+            @Html.ValidationSummary(true)
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td align="right"><i class="required">*</i>@T("RegisterName")：</td>
+                    <td width="2%">&nbsp;</td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Name, new { @class = "input input-large" })
+                        @Html.HiddenFor(m=>m.ApplicationId)
+                        @Html.HiddenFor(m=>m.redirect_uri)
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">@T("RegisterGender")：</td>
+                    <td width="2%">&nbsp;</td>
+                    <td>
+                        @Html.RadioButtonFor(model => model.Gender, "男", new { id = "Gender_0", @class="input input-large" })
+                        @*<label for="Gender_0">男</label>*@ @T("RegisterGenderMan")
+                        @Html.RadioButtonFor(model => model.Gender, "女", new { id = "Gender_1", @class="input input-large" })
+                        @*<label for="Gender_1">女</label>*@ @T("RegisterGenderFemale")
+                        @Html.ValidationMessageFor(model => model.Gender)
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><i class="required">*</i>@T("RegisterPhone")：</td>
+                    <td width="2%">&nbsp;</td>
+                    <td>
+                        @Html.TextBoxFor(model => model.MobilePhone, new { @class = "input input-large" })
+                        @Html.ValidationMessageFor(model => model.MobilePhone)
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><i class="required">*</i>@T("RegisterEmail")：</td>
+                    <td width="2%">&nbsp;</td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Email, new { @class = "input input-large" })
+                        @Html.ValidationMessageFor(model => model.Email)
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" width="16%"><i class="required">*</i>@T("RegisterCompanyName")：</td>
+                    <td width="2%">&nbsp;</td>
+                    <td>
+                        @Html.TextBoxFor(model => model.CompanyName, new { @class = "input input-large" })
+                        @Html.ValidationMessageFor(model => model.CompanyName)
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right"><i class="required">*</i>@T("RegisterCompanyAddress")：</td>
+                    <td width="2%">&nbsp;</td>
+                    <td>
+                        @Html.TextBoxFor(model => model.CompanyAddress, new { @class = "input input-large" })
+                        @Html.ValidationMessageFor(model => model.CompanyAddress)
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">@T("RegisterLinkman")：</td>
+                    <td width="2%">&nbsp;</td>
+                    <td>
+                        @Html.TextBoxFor(model => model.CompanyLinkman, new { @class = "input input-large" })
+                        @Html.ValidationMessageFor(model => model.CompanyLinkman)
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">@T("RegisterCompanyTel")：</td>
+                    <td width="2%">&nbsp;</td>
+                    <td>
+                        @Html.TextBoxFor(model => model.CompanyLinkmanPhone, new { @class = "input input-large" })
+                        @Html.ValidationMessageFor(model => model.CompanyLinkmanPhone)
+                    </td>
+                </tr>
+            </table>
+                <div class="form-actions">
+                    @if (!hiddenBtn)
+                    {<text>
+                        
+                  
+                        <button type="submit" class="btn btn-primary">@T("RegisterApply")</button>
+                        </text>  }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $("#Birthday").datepicker({ altFormat: 'yy-mm-dd', yearRange: 'c-50' });
+    });
+</script>

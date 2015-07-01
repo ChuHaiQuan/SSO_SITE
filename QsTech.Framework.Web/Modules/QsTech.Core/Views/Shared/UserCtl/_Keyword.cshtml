@@ -1,0 +1,25 @@
+﻿@model QsTech.Framework.Pagination.IQueryParamter
+@{
+    LayoutInfo.Enable = false;
+}
+<div class="search-panel-fields">
+   <label for="txtKeyword" @if(!string.IsNullOrEmpty(Model.keyword)){<text>style="display:none;"</text>}>@Model.tips</label>
+   <input id="txtKeyword" type="text"  value="@Model.keyword"/>
+</div>
+<script type="text/javascript">
+    $(function () {
+        var tips = $("label", ".search-panel-fields");
+        $("#txtKeyword", ".search-panel-fields").focus(function () {
+            $.trim(this.value) !== '' && tips.hide();
+        }).blur(function () {
+            $.trim(this.value) === '' && tips.show();
+        }).keydown(function (event) {
+            if ((event.keyCode >= 48 && event.keyCode <= 111) ||
+                   (event.keyCode >= 186 && event.keyCode <= 222)) {
+                tips.hide();
+            }
+        }).keyup(function (event) {
+            $.trim(this.value) === '' && tips.show();
+        }); ;
+    })
+</script>

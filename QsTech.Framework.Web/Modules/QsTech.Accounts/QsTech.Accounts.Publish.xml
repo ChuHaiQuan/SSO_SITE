@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\SSO发布\QsTech.Accounts" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Views/Account/ClientAccountManage.cshtml" publishTime="06/06/2014 14:16:01" />
+    <file relUrl="Views/Account/List.cshtml" publishTime="01/17/2013 16:22:19" />
+    <file relUrl="bin/EntityFramework.dll" publishTime="02/16/2012 21:21:09" />
+    <file relUrl="Views/Account/PublicSecurity.cshtml" publishTime="01/17/2013 14:29:28" />
+    <file relUrl="Views/Account/InitPassword.cshtml" publishTime="01/10/2013 18:49:00" />
+    <file relUrl="Views/RegisterAccount/List.cshtml" publishTime="01/22/2013 14:12:53" />
+    <file relUrl="packages.config" publishTime="01/10/2013 18:49:00" />
+    <file relUrl="Views/Account/AccountRolesPartial.cshtml" publishTime="01/10/2013 18:49:00" />
+    <file relUrl="Views/Account/Security.cshtml" publishTime="01/11/2013 09:26:53" />
+    <file relUrl="Views/Account/LogOnDisplayZone.cshtml" publishTime="01/10/2013 18:49:00" />
+    <file relUrl="Views/Account/Create.cshtml" publishTime="12/14/2013 10:01:27" />
+    <file relUrl="bin/EntityFramework.xml" publishTime="02/16/2012 21:21:09" />
+    <file relUrl="Views/Account/BindUser.cshtml" publishTime="01/10/2013 18:49:00" />
+    <file relUrl="bin/QsTech.Accounts.pdb" publishTime="01/09/2015 09:50:18" />
+    <file relUrl="Views/Account/ModifyPassword.cshtml" publishTime="08/22/2014 13:39:44" />
+    <file relUrl="QsTech.Accounts.Setting.config" publishTime="06/06/2014 14:11:14" />
+    <file relUrl="Views/Account/Profile.cshtml" publishTime="08/24/2014 18:40:09" />
+    <file relUrl="Views/RegisterAccount/View.cshtml" publishTime="01/22/2013 13:46:34" />
+    <file relUrl="bin/QsTech.Accounts.dll" publishTime="01/09/2015 09:50:18" />
+    <file relUrl="Views/Account/AccountClientsPartial.cshtml" publishTime="06/06/2014 16:56:15" />
+    <file relUrl="Views/RegisterAccount/AuthorizeRegisterAccount.cshtml" publishTime="01/22/2013 13:50:26" />
+    <file relUrl="Web.config" publishTime="01/09/2015 09:50:18" />
+    <file relUrl="Views/Account/Edit.cshtml" publishTime="02/01/2013 11:04:06" />
+    <file relUrl="Views/Api/SelectorPartial.cshtml" publishTime="02/01/2013 10:13:19" />
+    <file relUrl="Views/Account/AccountManage.cshtml" publishTime="01/10/2013 18:49:00" />
+  </publishProfile>
+</publishData>

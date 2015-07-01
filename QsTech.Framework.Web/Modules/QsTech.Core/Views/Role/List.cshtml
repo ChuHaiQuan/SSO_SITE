@@ -1,0 +1,70 @@
+﻿@model IEnumerable<QsTech.Core.Models.Roles.ListRoleModel>
+@{
+    this.ChannelId = "Management";
+    ViewBag.Title = "角色列表";
+}
+<div>
+	<div class="mt_10">
+		<input type="button" value="添加角色" class="btn" onclick="javascript:window.location='@Url.Action("Create")';" />
+	</div>
+    <div class="mt_10">
+		<table style="width:100%;" class="tbl-list">
+			<thead>
+				<tr class="thead-tbl">
+					<th style="width:30px;"></th>
+					<th style="width:150px;">角色</th>
+					<th>描述</th>
+                    <th style="width:120px;">分类</th>
+                    <th style="width:120px;">所属系统</th>
+                    <th style="width:140px;">操作</th>
+				</tr>
+			</thead>
+			<tbody class="tbody-tbl">
+                @if (Model.Any())
+                {
+                    int index = 0; 
+                    foreach (var role in Model)
+                    {
+                        index++;
+				<tr>
+					<td align="center">@index</td>
+					<td><a href="@Url.Action("Edit", new { id = role.Id })" class="blue">@role.Name</a></td>
+                    <td>@role.Description</td>
+                    <td>@role.Category</td>
+                    <td>@role.BelongsTo</td>
+					<td style="text-align:center;">
+						<a href="@Url.Action("Edit", new { id = role.Id })" class="a_blue">编辑</a>&nbsp;|
+						<a name="Delete" href="@Url.Action("Delete", new { id = role.Id })" class="a_blue">删除</a>&nbsp;|
+                        <a  href="@Url.Action("AccountManage", "Account", "QsTech.Accounts", new RouteValueDictionary { { "roleId", role.Id } })" class="a_blue">管理账户</a>
+					</td>
+				</tr>
+                    }
+                }
+                else
+                {
+                <tr>
+                    <td align="center" colspan="4">没有符合条件的数据</td>
+                </tr>
+                }
+			</tbody>
+		</table>
+	</div>
+</div>
+@section AfterBody
+{
+<script type="text/javascript">
+    $(function () {
+        $("#btnQuery").one('click', function () {
+            window.location = "@Url.Action("Index")?keyword=" + encodeURIComponent($.trim($("#txtKeyword").val()));
+            return false;
+        });
+        $("a[name=Delete]").click(function(event) {
+            event = event || window.event;
+            if(!confirm('确定要删除该角色吗？')) {
+                event.preventDefault();
+                return false;
+            }
+        });
+    });
+</script>
+}

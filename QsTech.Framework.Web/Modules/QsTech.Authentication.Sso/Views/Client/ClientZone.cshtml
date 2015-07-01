@@ -1,0 +1,12 @@
+﻿@model IEnumerable<QsTech.Core.Interface.Clients.IClient>
+@{
+    LayoutInfo.Enable = false;
+}
+<ul class="quick-menu">
+    <ul class="ui-sysnav">
+        @foreach (var g in Model.Reverse())
+        {
+            <li class="ui-sysnav-item"><a class="ui-sys-link" target="_blank" href="@g.Host">@g.Name</a></li>
+        }
+    </ul>
+</ul> 

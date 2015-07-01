@@ -1,0 +1,65 @@
+﻿@model QsTech.Core.Interface.IDateRange
+@{
+    var model = Model;
+    LayoutInfo.Enable = false;
+}
+
+<select id="search_rangeMonth" style="width:100px;" class="h20">
+    <option selected="selected" value="" >自定义</option>
+    <option value="1">最近一个月</option>
+    <option value="3">最近三个月</option>
+    <option value="6">最近半年</option>
+</select>
+<span id="date_range_bar"@if (model.Month != null){<text> class="none"</text>}><input id="txtBeginDate" name="BeginDate" type="text" placeholder="开始日期" style="height:25px;line-height:25px;width:100px;" />
+<span>至</span>
+<input id="txtEndDate" name="EndDate" type="text" placeholder="结束日期" style="height:25px;line-height:25px;width:100px;" /></span>
+<script type="text/javascript">
+    $(function () {
+        @if (model != null)
+        {
+        if(model.Month!=null)
+        {
+            var modeValue=Model.Month;
+            //var days=Model.EndDate-Model.BeginDate;
+            //var  modeValue = (int)Math.Ceiling(days.Value.Days*1.0 / 30);
+            @:$('#search_rangeMonth').val('@modeValue');
+            if(modeValue > 0) 
+            {
+            @:$("#date_range_bar").addClass('none');
+            }
+        }
+        <text>
+        $("#txtBeginDate").val('@string.Format("{0:yyyy-MM-dd}", model.BeginDate)');
+        $("#txtEndDate").val('@string.Format("{0:yyyy-MM-dd}", model.EndDate)');
+        </text>
+        }
+        var dates = $("#txtBeginDate,#txtEndDate").datepicker({
+            altFormat: 'yy-mm-dd',
+            defaultDate: "+1w",
+            changeMonth: true,
+            changeYear: true,
+            onSelect: function (selectedDate) {
+                var option = this.id == "txtBeginDate" ? "minDate" : "maxDate",
+					instance = $(this).data("datepicker"),
+					date = $.datepicker.parseDate(
+						instance.settings.dateFormat ||
+						$.datepicker._defaults.dateFormat,
+						selectedDate, instance.settings);
+                dates.not(this).datepicker("option", option, date);
+            }
+        });
+        $("#search_rangeMonth").change(function () {
+            var timespan = $(":selected", this).attr('value');
+            if (!timespan) {
+                $("#txtBeginDate,#txtEndDate").val('');
+                $("#date_range_bar").removeClass('none');
+            }
+            else {
+                timespan = parseInt(timespan);
+                $("#txtBeginDate").datepicker('setDate', '-' + timespan + 'm+1d');
+                $("#txtEndDate").datepicker('setDate', '0m');
+                $("#date_range_bar").addClass('none');
+            }
+        });
+    });
+</script>

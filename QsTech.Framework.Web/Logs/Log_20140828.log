@@ -1,0 +1,219 @@
+记录时间：2014-08-28 19:57:14,332 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:57:14,337 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:57:14,337 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:57:14,443 线程ID:[5] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-28 19:57:15,151 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:57:15,152 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:57:15,152 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:57:16,273 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:57:16,274 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:57:16,274 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:57:22,939 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 19:57:23,011 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:57:23,011 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:57:23,011 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:57:23,850 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:57:23,850 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:57:23,850 线程ID:[5] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:57:31,892 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-28 19:57:31,892 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-28 19:57:31,893 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-28 19:57:32,580 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-28 19:57:33,534 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-28 19:57:33,534 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-28 19:57:33,553 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-28 19:57:34,129 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 sf_admin
+记录时间：2014-08-28 19:57:34,130 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 19:57:34,130 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-28 19:57:34,154 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：检查client_id,client_id=eTrade,redirect-uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback
+记录时间：2014-08-28 19:57:34,157 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-28 19:57:56,048 线程ID:[11] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+QsTech.Framework.QsTechException: 没有访问权限应用!
+   在 QsTech.Authentication.Sso.Controllers.AccountController.CheckClient(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 305
+   在 QsTech.Authentication.Sso.Controllers.AccountController.LogOn(LogOnModel model, AuthorizeRequestModel requestModel) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 85
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-28 19:57:56,052 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-28 19:57:56,061 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:57:56,061 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:57:58,440 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:57:58,440 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:57:58,440 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:58:00,813 线程ID:[7] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 19:58:00,936 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:58:00,936 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:58:00,936 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:58:01,117 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:58:01,117 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:58:01,117 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:58:40,357 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-28 19:58:40,364 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:58:40,364 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:58:40,364 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:58:40,948 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:58:40,948 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:58:40,948 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:58:45,968 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-28 19:58:45,968 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 19:58:45,968 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-28 19:58:45,968 线程ID:[12] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：检查client_id,client_id=eTrade,redirect-uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback
+记录时间：2014-08-28 19:58:46,041 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 19:58:46,041 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-28 19:58:46,051 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:58:46,051 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:58:46,051 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:59:44,314 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 19:59:44,314 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 19:59:44,314 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 19:59:51,762 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-28 19:59:51,762 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 19:59:51,762 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-28 19:59:51,762 线程ID:[12] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：检查client_id,client_id=eTrade,redirect-uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback
+记录时间：2014-08-28 19:59:56,952 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 19:59:56,952 线程ID:[12] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-28 20:00:10,465 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:00:10,465 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:00:10,465 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:21,985 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-28 20:01:22,028 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-28 20:01:22,028 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-28 20:01:22,028 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-28 20:01:22,367 线程ID:[11] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-28 20:01:22,434 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:01:22,438 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:22,438 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:36,835 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:01:36,835 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:36,836 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:37,067 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-28 20:01:37,222 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:01:37,222 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:37,222 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:38,098 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:01:38,098 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:38,098 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:41,086 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 20:01:41,171 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:01:41,171 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:41,171 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:41,447 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:01:41,447 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:41,447 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:48,320 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 sf_admin
+记录时间：2014-08-28 20:01:48,321 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 20:01:48,321 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-28 20:01:48,321 线程ID:[10] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：检查client_id,client_id=eTrade,redirect-uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback
+记录时间：2014-08-28 20:01:48,321 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-28 20:01:48,321 线程ID:[10] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-28 20:01:48,321 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-28 20:01:54,039 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：错误处理器
+QsTech.Framework.QsTechException: 没有访问权限应用!
+   在 QsTech.Authentication.Sso.Controllers.AccountController.CheckClient(AuthorizeRequestModel model, Int32 userId) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 305
+   在 QsTech.Authentication.Sso.Controllers.AccountController.LogOn(LogOnModel model, AuthorizeRequestModel requestModel) 位置 D:\开发\SSO\Source\QsTech.Framework.Web\Modules\QsTech.Authentication.Sso\Controllers\AccountController.cs:行号 85
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<InvokeActionMethodWithFilters>b__12()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   在 System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass15.<>c__DisplayClass17.<InvokeActionMethodWithFilters>b__14()
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+记录时间：2014-08-28 20:01:54,039 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction cancelled flag set
+记录时间：2014-08-28 20:01:54,046 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:54,046 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:54,372 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:01:54,372 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:54,373 线程ID:[12] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:56,311 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:01:56,311 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:56,311 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:56,622 线程ID:[6] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-28 20:01:56,711 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:01:56,711 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:56,711 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:01:57,217 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:01:57,217 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:01:57,217 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:02:04,228 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 20:02:04,304 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:02:04,304 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:02:04,304 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:02:04,591 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:02:04,591 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:02:04,591 线程ID:[11] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:02:09,734 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-28 20:02:09,734 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 20:02:09,734 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-28 20:02:09,734 线程ID:[10] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：检查client_id,client_id=eTrade,redirect-uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback
+记录时间：2014-08-28 20:02:11,279 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 20:02:11,279 线程ID:[10] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-28 20:02:44,714 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:02:44,714 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:02:44,715 线程ID:[10] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:03:12,252 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-28 20:03:12,257 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building session factory
+记录时间：2014-08-28 20:03:12,257 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Building configuration
+记录时间：2014-08-28 20:03:12,890 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done Building configuration
+记录时间：2014-08-28 20:03:13,648 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Done building session factory
+记录时间：2014-08-28 20:03:13,648 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：Openning database session
+记录时间：2014-08-28 20:03:13,665 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Creating transaction on Demand
+记录时间：2014-08-28 20:03:14,283 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-28 20:03:14,302 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Acquiring session for 
+记录时间：2014-08-28 20:03:14,664 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-28 20:03:14,721 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:03:14,737 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:03:14,737 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:03:19,568 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:03:19,568 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:03:19,568 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:03:19,888 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=
+记录时间：2014-08-28 20:03:20,109 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:03:20,110 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:03:20,110 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:03:20,954 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:03:20,954 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:03:20,954 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:03:23,723 线程ID:[15] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 20:03:23,802 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:03:23,802 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:03:23,802 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:03:24,078 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:03:24,078 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:03:24,078 线程ID:[6] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:03:32,685 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：验证用户 qsadmin
+记录时间：2014-08-28 20:03:32,686 线程ID:[15] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 20:03:32,686 线程ID:[15] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-28 20:03:32,691 线程ID:[15] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：检查client_id,client_id=eTrade,redirect-uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback
+记录时间：2014-08-28 20:03:35,698 线程ID:[15] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/
+记录时间：2014-08-28 20:03:35,698 线程ID:[15] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback?callback=http://www.tradeserving.com:10010/manage/,currentUrl=http://localhost:2013
+记录时间：2014-08-28 20:03:42,184 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:03:42,184 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:03:42,184 线程ID:[15] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:03:44,116 线程ID:[4] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-28 20:03:44,126 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:03:44,126 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:03:44,126 线程ID:[4] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:03:58,354 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：redirect_uri=http://www.tradeserving.com:10010/permission/ssoLoginCallback
+记录时间：2014-08-28 20:03:58,355 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：10自动登录!
+记录时间：2014-08-28 20:03:58,355 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：访问的url=http://www.tradeserving.com:10010/permission/ssoLoginCallback
+记录时间：2014-08-28 20:03:58,355 线程ID:[14] 日志级别：ERROR 出错类：ApplicationInfoLog property:[(null)] - 错误描述：url=http://www.tradeserving.com:10010/permission/ssoLoginCallback,currentUrl=http://localhost:2013
+记录时间：2014-08-28 20:03:58,356 线程ID:[14] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：自动登录返回:http://www.tradeserving.com:10010/permission/ssoLoginCallback?code=AXFYlHUinUgAnrXlm0gAr9&state=
+记录时间：2014-08-28 20:03:58,408 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:03:58,409 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:03:58,409 线程ID:[14] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed
+记录时间：2014-08-28 20:04:34,267 线程ID:[7] 日志级别：INFO  出错类：ApplicationInfoLog property:[(null)] - 错误描述：MenuService.GetMenus(IUser):IEnumerable<MenuEntry> : user:10
+记录时间：2014-08-28 20:04:34,268 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Marking transaction as complete
+记录时间：2014-08-28 20:04:34,268 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Final work for transaction being performed
+记录时间：2014-08-28 20:04:34,268 线程ID:[7] 日志级别：DEBUG 出错类：ApplicationInfoLog property:[(null)] - 错误描述：Transaction disposed

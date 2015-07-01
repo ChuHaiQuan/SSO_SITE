@@ -1,0 +1,131 @@
+﻿@model QsTech.Accounts.Models.Accounts.EditAccountProfileModel
+@{
+    this.ChannelId = "Management";
+    ViewBag.Title = "我的信息";
+    ViewBag.Succeed = ViewBag.Succeed ?? false;
+    ViewBag.Failed = ViewBag.Failed ?? false;
+}
+<div class="rightCont">
+    <div class="pr">
+        <ul class="toolbar">
+          @*  <li class="current"><a>个人资料</a></li>*@
+           @* <li><a href="@Url.Action("Avatar")">修改头像</a></li>*@
+        </ul>
+    </div>
+    <div class="mt10">
+        @using (Html.BeginForm())
+        {
+            if (ViewBag.Succeed)
+            {
+                <div class="alert alert-success">
+                    <strong>修改成功。</strong>
+                </div>
+            }
+            else  if (Model.Id == 10)
+            {<text>
+                  <div class="alert alert-error">
+                    系统内置用户，不能进行修改
+                </div>
+             </text>}
+            else
+            {
+                <div class="alert alert-error">
+                    @Html.ValidationSummary(true)
+                </div>
+            }
+           
+            <table style="width:100%;" class="data-detail">
+                <tr>
+                    <td style="text-align: right; width:150px;">
+                        <i class="required">*</i>姓名：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Name, new { style = "width:60%" })
+                        @Html.HiddenFor(model => model.Id)
+                        @Html.ValidationMessageFor(model => model.Name)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        性别：
+                    </td>
+                    <td>
+                        @Html.RadioButtonFor(model => model.Gender, "男", new { id = "Gender_0" })
+                        <label for="Gender_0">男</label>
+                        @Html.RadioButtonFor(model => model.Gender, "女", new { id = "Gender_1" })
+                        <label for="Gender_1">女</label>
+                        @Html.ValidationMessageFor(model => model.Gender)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        年龄：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Age)
+                        @Html.ValidationMessageFor(model => model.Age)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        生日：
+                    </td>
+                    <td>
+                        @Html.EditorFor(model => model.Birthday, "DateTextBox", new { htmlAttributes = new { style = "width:60%" } })
+                        @Html.ValidationMessageFor(model => model.Birthday)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        固定电话：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Telephone, new { style = "width:60%" })
+                        @Html.ValidationMessageFor(model => model.Telephone)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <i class="required">*</i>移动电话：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Mobile, new { style = "width:60%" })
+                        @Html.ValidationMessageFor(model => model.Mobile)
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: right;">
+                        <i class="required">*</i>电子邮件：
+                    </td>
+                    <td>
+                        @Html.TextBoxFor(model => model.Email, new { style = "width:60%" })
+                        @Html.ValidationMessageFor(model => model.Email)
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div class="mt10">
+                            @if (Model.Id != 10)
+                            {<text>
+                            <input type="submit" value="保 存" class="btn" />
+                           </text> }
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            @*<div class="mt10 ml30">
+                <input type="submit" value="保 存" class="btn" />
+            </div>*@
+        }
+    </div>
+</div>
+@section AfterBody
+{
+@ResourceManager.Include("jQueryDatePickerZHCN").Render()
+<script type="text/javascript">
+    $(function () {
+        $("#Birthday").datepicker({ altFormat: 'yy-mm-dd', yearRange:'c-50' });
+    });
+</script>
+}

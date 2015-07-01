@@ -1,0 +1,92 @@
+﻿@using QsTech.Core.Interface.Extensions
+@{
+    LayoutInfo.Enable = false;
+    var tabtype = 0;
+    
+    if (ViewBag.tabtype != null)
+    {
+        tabtype = (int)ViewBag.tabtype;
+    }
+}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>@this.GetTheme().Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="Generator" content="EditPlus" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    @ResourceManager.Include("CSS_Portal_bs").Render()
+    @ResourceManager.Include("CSS_Portal_bs_responsive").Render()
+    @ResourceManager.Include("CSS_Portal_common").Render()
+    @ResourceManager.Include("CSS_Portal_base").Render()
+    @ResourceManager.Include("CSS_Portal_smoothness_jq_ui_custom").Render()
+    @ResourceManager.Include("JS_jQuery_172").Render()
+    @ResourceManager.Include("JS_Portal_bs_carousel").Render()
+    @ResourceManager.Include("JS_Portal_bs_tab").Render()
+    @ResourceManager.Include("JS_Portal_bs_dropdown").Render()
+    @ResourceManager.Include("theme").Render()
+    @ResourceManager.Include("JS_scrool").Render()
+    @ResourceManager.Include("bgiframe").Render()
+    @ResourceManager.Include("jQueryUI").Render()
+    @ResourceManager.Include("jQueryValidate").Render()
+    @ResourceManager.Include("jQueryUnobtrusive").Render()
+    @ResourceManager.Include("jQueryValidateUnobtrusive").Render()
+    @ResourceManager.Include("global").Render()
+    @ResourceManager.Include("ajaxSubmit").Render()
+    @ResourceManager.Include("utilities").Render()
+    @ResourceManager.Include("jQueryDatePickerZHCN").Render()
+    @ResourceManager.Include("MessageBox").Render()
+    @ResourceManager.Include("Notifier").Render()
+    @RenderSection("Header", false)
+</head>
+<body>
+    <div class="header">
+        <div class="header-nav">
+            <a class="logo" href="@Url.Action("Index", "Home", "QsTech.Portal", new RouteValueDictionary { })"></a>
+        </div>
+    </div>
+    <!--header end-->
+    <div class="content clearfix">
+        @RenderBody()
+    </div>
+    <div class="footer">
+        <div class="copyright ta_c">
+          @this.GetTheme().BottomDescription </div>
+        <div class="ta_c">
+            建议使用1024*768以上的屏幕分辨率和6.0以上版本的IE来访问本站</div>
+    </div>
+</body>
+@RenderSection("AfterBody", false)
+<script>
+    $(function () {
+        /*****************服务中心**************************/
+        var liw = $('.sev-list li').outerWidth(true);
+        var len = $('.sev-list li').length;
+        $('.sev-list ul').width(liw * len / 2);
+        $('.left').click(function () {
+            var l = $('.sev-list ul').css('left');
+            if (parseInt(liw * len / 2) + parseInt(l) - (parseInt($('.sev-list').width())) > 0) {
+                $('.sev-list ul').css('left', parseInt(l) - parseInt($('.sev-list').width()) + 'px');
+            }
+        })
+        $('.right').click(function () {
+            var l = $('.sev-list ul').css('left');
+            if (parseInt(l) < 0) {
+                $('.sev-list ul').css('left', parseInt(l) + parseInt($('.sev-list').width()) + 'px');
+            }
+        })
+
+        $('.economyList .sample_ li,.detail-color li').hover(function () { $(this).addClass("lihover"); }, function () { $(this).removeClass("lihover"); });
+        //$('.detail-color li').hover(function () { $(this).addClass("lihover"); }, function () { $(this).removeClass("lihover"); });
+
+        $('.sampleZone .sample_ li:even').addClass('mr_20');
+
+
+
+    })
+
+
+</script>
+</html>

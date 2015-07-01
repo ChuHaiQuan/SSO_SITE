@@ -1,0 +1,8 @@
+﻿@model QsTech.Layout.Models.Zone
+@{
+    LayoutInfo.Enable = false;
+}
+@if (Model != null)
+{
+    @Html.Action(Model.Action, Model.Controller, Model.ModuleId)
+}

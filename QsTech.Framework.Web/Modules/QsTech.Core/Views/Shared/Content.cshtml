@@ -1,0 +1,15 @@
+﻿@using QsTech.Core.Interface.Extensions;
+@{
+    LayoutInfo.Theme = "Layout";
+}
+@section Header{
+    @RenderSection("Header", false)
+}
+<div class="contentHeader">
+	<h2>@ViewBag.Title</h2>
+</div>
+@RenderBody()
+
+@section AfterBody{
+    @RenderSection("AfterBody", false)
+}

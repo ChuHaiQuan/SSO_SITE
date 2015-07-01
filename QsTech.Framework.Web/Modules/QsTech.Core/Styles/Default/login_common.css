@@ -1,0 +1,58 @@
+@charset "utf-8";
+/*
+ * Name: common.css
+ * Author: gordon.
+ * Date:2012-09-25 
+ */
+body { font:12px,"微软雅黑,宋体",sans-serif; color:#666;}
+a{ color:#434343; text-decoration:none;}
+a:hover{ color:#d94a38; text-decoration:none; cursor:pointer;}
+
+.login_herader { width:100%; height:97px; background:url(images/header_bg.jpg) repeat-x ;}
+.login_header_nav { width:960px; height:97px; margin:0 auto;}
+.login_header_nav .logo a { float:left; width:178px; height:50px; margin-top:24px; text-indent:-9999px; background:url(images/logo.png) no-repeat; display:block;}
+
+.login_cont { width:960px; /*min-height:500px;*/ padding:57px 0; margin:0 auto;}
+.login_left { float:left; width:380px; min-height:10px;}
+.login_left h2 { font-size:22px; font-weight:bold; color:#d94a38; padding-bottom:5px;}
+.login_left .tx_title { float:left; width:380px; padding:15px 0 5px;}
+.login_left .tx_title span { float:left; display:block; padding:0 15px 0 0;}
+.login_left .tx_title h3 { float:left; font-size:16px; font-weight:bold; padding-bottom:2px;}
+.login_left .tx_title p { float:left; width:300px; color:#858585;}
+.login_right { float:right; width:318px; height:306px;}
+.loginbox_top { float:left; width:288px; height:42px; padding:20px 0 0 30px; font-size:22px; font-weight:bold; background:url(images/loginbox_top.png) no-repeat;}
+.loginbox_min { float:left; width:254px; min-height:20px; padding:15px 32px 0; background:url(images/loginbox_midd.png) repeat-y;}
+.loginbox_min td{ height:40px;}
+.loginbox_btn  a { display:block; width:83px; height:36px; background:url(images/login_btn.png) no-repeat;}
+	
+.loginbox_input { height:27px; line-height:27px; padding-left:2px; border:1px #dbdbdb solid;}
+	
+.loginbox_bot { float:left; width:318px; height:26px; background:url(images/loginbox_bot.png) no-repeat;}
+
+.login_footer { width:100%; height:30px; background-color:#f1f1f1; border-top:1px #dcdfe2 solid;}
+.login_footer_nav { width:960px; height:30px; margin:0 auto; line-height:30px; text-align:right;}
+	
+.login_menu  { float:left; width:180px; min-height:50px; padding:10px 12px; background-color:#f5f5f5;}
+.login_menu h3 { float:left; width:180px; font-size:18px; font-weight:bold;}
+.login_menu ul { float:left; margin-top:5px;}
+.login_menu li { float:left; margin-bottom:5px;}
+.login_menu li a { display:block; width:180px; color:#666;}
+.login_menu li a:hover { color:#d94a38;}
+.login_menu span a { float:right; display:block; width:56px; height:22px; background-color:#5c6686; color:#fff; text-align:center; margin-top:10px; line-height:22px; border-radius: 3px;}
+	
+.loginabout { float:right; width:730px; min-height:10px;}
+.loginabout .tx_title { float:left; width:730px;}
+.loginabout .tx_title span { float:left; display:block; padding:0 15px 25px 0;}
+.loginabout .tx_title span img  { width:30px; height:28px;}
+.loginabout .tx_title h3 { float:left; width:680px; font-size:18px; font-weight:bold; padding-bottom:2px;}
+.loginabout .tx_title p { float:left; width:680px; line-height:22px; color:#858585;}
+	
+.ui-button-text1 { background-image: url(images/login_btn.png); background-repeat: repeat-x; font-family: Tahoma; cursor: pointer; outline: 0; font-size: 16px; width: 84px; height: 37px; border: 0px solid #990000; color:#FFFFFF; }
+.field-validation-error { color:#ff2121; font: 14px "微软雅黑",sans-serif; height:30px; vertical-align:middle; }
+.field-validation-error span { vertical-align:top; }
+.validation-summary-errors { border:1px solid #FF8080; background:url(images/stuff.gif) no-repeat 2px center #FFF2F2; line-height:18px; margin-top:2px; width:220px; padding:5px 10px 5px 28px; text-align:left; }
+
+.login_ie6tip { width:100%; height:30px; background-color:#faffbd; border-top:1px #dcdfe2 solid;}
+.login_ie6tip_nav { width:960px; height:30px; margin:0 auto; line-height:30px; text-align:left;}
+.login_ie6tip_nav a{ text-decoration:underline;color:#0000ff;  }
+.login_ie6tip_nav span{ text-align:right; display:block; margin-right:5px; }

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module id="QsTech.Accounts" name="Accounts" version="1.0.0.0" runtime="1.0.0.0" category="Account"
+        xmlns="http://www.tradeserving.com/manifest.xsd">
+  <description>账户管理系统</description>
+  <tags>Account,core</tags>
+  <dependencies>
+    <dependency moduleId="QsTech.Core" moduleVersion="1.0.0.0"></dependency>
+  </dependencies>
+ <features>
+      <feature id="Sso" name="用户中心 服务端" enable="true">
+            <description>the description of the f1 feature.</description>
+    </feature>
+     <feature id="Client" name="用户中心 客户端" enable="false">
+            <description>the description of the f2 feature.</description>
+    </feature>
+  </features>
+ 
+</module>

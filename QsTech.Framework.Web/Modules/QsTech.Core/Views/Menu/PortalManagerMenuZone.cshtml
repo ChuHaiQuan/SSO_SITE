@@ -1,0 +1,40 @@
+﻿@model IEnumerable<QsTech.Core.Models.Menus.MenuEntry>
+@{
+    LayoutInfo.Enable = false;
+    var currentClass = string.Empty;
+    if (this.ChannelId == "Home")
+    {
+        currentClass = "main-nav-current";
+    }
+}
+<div class="main-nav">
+    <ul>
+        <li><a class="@currentClass" href="@Url.Action("ManagerIndex", "Home", "QsTech.Core", new RouteValueDictionary { })">首页</a></li>
+        @foreach (var g in Model)
+        {
+            currentClass = this.ChannelId == g.Id ? "main-nav-current" : "";
+            var channelUrl = g.Url;// Url.Action("Channel", "Home", "QsTech.Core", new RouteValueDictionary() { { "id", g.Id } });
+            <li class="dropdown">
+                <a class="dropdown-toggle @currentClass" href="@channelUrl" >@g.Name@if(g.Entries.Count > 0){<text><s class="arrow"></s></text>}</a>
+                @if (g.Entries.Count > 0)
+                {
+                    <ul class="dropdown-menu">
+                        @foreach (var i in g.Entries)
+                        {
+                            <li><a href="@i.Url">@i.Name</a></li>
+                        }
+                    </ul>
+                }
+            </li>
+        }
+    </ul>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".dropdown").hover(function () {
+            $(this).find('.dropdown-menu').show();
+        }, function () {
+            $(this).find('.dropdown-menu').hide();
+        });
+    });
+</script>

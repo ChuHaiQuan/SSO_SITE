@@ -1,0 +1,231 @@
+﻿@model QsTech.Framework.Pagination.IPagedList<QsTech.Accounts.Models.Accounts.Account>
+@{
+    LayoutInfo.Enable = false;
+    var searchParameter = (QsTech.Accounts.Models.SelectAccounts.SelectAccountSearchParameter)ViewBag.SearchParameter;
+    var multiSelect = ViewBag.Multiable ?? false;
+}
+<style type="text/css">
+    /*.user-list li { float:left; width: 140px; height: 60px; margin:2px; }*/
+    .ui-widget-header{ background:#9EC4F3;}
+    .user_item {
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid #EAE2C6;
+    cursor: pointer;
+    float: left;
+    height: 60px;
+    margin-bottom: 15px;
+    margin-left: 9px;
+    padding: 0;
+    text-align: left;
+    width: 140px;
+    background:#FAF7E8;
+    position:relative;
+}
+.user_item .item_wrap {
+    border-radius: 4px 4px 4px 4px;
+    height: 50px;
+    padding: 5px;
+}
+.user_item img {
+    border-radius: 4px 4px 4px 4px;
+    float: left;
+    height: 50px;
+    margin-right: 7px;
+    width: 50px;
+}
+.user_item .user_detail {
+    line-height: 16px;
+    overflow: hidden;
+}
+.user_item .user_detail dd {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 16px;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+.user_item .user_detail p {
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+}
+.icon-selected { display:block; width:16px;height:16px; }
+    .user-check { background:#669acc; }
+    .user-hover { background:#eee; }
+    .ui-icon-check{ position:absolute;right:0;bottom:0;}
+</style>
+<style type="text/css">
+    .tbl-row-selected td { background-color:#004D80; color:#fff;font-weight:bold; }
+</style>
+<div class="user-container">
+    <div class="mt_10 border attr-data">
+        <div class="selected-attr" style="height:2px;"></div>
+        <table class="AttrBox">
+            <tr>
+                <th>关键字：</th>
+                <td>
+                    <div class="search-panel-fields">
+                       <label for="txtKeyword">姓名、账号</label>
+                       <input id="txtKeyword" type="text" value="@searchParameter.keyword" />
+                    </div>
+                </td>
+                <td>
+                    <input type="button" value="查 询" class="btn selectsearchbtn" /></td>
+            </tr>
+        </table>
+    </div>
+    <div class="mt10">
+        <table style="width:100%;" class="tbl-list">
+			<thead>
+				<tr class="thead-tbl">
+                    @if (multiSelect)
+                    {
+					<th style="width:30px;"></th>
+                    }
+					<th>姓名</th>
+                    <th style="width:100px">账 号</th>
+                    <th style="width:150px;">移动电话</th>
+                    <th style="width:180px;">电子邮箱</th>
+				</tr>
+			</thead>
+			<tbody class="tbody-tbl">
+                @if (Model.TotalItemCount > 0)
+                {
+                    int index = 0; 
+                    foreach (var user in Model)
+                    {
+                        index++;
+				<tr class="tbl-row" data-val="@user.Id" data-valname="@user.Name" data-valno="@user.AccountName">
+					@if(multiSelect)
+                    {
+                    <td align="center">
+                        <input type="checkbox" value="@user.Id" class="check-user checkbox" style="@if(!searchParameter.Multiable){<text> display:none; </text>}" />
+                    </td>
+                    }
+					<td>@user.Name</td>
+                    <td>@user.AccountName</td>
+                    <td>@user.Mobile</td>
+                    <td>@user.Email</td>
+				</tr>
+                    }
+                }
+                else
+                {
+                <tr>
+                    <td align="center" colspan="4">没有符合条件的数据</td>
+                </tr>
+                }
+			</tbody>
+		</table>
+    </div>
+    <div class="pagination">
+        <ul class="center">
+            @Html.Pagination(Model)
+        </ul>
+    </div>
+    <div class="user-buttonpane mb10">
+        <div class="user-buttonset tr">
+            <input name="OK" type="button" value="确 定" class="btn btn-primary" />
+            <input name="Cancel" type="button" value="取 消" class="btn" />
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        function init(context){
+            var tips = $(".search-panel-fields label", context).click(function() {
+                $(".search-panel-fields input", context).focus();
+            });
+            $(".search-panel-fields input", context).focus(function () {
+                $.trim(this.value) !== '' && tips.hide();
+            }).blur(function () {
+                $.trim(this.value) === '' && tips.show();
+            }).keydown(function(event) {
+                if((event.keyCode >= 48 && event.keyCode <= 111) ||
+                   (event.keyCode >=186 && event.keyCode <= 222)) {
+                    tips.hide();
+                }
+            }).keyup(function(event) {
+                $.trim(this.value) === '' && tips.show();
+            });
+
+            var excludeUsers = (function (p) { return p !== "" && p.split(',') || []; })("@string.Join(",", ViewBag.ExcludeArray ?? Enumerable.Empty<string>())");
+            var searcher = $(".search-panel-fields", context),
+                text = searcher.find('input[type=text]'),
+                button = $(".selectsearchbtn"),
+                keyword = text.val();
+            text.enterTo(button);
+
+            function doSearch(event, page) {
+                var url = "@Url.Action("Selector", "Api")?multiable=@searchParameter.Multiable&keyword=" + encodeURIComponent(keyword) + "&" + $.param({excludeArray:excludeUsers}, true);
+                if(page) {
+                    url += '&page=' + page;
+                }
+                $.get(url, function (selector) {
+                    var $selector = $(selector);
+                    $('.search', $selector).find("input[type=text]").val(keyword);
+                    context.parent().empty().append($selector);
+                    if(keyword != "") {
+                        $(".search-panel-fields label", $selector).hide();
+                    }
+                });
+            }
+            button.click(function (event) {
+                keyword = text.val();
+                doSearch(event);
+            });
+            $('.pagination', context).find('a').click(function (event) {
+                doSearch(event, $(this).attr('data-page'));
+                event.preventDefault();
+                return false;
+            });
+            (function() {
+                function toggleChecked($box) {
+                    var chked = $box[0].checked;
+                    chked && $box.removeAttr('checked') || $box.attr('checked', 'checked');
+                }
+                $(".check-user").click(function(event) {
+                    $(this).closest('.tbl-row').toggleClass('tbl-row-selected');
+                    event.cancelBubble && (event.cancelBubble = true) || event.stopPropagation();
+                });
+                $(".tbl-row", context).click(function(event) {
+                    @if(multiSelect){<text>
+                    toggleChecked($('.check-user', this));
+                    $(this).toggleClass('tbl-row-selected');</text>} else {<text>
+                    $(this).toggleClass('tbl-row-selected').siblings('.tbl-row-selected').removeClass('tbl-row-selected');
+                    </text>}
+                });
+            })();
+            $(".user-buttonset", context).find("input[type=button]").each(function(i, button) {
+                
+                var eventHandler;
+                switch(button.name) {
+                    case "OK":
+                        eventHandler = function() {
+                            var users = $(".tbl-row-selected", context).map(function() {
+                                return {
+                                    id: $(this).attr('data-val'),
+                                    name: $(this).attr('data-valname'),
+                                    number: $(this).attr('data-valno')
+                                };
+                            });
+                            if (users.length < 1) {
+                                alert('请选择账户。');
+                                return false;
+                            }
+                            modalConfirm.trigger(users);
+                        };
+                        break;
+                    case "Cancel":
+                        eventHandler = function(event) {
+                            modalCancel.trigger();
+                        };
+                        break;
+                }
+                $(button).click(eventHandler || function() {});
+            });
+        }
+        init($(".user-container"));
+    });
+</script>

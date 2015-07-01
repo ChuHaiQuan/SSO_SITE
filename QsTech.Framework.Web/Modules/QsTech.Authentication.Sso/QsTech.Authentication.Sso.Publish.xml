@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\SSO发布\QsTech.Authentication.Sso" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="配置文件1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Views/Account/Register.cshtml" publishTime="01/22/2013 13:19:18" />
+    <file relUrl="Lang/en-US/QsTech.Authentication.Sso-en-US.xml" publishTime="02/05/2013 09:26:12" />
+    <file relUrl="Views/Account/ClientInfo.cshtml" publishTime="08/26/2014 10:33:10" />
+    <file relUrl="Resources/PortalLogin/images/body-bg.png" publishTime="11/18/2013 14:55:43" />
+    <file relUrl="bin/QsTech.Authentication.Sso.pdb" publishTime="01/09/2015 09:51:39" />
+    <file relUrl="Views/Account/LogOn.cshtml" publishTime="08/25/2014 15:02:37" />
+    <file relUrl="Views/Account/ChangePassword.cshtml" publishTime="11/05/2012 08:50:54" />
+    <file relUrl="Views/Client/Edit.cshtml" publishTime="06/06/2014 14:16:01" />
+    <file relUrl="Resources/PortalLogin/images/logo.png" publishTime="09/26/2013 14:50:29" />
+    <file relUrl="Views/Account/ChangePasswordSuccess.cshtml" publishTime="11/05/2012 08:50:54" />
+    <file relUrl="Resources/PortalLogin/images/body-bg1.png" publishTime="01/10/2013 18:49:00" />
+    <file relUrl="bin/QsTech.Authentication.Sso.Interface.dll" publishTime="01/09/2015 09:51:39" />
+    <file relUrl="Views/Home/About.cshtml" publishTime="11/05/2012 08:50:54" />
+    <file relUrl="Views/Client/ClientZone.cshtml" publishTime="04/15/2013 15:59:47" />
+    <file relUrl="Views/Client/List.cshtml" publishTime="06/06/2014 15:07:56" />
+    <file relUrl="Client.xml" publishTime="01/05/2013 21:10:17" />
+    <file relUrl="bin/QsTech.Authentication.Sso.dll" publishTime="01/09/2015 09:51:39" />
+    <file relUrl="Resources/PortalLogin/images/small-logo.png" publishTime="01/10/2013 18:49:00" />
+    <file relUrl="packages.config" publishTime="06/06/2014 14:16:01" />
+    <file relUrl="Views/Home/Index.cshtml" publishTime="11/05/2012 08:50:54" />
+    <file relUrl="Resources/PortalLogin/images/box.png" publishTime="10/10/2013 10:36:44" />
+    <file relUrl="Resources/PortalLogin/images/logo.gif" publishTime="01/10/2013 18:49:00" />
+    <file relUrl="Resources/PortalLogin/login.css" publishTime="06/06/2014 16:22:05" />
+    <file relUrl="Views/Account/AdaptiveLogOn.cshtml" publishTime="12/23/2014 17:07:50" />
+    <file relUrl="Lang/zh-CN/QsTech.Authentication.Sso-en-US.xml" publishTime="06/06/2014 15:19:48" />
+    <file relUrl="Web.config" publishTime="01/09/2015 09:51:40" />
+    <file relUrl="bin/QsTech.Authentication.Sso.Interface.pdb" publishTime="01/09/2015 09:51:39" />
+    <file relUrl="Views/Shared/_LogOnPartial.cshtml" publishTime="11/05/2012 08:50:54" />
+    <file relUrl="Resources/PortalLogin/images/login-btn.png" publishTime="11/18/2013 15:25:09" />
+    <file relUrl="bin/NHibernate.xml" publishTime="08/14/2012 13:45:37" />
+    <file relUrl="bin/NHibernate.dll" publishTime="08/14/2012 13:45:37" />
+    <file relUrl="Views/Account/RegisterSuccess.cshtml" publishTime="01/22/2013 13:04:40" />
+  </publishProfile>
+</publishData>

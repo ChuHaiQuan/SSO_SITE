@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "系统发生错误";
+}
+<div class="rightCont">
+    <div class="mt10">
+        <div class="error">
+            <div class="error_content">
+                <h2>抱歉，您访问的网站出错啦！</h2>
+                <p>您可以：</p>
+                <ol>
+                    <li><a href="javascript:;" onclick="window.history.go(-1);">返回上一页，重新操作</a></li>
+                    <li><a href="@Url.Action("Index", "Home", "QsTech.Core", new RouteValueDictionary { })">返回首页</a></li>
+                </ol>
+                <p>或者请联系系统管理员解决问题。</p>
+            </div>
+        </div>
+    </div>
+</div>

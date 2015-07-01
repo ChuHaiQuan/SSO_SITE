@@ -1,0 +1,62 @@
+﻿@model QsTech.Core.Views.Home.HomeViewModel
+@{
+    this.ChannelId = "Management";
+    LayoutInfo.Theme = "Home";
+}
+<div class="layout-home-wrapper">
+    <div class="layout-channel-sidebar">
+        <div class="ui-channelnav" style="border-color: #C4D5DF;border-width: 0 1px 1px;">
+            <div class="ui-channelnav-head">
+                <h2 class="ui-channelnav-head-text">导航项</h2>
+            </div>
+                <dl class="ui-channelnav-container" >
+                @foreach (var menu in this.Model.Menus)
+                {
+                    <dt class="ui-channelnav-item">
+                        <a class="ui-channelnav-link" href="@menu.Url">@menu.Name</a> 
+                    </dt>
+                     if (menu.Entries != null && menu.Entries.Count > 0)
+                     {
+                         <dd>
+                            <ul>
+                            @foreach (var subMenu in menu.Entries)
+                            {
+                                <li style="padding-left:10px;min-height: 28px;">
+                                    <a class="ui-channelnav-link" href="@subMenu.Url">@subMenu.Name</a> 
+                                </li>
+                            }
+                            </ul>
+                            </dd>
+                     }
+                }
+                </dl>
+        </div>
+    </div>
+    <div class="layout-channel-main" style="float:right;">
+        <div  class="ui-channel-home-zone">
+          @foreach (var zone in this.Model.Zones)
+          {
+                <div class="ui-channelzone">
+                        <div class="ui-channelzone-head" style="position:relative;">
+                            <span class="ui-channelzone-title" style="float:left;">@zone.Name</span>
+                            @if (@zone.MoreUrl != null)
+                            {
+                                <a class="ui-channelzone-more" href="@Url.Action(zone.MoreUrl.Item3, zone.MoreUrl.Item2, zone.MoreUrl.Item1, new RouteValueDictionary())">[更多]</a>
+                            }
+                        </div>
+                        <div class="ui-channelzone-container">
+                            @Html.Action(zone.Url.Item3, zone.Url.Item2, zone.Url.Item1, new RouteValueDictionary())
+                        </div>
+                    </div>
+          }
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <script type="text/javascript">
+        $('.ui-channelnav-item').click(function () { 
+          $(this).next("dd").toggle();
+        });
+    </script>
+</div>
+
+

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<QsTech.Core.Models.Menus.MenuEntry>
+@{
+    LayoutInfo.Enable = false;
+}
+
+<ul class="ui-nav">
+    @foreach (var g in Model.Reverse())
+    {
+        <li class="ui-nav-item">
+            <a class="ui-nav-item-link ui-nav-multi @((this.ChannelId ==g.Id)?" ui-nav-item-current":string.Empty)" href="@Url.Action("Channel", "Home", "QsTech.Core", new RouteValueDictionary(){{"id", g.Id}})">@g.Name</a>
+            @if (g.Entries.Count > 0)
+            {
+                <div class="ui-topmenu">
+                <ul class="ui-topmenu-list" data-shouldShow="false">
+                    @foreach (var i in g.Entries)
+                    {
+                        <li><a href="@i.Url">@i.Name</a></li>
+                    }
+                </ul>
+                </div>
+            }
+        </li>
+    }
+</ul>
+<script>
+    $(function () {
+        $('.ui-nav-item').hover(function () {
+            $(this).addClass('ui-nav-item-active');
+        }, function () {
+            $(this).removeClass('ui-nav-item-active');
+        });
+    });
+</script>

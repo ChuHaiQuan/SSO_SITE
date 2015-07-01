@@ -1,0 +1,29 @@
+﻿.tree-indent, .tree-hit, .tree-icon { display: inline-block; height: 18px; line-height: 18px; vertical-align: top; white-space: nowrap; width: 16px; word-wrap: normal; }
+.tree-collapsed, .tree-expanded {  }
+.tree-indent {display: inline-block;vertical-align: middle;width: 16px;height: 18px}
+.tree-hit {cursor: pointer; }
+.tree-expanded {display: inline-block;background: url(images/tree_arrows.gif) no-repeat -18px 0px;vertical-align: middle;	width: 16px;	height: 18px}
+.tree-expanded-hover {background: url(images/tree_arrows.gif) no-repeat -50px 0px}
+.tree-collapsed {display: inline-block;background: url(images/tree_arrows.gif) no-repeat 0px 0px;vertical-align: middle;	width: 16px;	height: 18px}
+.tree-collapsed-hover {background: url(images/tree_arrows.gif) no-repeat -32px 0px}
+.tree-lines .tree-expanded {background: url(images/tree_elbow.png) no-repeat -36px -54px}
+.tree-lines .tree-collapsed {background: url(images/tree_elbow.png) no-repeat 0px -36px}
+.tree-lines .tree-node-last .tree-expanded {background: url(images/tree_elbow.png) no-repeat -18px 0px}
+.tree-lines .tree-node-last .tree-collapsed {background: url(images/tree_elbow.png) no-repeat -36px -36px}
+.tree-lines .tree-root-first .tree-expanded {background: url(images/tree_elbow.png) no-repeat -18px -54px}
+.tree-lines .tree-root-first .tree-collapsed {background: url(images/tree_elbow.png) no-repeat -18px -36px}
+.tree-lines .tree-root-one .tree-expanded {	background: url(images/tree_elbow.png) no-repeat 0px -18px}
+.tree-lines .tree-root-one .tree-collapsed {	background: url(images/tree_elbow.png) no-repeat 0px -72px}
+.tree-line {background: url(images/tree_elbow.png) no-repeat 0px -54px}
+.tree-join {background: url(images/tree_elbow.png) no-repeat -18px -18px}
+.tree-joinbottom {background: url(images/tree_elbow.png) no-repeat 0px 0px}
+.tree-folder {display: inline-block;	background: url(images/tree_folder.gif) no-repeat;	vertical-align: middle;	width: 16px;	height: 18px}
+.tree-folder-open {background: url(images/tree_folder_open.gif) no-repeat}
+.tree-file {display: inline-block;	background: url(images/tree_file.gif) no-repeat;	vertical-align: middle;	width: 16px;	height: 18px}
+.tree-loading {background: url(images/tree_loading.gif) no-repeat}
+.tree-title {padding-right: 2px;	display: inline-block;	padding-left: 2px;	padding-bottom: 1px;	vertical-align: middle;	padding-top: 1px;	white-space: nowrap;	text-decoration: none}
+.tree-node-hover {background: #fafafa}
+.tree-node-selected {background: #fbec88}
+.datagrid-btable { border: 0px; }
+.datagrid-btable .treegrid-tr-tree td { border: 0px; padding: 0px; }
+.datagrid-btable .datagrid-row td { border-width: medium 1px 1px medium; border-style: none none solid none; line-height: 30px; height: 30px; padding: 0px; }

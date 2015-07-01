@@ -1,0 +1,155 @@
+﻿@model QsTech.Authentication.Sso.Models.LogOnModel
+@{
+    ViewBag.Title = "";
+    LayoutInfo.Enable = false;
+}
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>@T("loginFormTitle")</title>
+<link rel="stylesheet" href="@Url.Content("Resources/PortalLogin/login.css", "QsTech.Authentication.Sso")" />
+@ResourceManager.Include("login_layout").Render()
+@ResourceManager.Include("login_base").Render()
+        @ResourceManager.Include("theme").Render()
+@ResourceManager.Include("jQuery").Render()
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+</head>
+<body>
+@*<div id="top"></div>*@
+<div id="content">
+    
+	<div id="login-box">
+    	<div class="box-left">
+        	<h2>@T("loginFormTitle")</h2>
+            <div class="input-box">
+                <div style="padding-left:0px;">
+                    @Html.ValidationSummary(false)
+                    <div id="msgshow" class="validation-summary-errors" style="display: none;">
+                    </div>
+                </div>
+                @using (Html.BeginForm())
+                {
+                <table>
+                    <tr>
+                        <td style="text-align: right;">
+                           @T("loginFormAccount")：
+                        </td>
+                        <td>
+                            @Html.TextBoxFor(m => m.AccountName, new { @class = "login-input", style = "width:175px;" })
+                            @Html.ValidationMessageFor(m => m.AccountName)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                           @T("loginFormPassword")：
+                        </td>
+                        <td>
+                            @Html.PasswordFor(m => m.Password, new { @class = "login-input", style = "width:175px;" })
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">
+                            @T("loginFormValidCode")：
+                        </td>
+                        <td>
+                            <table class="marginnobor" cellspacing="0" cellpadding="0" style="margin-left: 0px;">
+                                <tr>
+                                    <td style="width: 82px;text-align: left;">
+                                        @Html.TextBoxFor(m => m.ValidateCode, new { @class = "login-input", style = "width:70px;" })
+                                    </td>
+                                    <td>
+                                        <img id="valiCode" src="" style="cursor:pointer;" title="看不清楚?点击换一张"  />&nbsp;@Html.ValidationMessageFor(m => m.ValidateCode)
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                            <input id="btnLogOn" type="submit" value="@T("loginFormLogin")" class="login-btn" />
+                            @Html.CheckBoxFor(m=>m.RememberMe)
+                            <label for="RememberMe">@T("loginFormRemember")</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            &nbsp;
+                        </td>
+                        <td>
+                          <!--  <a href="@Url.Action("LogOn", "Sso")">内部帐号登录</a>-->
+                           
+                        </td>
+                    </tr>
+                </table>
+                 }
+            </div>
+        </div>
+        
+       @* <div class="box-right">
+        	<h2>@T("loginAbout")</h2>
+            <p>@T("loginAboutInfo")</p>
+        </div>*@
+    </div>
+</div>
+<div id="footer">
+	<div class="copyright">
+    <p>杭州全顺科技技术支持<br /><a href="http://www.tradeserving.com">www.tradeserving.com</a></p>
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+    $(function () {
+    $("#valiCode").bind("click", function() {
+        this.src = "@Url.Action("GetValidateCode")?time=" + (new Date()).getTime();
+        });
+        $("#valiCode").trigger("click");
+       $("#btnLogOn").click(function(){
+         var msg="";
+        if($("#AccountName").val()=="")
+        {
+            msg="@T("loginFormNeedAccount")";
+        }
+        else if($("#Password").val()=="")
+        {
+            msg="@T("loginFormNeedPassword")";
+        }
+        else if($("#ValidateCode").val()=="")
+        {
+            msg="@T("loginFormNeedValidCode")";
+        }
+        if(msg!="")
+        {
+           if($(".validation-summary-errors").length==2)
+           {
+               $(".validation-summary-errors").text(msg);
+           }
+           else{
+              $("#msgshow").text(msg);
+              $("#msgshow").show();
+            }
+            return false;
+        }
+       
+       });
+
+  (function AdaptHeight(){
+   height = $(window).height()-242;  
+   if ($.browser.msie && ($.browser.version == "6.0") && !$.support.style) {
+    height=height-30;
+   } 
+    $('.login_cont').css('height',height);   
+    })();
+    })
+</script>

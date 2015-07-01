@@ -1,0 +1,203 @@
+﻿@{
+    LayoutInfo.Enable = false;
+    var tabtype=0;
+    if (ViewBag.tabtype != null)
+    {
+        tabtype = (int)ViewBag.tabtype;
+    }
+    var searchType = 3;
+        if (ViewBag.SearchType != null)
+        {
+            searchType = (int)ViewBag.SearchType;
+        }
+    }
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>杭州轻工管理平台</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="Generator" content="EditPlus" />
+    <meta name="Author" content="" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    @ResourceManager.Include("CSS_Portal_bs").Render()
+    @ResourceManager.Include("CSS_Portal_bs_responsive").Render()
+    @ResourceManager.Include("CSS_Portal_common").Render()
+    @ResourceManager.Include("CSS_Portal_base").Render()
+    @ResourceManager.Include("CSS_Portal_smoothness_jq_ui_custom").Render()
+     @ResourceManager.Include("theme").Render()
+    @ResourceManager.Include("JS_jQuery_172").Render()
+    @ResourceManager.Include("jQueryUI").Render()
+    @ResourceManager.Include("JS_Portal_bs_carousel").Render()
+    @ResourceManager.Include("JS_Portal_bs_tab").Render()
+    @ResourceManager.Include("JS_Portal_bs_dropdown").Render()
+     @ResourceManager.Include("jQueryDatePickerZHCN").Render()
+   
+    @ResourceManager.Include("JS_scrool").Render()
+    @RenderSection("Header", false)
+</head>
+<body>
+    <div class="header">
+        <div class="header-nav">
+            <a class="logo" href="@Url.Action("Index", "Home")"></a>
+            <ul class="fn-right right-top">
+                <li><a href="@Url.Action("Index", "Home")">首页</a>&nbsp;|&nbsp;</li>
+                <li><a href="@Url.Action("Index", "Management", "QsTech.Portal", new RouteValueDictionary { })" target="_blank">员工通道</a>&nbsp;|&nbsp;</li>
+                <li class="q-mune">
+                    <div class="dropdown">
+                        <span class="dropdown-toggle" data-toggle="dropdown">简体中文 <s class="arrow"></s></span>
+                        <ul class="dropdown-menu" style="right: 0;left: auto;">
+                            <li><a href="#" class="faq">简体中文 </a></li>
+                            <li><a href="http://www.bexpromo.com/" class="suggest">英文 </a></li>
+                            @*<li><a href="#" class="suggest">俄文 </a></li>*@
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+          
+            <div class="search">
+                <div class="dropdown sel q-mune">
+                    <span class="dropdown-toggle" data-toggle="dropdown" id="l_s_c">
+                    @if (searchType == 1)
+                    {
+                        <text>样品
+                     </text>
+                    }
+                    else 
+                    {
+                            <text>
+                    资讯 </text>
+                    }
+                    <s class="arrow"></s></span>
+                    @*<div class="dropdown" style="left: -44px;">*@
+                        <ul class="dropdown-menu" id="mnuSearchBar">
+                            <li><a href="#" class="faq" data-value="1">样品</a></li>
+                            @* <li> <a href="#" target="_blank" class="suggest"> 服务 </a> </li>*@
+                            <li><a href="#" class="suggest" data-value="3">资讯</a></li>
+                            @*<li class="last"> <a href="#" target="_blank" class="faq"> 财经 </a> </li>*@
+                        </ul>
+                    @*</div>*@
+                </div>
+                <input id="t_s_c" type="text" class="txt" placeholder="请输入关键字" value="@ViewBag.Keyword" />
+                <input id="b_s_c" type="button" value="搜索" class="btn" />
+                
+                <input type="hidden" id="h_s_c" value="@searchType" />
+                <script type="text/javascript">
+                    $("#mnuSearchBar a").click(function (event) {
+                        $("#l_s_c").html($(this).text() + '<s class="arrow"></s>');
+                        $("#h_s_c").val($(this).attr('data-value'));
+                        $(this).parents('.dropdown').removeClass('open');
+                        event.preventDefault();
+                        return false;
+                        
+                        
+                    });
+                    $("#b_s_c").click(function () {
+                        var c = $("#h_s_c").val(),
+                            v = encodeURIComponent($.trim($("#t_s_c").val())),
+                            s = "?keyword=" + v;
+                        switch (c) {
+                            case "1":
+                                window.location = "@Url.Action("Search", "SampleCenter")" + s; break;
+                            case "3": 
+                                window.location = "@Url.Action("ListForSerach", "Information")" + s; break;
+                        }
+                    });
+                </script>
+            </div>
+            <div class="main-nav">
+                <ul class="" id="tabmain">
+                    <li @if (tabtype == 0)
+                        {<text> class="current" </text>}><a href="@Url.Action("Index", "Home")" >首页</a></li>
+                    <li @if (tabtype == 1)
+                        {<text> class="current" </text>}><a href="@Url.Action("Index", "SampleCenter")" >样品中心</a></li>
+                    <li @if (tabtype == 2)
+                        {<text> class="current" </text>}><a href="@Url.Action("Index", "Service")">服务专区</a></li>
+                    <li @if (tabtype == 3)
+                        {<text> class="current" </text>}><a href="@Url.Action("Index", "Information")">资讯中心</a></li>
+                    <li @if (tabtype == 4)
+                        {<text> class="current" </text>} class="nav-last"><a href="@Url.Action("Index", "Finance")" >财经专区</a></li>
+                </ul>
+            </div>
+            <div class="Announce"><span class="fn-left">公告：</span>
+                @Html.Action("ListNote", "Information")
+            </div>
+        </div>
+    </div>
+    <!--header end-->
+    <div class="content clearfix">
+        @RenderBody()
+    </div>
+    <div class="footer">
+        <div class="link ta_c">
+            友情链接：<span><a href="http://www.beifa.com/cn/index.php" target="_blank">贝发集团股份有限公司</a> |</span>
+            <span><a href="http://www.china-stat.com/cn/index.php" target="_blank">中国文具产业示范区</a> |</span>
+            <span><a href="http://www.chinadesign.cn/" target="_blank">中国工业设计院</a> |</span>
+            <span><a href="http://www.csa.org.cn/" target="_blank">中国文教体育用品协会</a> |</span>
+            <span><a href="http://www.cnnbsa.com/" target="_blank">宁波文具之都</a></span>
+        </div>
+        <div class="copyright ta_c">
+            COPYRIGHT © 2013 杭州市轻工工艺纺织品进出口有限公司 版权所有    浙ICP备05040289号</div>
+        <div class="ta_c">
+            建议使用1024*768以上的屏幕分辨率和6.0以上版本的IE来访问本站</div>
+            <div class="copyright1">
+    <p>杭州全顺科技技术支持<br />
+www.tradeserving.com</p>
+    </div>
+    </div>
+    <div class="kf"  style="width: 30px;">
+    <div title="展开" style="left: 0px; display: block;"class="openTrigger"></div>
+    <div class="contentBox" style="position: relative; left: -148px;">
+    <div class="closeTrigger"  title="关闭"></div>
+    <img src="@Url.Content("Resources/images/kf.png", "QsTech.Portal")"  border="0" usemap="#Map" />
+  <map name="Map">
+    <area shape="rect" coords="31,85,109,115" href="tencent://message/?uin=1654669592&Site=www.tradeserving.com&Menu=yes" target="_blank">
+    <area shape="rect" coords="27,135,113,165" href="http://go.discuz.com/msn/?linkid=6&msn=bfvendor@hotmail.com" target="_blank">
+  </map>
+  </div>
+</div>
+</body>
+@RenderSection("AfterBody", false)
+<script>
+    $(function () {
+        /*****************服务中心**************************/
+        var liw = $('.sev-list li').outerWidth(true);
+        var len = $('.sev-list li').length;
+        $('.sev-list ul').width(liw * len / 2);
+        $('.left').click(function () {
+            var l = $('.sev-list ul').css('left');
+            if (parseInt(liw * len / 2) + parseInt(l) - (parseInt($('.sev-list').width())) > 0) {
+                $('.sev-list ul').css('left', parseInt(l) - parseInt($('.sev-list').width()) + 'px');
+            }
+        })
+        $('.right').click(function () {
+            var l = $('.sev-list ul').css('left');
+            if (parseInt(l) < 0) {
+                $('.sev-list ul').css('left', parseInt(l) + parseInt($('.sev-list').width()) + 'px');
+            }
+        })
+
+        $('.economyList .sample_ li,.detail-color li').hover(function () { $(this).addClass("lihover"); }, function () { $(this).removeClass("lihover"); });
+        //$('.detail-color li').hover(function () { $(this).addClass("lihover"); }, function () { $(this).removeClass("lihover"); });
+
+        $('.sampleZone .sample_ li:even').addClass('mr_20');
+
+
+        $('.kf .closeTrigger').click(function () {
+            $(".openTrigger").show();
+            var widthValue = $(".openTrigger").width();
+            var allWidth = (-($(".contentBox").width()) - 6);
+            $(".contentBox").animate({ left: allWidth }, 10);
+            $(".kf").animate({ width: widthValue }, 10);
+        })
+        $('.kf .openTrigger').click(function () {
+            var widthValue = $(".kf  .contentBox").width(); 
+           $(".kf  .contentBox").animate({ left: 0 }, "fast"); 
+            $(".kf").css({ width: widthValue + 4 });
+            $(".kf  .openTrigger").hide();
+        })
+    })
+
+
+</script>
+</html>

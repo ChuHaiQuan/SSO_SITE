@@ -1,0 +1,182 @@
+﻿@model QsTech.Authentication.Sso.Models.LogOnModel
+@{
+    ViewBag.Title = "";
+    LayoutInfo.Enable = false;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>@T("loginFormTitle")</title>
+<link rel="stylesheet" href="@Url.Content("Resources/script/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.css", "QsTech.Authentication.Sso")" />
+<link rel="stylesheet" href="@Url.Content("Resources/PortalLogin/commonmobile.css", "QsTech.Authentication.Sso")" />
+
+<script type="text/javascript" src="@Url.Content("Resources/script/jquery-1.9.1.min.js", "QsTech.Authentication.Sso")"></script>
+<script type="text/javascript">
+    $(document).bind("mobileinit", function () {
+        // disable ajax nav
+        $.mobile.ajaxEnabled = false
+    });
+</script>
+<script src="@Url.Content("Resources/script/jquery.mobile-1.3.2/jquery.mobile-1.3.2.min.js", "QsTech.Authentication.Sso")"></script>
+<script  src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+</head>
+<body>
+	<div data-role="page" id="login">
+
+		<div data-role="header" class="ui-grid-b ui-header ui-bar-b">
+			<h1 style="margin: 18px auto; width:100%;" class="ui-title" role="heading" aria-level="1">义乌通--审批系统</h1>
+		</div>
+		<!-- /header -->
+
+		<div data-role="content" class="wmax-500">
+			<div class="uibox-login">
+			<div class="errorfont">
+            @Html.ValidationSummary(false)
+            <span id="info" style="color: red;"></span>
+            </div>
+			  @using (Html.BeginForm())
+               {
+				<table width="100%" border="0" cellspacing="0" cellpadding="0">
+					<tr>
+						<td width="25%" align="right"></td>
+						<td width="25%"></td>
+						<td width="30%"></td>
+						<td width="20%"></td>
+					</tr>
+					<tr>
+						<td align="right">@T("loginFormAccount")：</td>
+						<td colspan="2">
+                            @Html.TextBoxFor(m => m.AccountName, new { @class = "loginbox_input" })
+                            @Html.ValidationMessageFor(m => m.AccountName)
+                        </td>
+						<td></td>
+					</tr>
+					<tr>
+						<td align="right">@T("loginFormPassword")：</td>
+						<td colspan="2">
+                            @Html.PasswordFor(m => m.Password, new { @class = "loginbox_input" })
+                            @Html.ValidationMessageFor(m => m.Password)
+                        </td>
+						<td></td>
+					</tr>
+					<tr style="display: none;" id="varifycodeTr">
+						<td align="right">@T("loginFormValidCode")：</td>
+						<td>
+                    	   @Html.TextBoxFor(m => m.ValidateCode, new { })
+                    	</td>
+						<td colspan="2">
+                           <img id="valiCode" src="" style="cursor:pointer;height: 28px;" title="看不清楚?点击换一张"  />&nbsp;@Html.ValidationMessageFor(m => m.ValidateCode)
+						</td>
+                    </tr>
+					<tr>
+						<td></td>
+						<td colspan="2">
+                             @Html.CheckBoxFor(m => m.RememberMe)
+                             记住密码
+						<td></td>
+					</tr>
+					<tr>
+						<td>&nbsp;</td>
+						<td colspan="2">
+                        @*  <a class="uibtn-sumit fl ui-link" id="loginBtn"  href="javascript:void(0);">@T("loginFormLogin")</a>*@
+                            <input id="btnLogOn" type="submit" value="@T("loginFormLogin")" class="" />
+                        </td>
+						<td></td>
+					</tr>
+				</table>
+     }
+			</div>
+			<div class="userlogin-foot">
+				<span><div class="foot-font">杭州全顺科技技术支持</div> <a><img
+						src="@Url.Content("Resources/PortalLogin/images/small-logo.png", "QsTech.Authentication.Sso")" width="17" height="17" /></a></span>
+			</div>
+		</div>
+		<!-- /content -->
+
+
+		<!-- /footer -->
+		<script type="text/javascript">
+		    $(function () {
+		        var beLocked = false;
+		        $("#loginBtn").off().on("click", function () {
+		            if (beLocked == false) {
+		                showInfo(0);
+		                var username = $("#AccountName").val();
+		                var password = $("#Password").val();
+		                var remember = $("#RememberMe").prop("checked");
+		                var verifycode = $("#ValidateCode").val();
+		                if (!username) {
+		                    showInfo(1);
+		                    return;
+		                }
+		                if (!password) {
+		                    showInfo(2);
+		                    return;
+		                }
+		                beLocked = true;
+		                $("#loginBtn").html("登录中...");
+		            }
+		        });
+
+
+		        function showInfo(info) {
+		            var infoText = $("#info");
+		            switch (info) {
+		                case 0:
+		                    infoText.text("");
+		                    break;
+		                case 1:
+		                    infoText.text("用户名不能为空");
+		                    break;
+		                case 2:
+		                    infoText.text("密码不能为空");
+		                    break;
+		                case 3:
+		                    $("#reg_img_verifycode").click();
+		                    infoText.text("用户名,密码不匹配");
+		                    break;
+		                case 4:
+		                    infoText.text("登录成功");
+		                    break;
+		                case 5:
+		                    $("#reg_img_verifycode").click();
+		                    infoText.text("登录次数过多，请输入验证码");
+		                    $("#varifycodeTr").show();
+		                    break;
+		                case 6:
+		                    $("#reg_img_verifycode").click();
+		                    infoText.text("验证码错误");
+		                    break;
+		                case 7:
+		                    $("#reg_img_verifycode").click();
+		                    infoText.text("验证码失效");
+		                    break;
+		                default:
+		                    infoText.text("");
+		                    break;
+		            }
+		        }
+
+		        $("#btnLogOn").click(function () {
+		            var msg = "";
+		            if ($("#AccountName").val() == "") {
+		                showInfo(1);
+		                return false;
+		            }
+		            else if ($("#Password").val() == "") {
+		                showInfo(2);
+		                return false;
+		            }
+		            $("form").submit();
+		        });
+
+		    });
+
+  
+		</script>
+	</div>
+</body>
+</html>

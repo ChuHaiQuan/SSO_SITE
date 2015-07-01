@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<module id="QsTech.Authentication.Sso" name="全顺用户认证中心" version="1.0.0.0" runtime="1.0.0.0" category="认证授权"
+        xmlns="http://www.tradeserving.com/manifest.xsd">
+  <description>用于全顺用户中心的用户认证模块</description>
+  <tags>用户,认证</tags>
+  <dependencies>
+    <dependency moduleId="QsTech.Core" moduleVersion="1.0.0.0"></dependency>
+  </dependencies>
+    <features>
+      <feature id="Server" name="用户中心 服务端" enable="true">
+            <description>the description of the f1 feature.</description>
+    </feature>
+     <feature id="Client" name="用户中心 客户端" enable="false">
+            <description>the description of the f2 feature.</description>
+    </feature>
+ <feature id="ArithmeticValidateCodeBuilder" name="用户中心 服务端" enable="true">
+            <description>the description of the f1 feature.</description>
+    </feature>
+     <feature id="StringValidateCodeBuilder" name="用户中心 客户端" enable="false">
+            <description>the description of the f2 feature.</description>
+    </feature>
+  </features>
+</module>

@@ -1,0 +1,114 @@
+﻿@using QsTech.Accounts.Models.AccountServices
+@model QsTech.Framework.Pagination.IPagedList<QsTech.Accounts.Models.Accounts.Account>
+@{
+    this.ChannelId = "Management";
+    ViewBag.Title = "账户列表";
+    var searchParameter = (AccountSearchParameter)ViewBag.SearchParameter;
+    searchParameter.tips = "姓名、登录账号";
+    //var isSso = (bool)ViewBag.IsSso;
+}
+<style>
+    td label { display: inline-block; }
+    table tbody tr { height: 30px; border-bottom: 1px dotted #666; }
+    .AttrBox th { text-align: right; }
+    .header-nav{ z-index:1000;}
+</style>
+<div>
+    <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <strong>温馨小贴士：</strong>只需要一分钟，快速了解操作栏的每一项操作功能。
+        <ol>
+            <li>编辑：更改账户的基本信息，为账户分配角色。</li>
+            <li>删除：删除账户，删除后不能恢复！</li>
+            <li>初始化：重置账户的密码。</li>
+        </ol>
+    </div>
+    <script type="text/javascript">
+        $(".alert-info .close").click(function () {
+            $(this).closest('.alert-info').hide();
+        });
+    </script>
+	<input type="button" value="添 加" class="btn" onclick="javascript:window.location='@Url.Action("Create")';" />
+    <div class="mt_10 border attr-data">
+        <div class="selected-attr" style="height:2px;"></div>
+        <table class="AttrBox">
+            <tbody>
+                <tr>
+                    <th style="text-align: right;">
+                        关键字：
+                    </th>
+                    <td style="text-align: left;">
+                        @Html.Action("KeyWord", "Api", "QsTech.Core", searchParameter)
+                        <input id="btnQuery" type="button" value="查 询" class="btn" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+	<table style="width:100%;" class="tbl-list">
+		<thead>
+			<tr class="thead-tbl" style="background-color: #ccc; height: 30px;">
+				<th style="width:30px;"></th>
+					<th style=" text-align:center;">登录账号</th>
+					<th style="text-align:center;width:138px;">姓名</th>
+                    <th>移动电话</th>
+                    <th>电子邮件</th>
+                    <th style=" text-align:center;">操作</th>
+			</tr>
+		</thead>
+		<tbody class="tbody-tbl">
+            @if (Model.TotalItemCount > 0)
+            {
+                int index = 0;
+                foreach (var user in Model)
+                {
+                    index++;
+			<tr>
+					<td align="center">@index</td>
+                    <td align="center">@user.AccountName</td>
+					<td align="center"><a href="@Url.Action("Edit", new { id = user.Id })" class="blue">@user.Name</a></td>
+                    <td>@user.Mobile</td>
+                   <td>@user.Email</td>
+					<td style="text-align:center;">
+						<a href="@Url.Action("Edit", new { id = user.Id })" class="a_blue">编辑</a>|
+						<a name="Delete" href="@Url.Action("Delete", new { id = user.Id })" class="a_blue">删除</a>|
+                        <a name="Init" href="@Url.Action("InitPassword", new { id = user.Id })" title="初始化密码" class="a_blue">初始化</a>
+                      
+                     </td>
+				</tr>
+                }
+            }
+            else
+            {
+            <tr>
+                <td align="center" colspan="6">没有符合条件的数据</td>
+            </tr>
+            }
+		</tbody>
+	</table>
+</div>
+<div class="pagination f_r">
+    @Html.Pagination(Model)
+</div>
+<div id="dialog" title="选择账户"></div>
+@section AfterBody
+{
+@ResourceManager.Include("modalShow").Render()
+<script type="text/javascript">
+    $(function () {
+        $("#txtKeyword").enterTo('#btnQuery');
+        $("#btnQuery").one('click', function () {
+            window.location = "@Url.Action("List")?keyword=" + encodeURIComponent($.trim($("#txtKeyword").val()));
+            return false;
+        });
+         $("a[name=Delete]").click(function(event) {
+            event = event || window.event;
+            if(!confirm('确定要删除该账户吗？')) {
+                event.preventDefault();
+                return false;
+            }
+        });
+        
+    });
+</script>
+}

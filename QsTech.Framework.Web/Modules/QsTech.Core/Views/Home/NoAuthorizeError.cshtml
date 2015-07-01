@@ -1,0 +1,21 @@
+﻿@model QsTech.Framework.QsTechException
+@{
+    ViewBag.Title = "";
+    LayoutInfo.Theme = "NoAuthorizeLayout";
+}
+<div class="rightCont">
+    <div class="mt10">
+        <div class="notice n-error-m">
+            <h3>
+                @if(string.IsNullOrEmpty(Model.Message))
+                {
+                    <text>系统发生未知错误。</text>
+                }else
+                {<text>@Model.Message</text>
+                }
+            </h3>
+	<p class="n-other">您可能需要：<a href="@Url.Action("Index", "Home", "QsTech.Core", new RouteValueDictionary { })">返回登陆页</a></p>			
+    <p>或者请联系系统管理员解决问题。</p>
+     </div>
+    </div>
+</div>
